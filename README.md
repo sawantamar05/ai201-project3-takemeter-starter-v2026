@@ -206,26 +206,27 @@ excluded from this dataset.
 **How I labelled them:** <!-- Cold first? Pre-labelled with AI and corrected?
 Say so plainly — the disclosure is required, not penalised. -->
 
-The first 20 records were pre-labelled with AI and then reviewed by me using
-[the worksheet](cold20_worksheet.md). Their reviewed labels are now in
-`labels.csv`, with `AI-prelabelled; reviewed by student` in each note. The
-remaining 220 records have blank labels and notes. The required unaided
+The first 40 records were pre-labelled with AI and then reviewed by me in
+two batches, using [the first worksheet](cold20_worksheet.md) and
+[the second worksheet](unaided20_worksheet.md). Their reviewed labels are now
+in `labels.csv`, with `AI-prelabelled; reviewed by student` in each note. The
+remaining 200 records have blank labels and notes. The required unaided
 annotations and three hard-case writeups are outstanding. Training waits
 until every row has a valid label.
 
 **Counts per label:**
 
-These counts describe the 20 reviewed records; final counts and balance will
+These counts describe the 40 reviewed records; final counts and balance will
 be checked after all 240 records are annotated.
 
 | Label | Reviewed count | Share of reviewed records |
 |---|---|---|
-| `analysis` | 9 | 45% |
-| `request` | 4 | 20% |
-| `commentary` | 7 | 35% |
-| **Reviewed total** | **20** | 100% |
+| `analysis` | 14 | 35% |
+| `request` | 9 | 22.5% |
+| `commentary` | 17 | 42.5% |
+| **Reviewed total** | **40** | 100% |
 
-**Collected total:** 240. **Awaiting annotation:** 220.
+**Collected total:** 240. **Awaiting annotation:** 200.
 
 **Three hard cases**
 
@@ -316,6 +317,11 @@ review notes. These records are not marked `cold`. This differs from the
 assignment's required cold-first sequence, and Milestone 4 remains incomplete.
 Any later unaided annotations must use fresh examples that have not received
 AI classification help.
+
+At my request, AI also proposed labels for records 21–40 in a second review
+worksheet. I reviewed all 20, and their saved labels were imported into
+`labels.csv` with the same AI-prelabelling and review notes. They do not
+qualify as unaided annotations.
 
 Milestone 1 reading notes and the Milestone 2 taxonomy examples and boundary
 decisions were also prepared with AI assistance. Synthetic stress-test posts

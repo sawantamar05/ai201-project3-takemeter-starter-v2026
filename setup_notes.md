@@ -76,20 +76,31 @@ been pushed yet. The manifest records the original reservation of the first
 those records received AI draft labels in `cold20_worksheet.md`. The user
 confirmed review of all 20, and the saved labels were transferred into
 `labels.csv` with `AI-prelabelled; reviewed by student` notes. The reviewed
-counts are 9 `analysis`, 4 `request`, and 7 `commentary`; 220 records remain
-blank. These 20 reviewed records are not eligible for `cold` notes.
+counts at that checkpoint were 9 `analysis`, 4 `request`, and 7 `commentary`,
+with 220 records blank. These 20 reviewed records are not eligible for `cold` notes. The
+reviewed annotations were manually committed as `3cd207e`. Both that commit
+and the collection checkpoint await a manual push.
 
 The README records this departure from the required cold-first sequence.
 Unaided annotations must use fresh comments without classification help.
 Comments can contain line breaks, so CSV data records are not the same as
 physical file lines. No records are marked `cold` yet.
 
+At the user's request, AI proposed labels for CSV records 21–40 in
+`unaided20_worksheet.md`. The user confirmed review of this second batch,
+and its saved labels were imported with `AI-prelabelled; reviewed by student`
+notes. The complete comment text, source links, and order are preserved.
+The current totals are 40 reviewed records (14 `analysis`, 9 `request`,
+17 `commentary`), 200 records with blank labels and notes, and zero `cold`
+records. The unaided requirement remains outstanding. The second worksheet,
+reviewed annotations, and documentation updates need a manual commit.
+
 ## Remaining build milestones
 
-1. Manually commit the 20 reviewed annotations and updated documentation.
-   The required unaided annotations remain outstanding and must use fresh
-   examples without classification help; retain the disclosure of the
-   cold-first sequence deviation.
+1. Manually commit the second reviewed batch and documentation updates.
+   Required unaided annotations must still use fresh comments without
+   classification help. Retain the disclosure of the earlier cold-first
+   sequence deviation.
 2. Label the remaining examples, personally reviewing every AI pre-label.
    Record three hard cases. Check the assignment's 70% maximum class share
    and the chosen acceptance criterion's stricter 60% maximum.

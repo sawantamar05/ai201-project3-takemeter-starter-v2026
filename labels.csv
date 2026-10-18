@@ -106,26 +106,26 @@ Can it create functional mechanisms using LEGO Technic parts?,request,AI-prelabe
 this article seems written by opus 5,commentary,AI-prelabelled; reviewed by student
 "Look, I love code. I have laser cut code snippets framed on my walls. I functions that I have shared online proudly multiple times. I have projects I have lovingly tended to for years just for the joy of making a computer do something strange.
 
-But what’s far far more important is making people happy by producing good software. Ever since my very first SWE internship I’ve cared most about the user. I’m extremely bummed if the user isn’t happy with my work. I’m ecstatic if my work can improve their day. LLMs change how my work gets done and what it is that my effort goes towards. But the core reason to be here instructing computers hasn’t changed.",,
-More LLM-authored items about LLM slop.,,
+But what’s far far more important is making people happy by producing good software. Ever since my very first SWE internship I’ve cared most about the user. I’m extremely bummed if the user isn’t happy with my work. I’m ecstatic if my work can improve their day. LLMs change how my work gets done and what it is that my effort goes towards. But the core reason to be here instructing computers hasn’t changed.",commentary,AI-prelabelled; reviewed by student
+More LLM-authored items about LLM slop.,commentary,AI-prelabelled; reviewed by student
 "> Unfortunately there are still consequences to it. I chose the 'wrong' model for the prototype, and we spent 450M tokens / $150 / 5kWh of energy use almost overnight. The MCP server itself works well and we now have a great demo of the capabilities, so it’s not for nothing:
 
 > Nonetheless, it’s a good reminder to be careful with model selection and with agentic patterns. We could have achieved similar results for most likely 5x less cost with not that much more effort. Lessons learned! We need to budget for this, and be more careful. Could have seen it coming, but now we know.
 
-I don't get it. Why was it wrong? Which one would have been better? What was the lesson and how could you have foreseen it?",,
-What’s the feature parity vs LR?,,
-There are many of these stream-experts-from-SDDD projects now. What's needed is a guide to all of them and maybe for someone to take the best features of each of them and merge them into one uber project.,,
-"would love an AE and InDesign clone, theres just nothing as good as either",,
-"From these selected benchmarks, it looks like it smokes Luna capability-wise. Excited to put it through its paces",,
+I don't get it. Why was it wrong? Which one would have been better? What was the lesson and how could you have foreseen it?",request,AI-prelabelled; reviewed by student
+What’s the feature parity vs LR?,request,AI-prelabelled; reviewed by student
+There are many of these stream-experts-from-SDDD projects now. What's needed is a guide to all of them and maybe for someone to take the best features of each of them and merge them into one uber project.,request,AI-prelabelled; reviewed by student
+"would love an AE and InDesign clone, theres just nothing as good as either",request,AI-prelabelled; reviewed by student
+"From these selected benchmarks, it looks like it smokes Luna capability-wise. Excited to put it through its paces",commentary,AI-prelabelled; reviewed by student
 "Amazing to me that something as wild as this is now basically a trope.
 
 I don't mean this negatively; open weights AI and open source tooling is about the only thing that gives me hope.
 
-The fact that there are dozens of these things hints at the beginning of the dull normalisation of openly available, non-monopoly AI tools, which is what is needed if we are all to survive.",,
+The fact that there are dozens of these things hints at the beginning of the dull normalisation of openly available, non-monopoly AI tools, which is what is needed if we are all to survive.",analysis,AI-prelabelled; reviewed by student
 "If you use open models you can also read the thinking tokens, I think this makes a huge difference because one tends to read them leading to better understanding of the end results and also giving opportunities to correct course if its hung up about ambiguity and stuff like that. It also helps a lot with not being distracted while the clanker is working, instead of going to youtube or reading up on whatever, you spend more time with the code and the thoughts behind it.
 
-It stops the constant context switching.",,
-I think they must be using the Fable or maybe more capable model for internal use purposes.,,
+It stops the constant context switching.",analysis,AI-prelabelled; reviewed by student
+I think they must be using the Fable or maybe more capable model for internal use purposes.,commentary,AI-prelabelled; reviewed by student
 "*yet
 
 I understand the resistance to having nearly all labor devalued because it can be automated. We're still in the denial stage of grief.
@@ -136,24 +136,24 @@ To think we'll make it through this without tax reform is frankly naive. Tax ref
 
 Expect howls of derision from moneyed interests who will never let common sense reasoning or deduction enter the law books for the public good.
 
-Not to defeat my own argument, but I predict we will experience a roughly 3x gain in productivity by using AI, so the output of every job would need to triple to maintain current employment levels. Will that happen anytime soon? Of course not. Which is why layoffs in the short term are inevitable. I wouldn't be surprised if unemployment hits 15+% in 2027 or 2029 just after the elections, with 25+% unemployment for the young in entry-level roles being highly likely.",,
-You can try 7 different tiny LLM's in your browser.,,
+Not to defeat my own argument, but I predict we will experience a roughly 3x gain in productivity by using AI, so the output of every job would need to triple to maintain current employment levels. Will that happen anytime soon? Of course not. Which is why layoffs in the short term are inevitable. I wouldn't be surprised if unemployment hits 15+% in 2027 or 2029 just after the elections, with 25+% unemployment for the young in entry-level roles being highly likely.",analysis,AI-prelabelled; reviewed by student
+You can try 7 different tiny LLM's in your browser.,commentary,AI-prelabelled; reviewed by student
 "Fun fact: my SO works in a bank.
 
 Even just an issue tracker like Jira would be an insane boost of productivity.
 
 They live in a loop of emails and chats and meetings in a never ending sync to find out what's blocked, why, etc.
 
-There are already an insane amount of ""common sense"" improvements to most office jobs that are missing, let alone automation.",,
-"This might be goofy, but it underscores that there's potential for more visual agent UIUX than reading off a sidebar/opening modals.",,
-"yesterday I needed to create a spreadsheet, so in Google docs (paid Workplace account), I fire up Gemini to help with moving around text, creating columns, etc. Absolutely horrid experience -- totally useless. I ended up doing everything manually.",,
-"P(doom) ~ 100%, checks out, but I'm an easy case.",,
-"I'd say Claude/Codex plus whatever CAD modeling tool you want to use. But if you want to find some existing AI-assisted CAD design platforms, take a look at https://thecadhub.com/category/ai-assisted-design/",,
-"I believe your correct that this is a question everybody should ask themselves, and it would be very interesting to see how varied the responses are. I feel AI has been both a blessing and curse, and I hope it doesn't solely become the later.",,
-"Flash is pretty decent coder, but it should be paired with good planner and reviewer. I would pick astra low for planning and sol 6.1 medium for reviews.",,
+There are already an insane amount of ""common sense"" improvements to most office jobs that are missing, let alone automation.",analysis,AI-prelabelled; reviewed by student
+"This might be goofy, but it underscores that there's potential for more visual agent UIUX than reading off a sidebar/opening modals.",commentary,AI-prelabelled; reviewed by student
+"yesterday I needed to create a spreadsheet, so in Google docs (paid Workplace account), I fire up Gemini to help with moving around text, creating columns, etc. Absolutely horrid experience -- totally useless. I ended up doing everything manually.",analysis,AI-prelabelled; reviewed by student
+"P(doom) ~ 100%, checks out, but I'm an easy case.",commentary,AI-prelabelled; reviewed by student
+"I'd say Claude/Codex plus whatever CAD modeling tool you want to use. But if you want to find some existing AI-assisted CAD design platforms, take a look at https://thecadhub.com/category/ai-assisted-design/",commentary,AI-prelabelled; reviewed by student
+"I believe your correct that this is a question everybody should ask themselves, and it would be very interesting to see how varied the responses are. I feel AI has been both a blessing and curse, and I hope it doesn't solely become the later.",commentary,AI-prelabelled; reviewed by student
+"Flash is pretty decent coder, but it should be paired with good planner and reviewer. I would pick astra low for planning and sol 6.1 medium for reviews.",commentary,AI-prelabelled; reviewed by student
 "I think GitHub repos should have a new tag listing the model used to write it along with the token cost.
 
-I don’t want to bother reading anything sub-Fable, and this one looks sub-Fable.",,
+I don’t want to bother reading anything sub-Fable, and this one looks sub-Fable.",request,AI-prelabelled; reviewed by student
 "Token spend is noticeably less than Opus 5, I can't really tell if it's better though.",,
 I hope my competitors do code review this way.,,
 "Hi there :-)
