@@ -285,17 +285,34 @@ and acceptance criterion 5's stricter 60% cap.
 
 <!-- Your starting model, your settings, and anything you changed and why. -->
 
-**Base model:**
+**Status:** Configuration prepared; the training run has not started.
 
-**Settings:** <!-- epochs, learning rate, batch size, seed -->
+**Base model:** `distilbert-base-uncased`.
 
-**Anything I changed from the defaults, and why:**
+**Settings:** 3 epochs, learning rate `2e-5`, batch size 16, maximum input
+length 256 tokens, and seed 42. The actual device will be recorded by the
+notebook and in `results.json` when training runs.
 
-**Split sizes:** <!-- train / val / test, and per-label counts in the test
-split. If a label had fewer than about 8 in test, say so — it explains a lot
-of next unit's variance. -->
+**Anything I changed from the defaults, and why:** I increased `MAX_LENGTH`
+from 128 to 256 before training. Of the 240 comments, 26 exceed 128 whitespace
+words, including 22 labelled `analysis`. Keeping more input should help retain
+the observations and reasoning that distinguish analysis from commentary.
+Word counts are a proxy; actual tokenizer-length coverage has not been measured
+yet. The complete comments remain in `labels.csv`.
 
+The dataset check now rejects missing or blank labels, unknown label names,
+surrounding spaces, missing required columns, and empty datasets. It raises
+an error on invalid input. All 240 project records pass without warnings.
 
+**Split sizes:** The seed-42 preflight gives the following stratified 70/15/15
+split. No held-out label has fewer than eight examples.
+
+| Label | Train | Validation | Test |
+|---|---:|---:|---:|
+| `analysis` | 61 | 13 | 13 |
+| `request` | 40 | 9 | 9 |
+| `commentary` | 67 | 14 | 14 |
+| **Total** | **168** | **36** | **36** |
 
 ---
 
@@ -327,6 +344,10 @@ AI assistance. The synthetic examples are used only to stress-test the rules.
 **Hard-case assistance:** AI helped select three boundary examples from the
 reviewed dataset and draft explanations using their saved labels. I reviewed
 all three explanations.
+
+**Training preparation assistance:** AI helped prepare the notebook by fixing
+dataset validation and choosing the 256-token input limit from pre-training
+comment-length checks.
 
 **Criteria assistance:** I used AI to propose initial numeric targets and draft
 explanations before saving them in `criteria.md`. I reviewed the five targets

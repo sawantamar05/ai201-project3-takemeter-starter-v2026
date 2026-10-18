@@ -68,8 +68,8 @@ your three seeds, and `results.json` records it for you.
    selector in the top right. Getting this wrong is the most common way the
    first cell fails — it will say a package isn't installed when it is,
    because it's looking at a different Python.
-3. Fill in the two lines at the top of section 1's second cell — your name and
-   email. They only label your results.
+3. Check `NAME` and `EMAIL` at the top of section 1's second cell. They were
+   filled from your Git author identity and label the setup output.
 
 > ⚠️ **Open it from your repo, not from a copy.** The notebook writes next to
 > your code and expects `labels.csv` to be there. If you open a copy from your
@@ -148,14 +148,21 @@ The README records the departure from the required cold-first
 sequence; unaided annotations remain outstanding and need fresh examples.
 A multiline comment is one CSV record. Annotation validation passed, including
 the 60% balance target. The three README hard-case explanations have been
-reviewed. Manually commit the documentation before moving to the training step.
+reviewed and committed. The prepared notebook uses seed 42 and a 256-token
+input limit; commit the training preparation before execution.
 
 ### The check before training
 
 Section 2's last cell looks for the things that break a run or quietly ruin it:
 
+It raises `ValueError` when a problem is found. Fix the data, then rerun the
+read and validation cells before continuing. Label names must match exactly,
+including case and surrounding spaces.
+
 | It says | What it means |
 |---|---|
+| `[FIX ME] N rows have an empty label` | Some annotations are missing; finish them before training |
+| `[FIX ME] No 'note' column` | Restore the required `text,label,note` CSV structure |
 | `[FIX ME] Labels in your CSV that aren't in LABELS` | A spelling or capital mismatch. `Hot_take` and `hot_take` are different |
 | `[FIX ME] 'x' is 78% of your data` | Over the brief's 70% cap. The model will learn to guess it |
 | `[look at] N duplicate posts` | They'll land in different splits and inflate your score. That's leakage |

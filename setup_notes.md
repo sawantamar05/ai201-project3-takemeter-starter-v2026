@@ -111,17 +111,43 @@ zero duplicate comments, and zero `cold` notes. All original comment text and
 row order are preserved. The largest class meets both the assignment's 70%
 cap and acceptance criterion 5's 60% cap. Training has not started.
 
-The complete annotation checkpoint was manually committed as `443e00c`;
-that commit awaits push. Three hard-case explanations are now recorded in
+The complete annotation checkpoint was manually committed as `443e00c` and
+pushed. Three hard-case explanations are recorded in
 the README for records 120 (`request`), 205 (`analysis`), and 107
 (`commentary`). Their links and explanations match the saved labels and
-taxonomy. The user confirmed review of all three explanations. The reviewed
-documentation is ready for a manual commit before the training step.
+taxonomy. The user confirmed review of all three explanations; the reviewed
+documentation was manually committed as `5e80f8d` and pushed.
+
+## Milestone 5: training preparation
+
+The notebook now uses the Git author identity and the adopted labels
+`analysis`, `request`, and `commentary`. The base model is
+`distilbert-base-uncased`; settings are 3 epochs, learning rate `2e-5`, batch
+size 16, maximum input length 256 tokens, and seed 42.
+
+The input limit increased from the starter's 128 tokens because 26 comments
+exceed 128 whitespace words, including 22 analysis comments. This is a length
+proxy, not a measured tokenizer distribution. Full text stays in the CSV.
+
+Seed-42 preflight: 168 train, 36 validation, and 36 test records. Test counts
+are 13 analysis, 9 request, and 14 commentary. Source rows and texts are
+disjoint across splits, with all three labels represented.
+
+The notebook's validation now stops execution on invalid data. The complete
+dataset passes without warnings. Nine regression cases correctly stop:
+missing, empty, whitespace-only, noncanonical, unknown, or entirely missing
+labels; a missing note column; an empty dataset; and empty text. All code cells
+compile. Installed dependencies have no reported conflicts, and the notebook's
+training arguments match the installed Transformers 4.57.6 API.
+
+No model or tokenizer was downloaded during this preflight, and training has
+not started. The prepared notebook and documentation need a manual Git
+checkpoint before execution. Sections 6–7 remain for unit 6.
 
 ## Remaining build milestones
 
-1. Manually commit the reviewed hard-case documentation. Retain the disclosure of the unmet unaided
-   requirement and earlier cold-first sequence deviation.
+1. Manually commit and push the training preparation. Retain the disclosure
+   of the unmet unaided requirement and earlier cold-first sequence deviation.
 2. Run notebook sections 1–5 and manually commit
    the resulting `results.json` and `test_split.csv`.
 3. Complete the five unit 5 README sections, verify at least four new commits,
