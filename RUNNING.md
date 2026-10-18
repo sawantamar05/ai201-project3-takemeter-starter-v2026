@@ -138,11 +138,14 @@ environment. It refuses to overwrite existing output files. The saved
 `data/comment_sources.jsonl` and `data/collection_manifest.json` record
 provenance and collection settings.
 
-The current `labels.csv` contains 240 comments with blank labels and notes.
-Label the first 20 data records unaided before using AI pre-labels on any
-remaining records, and add `cold` to their notes once completed. A multiline
-comment is one CSV record. Finish and validate all annotations before running
-notebook sections 2–5; the collected file is not ready for training yet.
+The current `labels.csv` contains 240 comments. The first 20 have reviewed
+labels from `cold20_worksheet.md` and notes recording AI pre-labelling and
+student review; the remaining 220 labels and notes are blank. The reviewed
+20 cannot be marked `cold`. The README records the departure from the required
+cold-first sequence; unaided annotations remain outstanding and need fresh examples.
+A multiline comment is one CSV record. Finish and validate all annotations
+before running notebook sections 2–5; the collected file is not ready for
+training yet.
 
 ### The check before training
 

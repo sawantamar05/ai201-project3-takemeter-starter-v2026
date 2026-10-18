@@ -206,20 +206,26 @@ excluded from this dataset.
 **How I labelled them:** <!-- Cold first? Pre-labelled with AI and corrected?
 Say so plainly — the disclosure is required, not penalised. -->
 
-At this collection checkpoint, all 240 labels and notes are blank. The first
-20 data records are reserved for unaided annotation; they will be marked
-`cold` only after I label them. Annotation and the three hard-case writeups
-are the next part of Milestone 4. Training waits until every row has a valid
-label.
+The first 20 records were pre-labelled with AI and then reviewed by me using
+[the worksheet](cold20_worksheet.md). Their reviewed labels are now in
+`labels.csv`, with `AI-prelabelled; reviewed by student` in each note. The
+remaining 220 records have blank labels and notes. The required unaided
+annotations and three hard-case writeups are outstanding. Training waits
+until every row has a valid label.
 
 **Counts per label:**
 
-| Label | Count | Share |
+These counts describe the 20 reviewed records; final counts and balance will
+be checked after all 240 records are annotated.
+
+| Label | Reviewed count | Share of reviewed records |
 |---|---|---|
-| `analysis` | Pending annotation | Pending |
-| `request` | Pending annotation | Pending |
-| `commentary` | Pending annotation | Pending |
-| **Collected total** | **240** | 100% |
+| `analysis` | 9 | 45% |
+| `request` | 4 | 20% |
+| `commentary` | 7 | 35% |
+| **Reviewed total** | **20** | 100% |
+
+**Collected total:** 240. **Awaiting annotation:** 220.
 
 **Three hard cases**
 
@@ -298,16 +304,22 @@ and explanations before manually committing the file as `7aa786e`.
 
 **Collection assistance:** AI helped select AI-related discussion titles and
 write and run `collect_comments.py`. The script collected complete comments,
-recorded sources, and checked for duplicates. It left every label and note
-blank and generated no classification suggestions for the first 20 records.
+recorded sources, and checked for duplicates. At collection time, it left every
+label and note blank and generated no classification suggestions.
 
 **Pre-labelling disclosure:**
 
-No training dataset has been labeled yet. Milestone 1 reading notes and the
-Milestone 2 taxonomy examples and boundary decisions were prepared with AI
-assistance. The synthetic stress-test posts are excluded from the real dataset.
-The later first 20 cold annotations remain to be completed by the student
-unaided, using fresh examples that have not received AI classification help.
+At my request, AI proposed labels for the first 20 collected comments before
+the required unaided batch was completed. I reviewed all 20 proposals, and
+the saved labels were transferred into `labels.csv` with AI-prelabelling and
+review notes. These records are not marked `cold`. This differs from the
+assignment's required cold-first sequence, and Milestone 4 remains incomplete.
+Any later unaided annotations must use fresh examples that have not received
+AI classification help.
+
+Milestone 1 reading notes and the Milestone 2 taxonomy examples and boundary
+decisions were also prepared with AI assistance. Synthetic stress-test posts
+are excluded from the real dataset.
 
 <!-- ═══════════════════════ UNIT 6 — THE TEST ═══════════════════════
 

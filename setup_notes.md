@@ -60,8 +60,9 @@ The README's **How I Used AI** section records the assistance used.
 
 Collected 240 complete public Hacker News comments on October 17, 2026 (PDT):
 12 comments from each of 20 AI-related discussions across four weekly windows.
-All labels and notes are blank. The dataset is unsplit, with no duplicate
-comment IDs or normalized texts and no overlap with the 36 reading examples.
+At collection time all labels and notes were blank. The dataset is unsplit,
+with no duplicate comment IDs or normalized texts and no overlap with the
+36 reading examples.
 
 - `collect_comments.py`: collection script with overwrite protection.
 - `data/collection_stories.json`: title-based source selection and discovery details.
@@ -69,15 +70,26 @@ comment IDs or normalized texts and no overlap with the 36 reading examples.
 - `data/collection_manifest.json`: collection settings, exclusions, and first-20 reservation.
 - `labels.csv`: 240 records with exactly `text,label,note` columns.
 
-The first 20 **data records**, excluding the CSV header, are reserved for
-unaided annotation. Comments can contain line breaks, so CSV data records
-are not the same as physical file lines. No records are marked `cold` yet.
-The collection files need a manual Git checkpoint before annotation begins.
+The collection checkpoint was manually committed as `5df3d88`; it has not
+been pushed yet. The manifest records the original reservation of the first
+20 **data records** for unaided annotation. At the user's later request,
+those records received AI draft labels in `cold20_worksheet.md`. The user
+confirmed review of all 20, and the saved labels were transferred into
+`labels.csv` with `AI-prelabelled; reviewed by student` notes. The reviewed
+counts are 9 `analysis`, 4 `request`, and 7 `commentary`; 220 records remain
+blank. These 20 reviewed records are not eligible for `cold` notes.
+
+The README records this departure from the required cold-first sequence.
+Unaided annotations must use fresh comments without classification help.
+Comments can contain line breaks, so CSV data records are not the same as
+physical file lines. No records are marked `cold` yet.
 
 ## Remaining build milestones
 
-1. Label the first 20 unaided and mark them `cold`; use fresh examples that
-   have not received AI classification help.
+1. Manually commit the 20 reviewed annotations and updated documentation.
+   The required unaided annotations remain outstanding and must use fresh
+   examples without classification help; retain the disclosure of the
+   cold-first sequence deviation.
 2. Label the remaining examples, personally reviewing every AI pre-label.
    Record three hard cases. Check the assignment's 70% maximum class share
    and the chosen acceptance criterion's stricter 60% maximum.
