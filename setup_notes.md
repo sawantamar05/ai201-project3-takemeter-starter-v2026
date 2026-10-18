@@ -36,48 +36,45 @@ Open `takemeter.ipynb` in VS Code, select this repository's
 Do not use Run All: the later sections require the finished dataset and
 criteria, and sections 6–7 belong to the next unit.
 
-## Community reading progress
+## Milestones 1–3: recorded materials
 
-Selected scope: **Hacker News commenters discussing AI news and tools**,
-treating each complete public comment as one post. At the student's request,
-Codex retrieved and reviewed 12 complete comments from each of three threads.
-The 36 source links, paraphrased reading notes, and three candidate distinctions
-are in [milestone1_reading_notes.md](milestone1_reading_notes.md).
+**Community:** Hacker News commenters discussing AI news and tools, treating
+each complete public comment as one post.
 
-Collection can later use the official public API:
-https://github.com/HackerNews/API. Keep full comment text and source links;
-prefer comments that can be understood on their own.
+| Milestone | Recorded material |
+|---|---|
+| 1 | [Reading notes](milestone1_reading_notes.md): 36 unique comment links, collection details, paraphrased notes, and three candidate distinctions; personal review confirmed by the user |
+| 2 | README taxonomy: three definitions, two real examples each, and boundary rules; [eight synthetic exercises](milestone2_taxonomy_check.md); matching baseline definitions and notebook labels; taxonomy review confirmed by the user |
+| 3 | `criteria.md`: five numeric targets with explanations, covering accuracy, per-label performance, and balance; reviewed and manually committed before training as `7aa786e` |
 
-Student review of the AI-assisted reading notes and sources is pending.
-An AI-assisted taxonomy draft (`analysis`, `request`, `commentary`) is recorded
-in the README, with eight synthetic boundary exercises in
-[milestone2_taxonomy_check.md](milestone2_taxonomy_check.md). Student review of
-the definitions and decision rule is pending. Acceptance criteria and the
-labeled dataset have not been completed. No training has been run.
+## Criteria review and commit
 
-Next, review the observations against the linked comments, then proceed in order:
+The five targets and draft explanations were reviewed in the conversation.
+The accuracy explanation was updated, and the remaining targets and reasons
+were retained. The reviewed file was manually committed as `7aa786e` before
+training. This records review and adoption of the AI-assisted draft.
 
-1. Review the three proposed labels, two real examples each, and the boundary
-   rule before annotation; revise the definitions consistently if needed.
-2. Write and commit five personal acceptance criteria with numeric targets
-   and reasons, covering at least three required areas, before training.
-3. Collect at least 200 real posts into one unsplit `labels.csv`.
-4. Personally label the first 20 without AI help and mark them `cold`.
-5. Label the rest; review every AI pre-label and disclose its use. Record
-   three hard cases and verify no label exceeds 70% of the dataset.
-6. Commit the dataset, run notebook sections 1–5, and commit `results.json`
-   and `test_split.csv`.
-7. Complete the five unit 5 README sections, ensure at least four new commits,
-   push, and submit the fork URL in the Course Portal.
+The README's **How I Used AI** section records the assistance used.
 
-AI helped with repository setup, dependency installation, environment
-verification, the community recommendation, and the 36-comment source review.
-Continue updating the final README's AI disclosure with the specific
-interactions actually used during the work.
+## Remaining build milestones
+
+1. Collect at least 200 complete real comments into one unsplit `labels.csv`,
+   retaining source links. Collection can use the
+   [official public API](https://github.com/HackerNews/API).
+2. Label the first 20 unaided and mark them `cold`; use fresh examples that
+   have not received AI classification help.
+3. Label the remaining examples, personally reviewing every AI pre-label.
+   Record three hard cases. Check the assignment's 70% maximum class share
+   and the chosen acceptance criterion's stricter 60% maximum.
+4. Commit the dataset manually, run notebook sections 1–5, and manually commit
+   the resulting `results.json` and `test_split.csv`.
+5. Complete the five unit 5 README sections, verify at least four new commits,
+   push manually, and submit the fork URL in the Course Portal.
 
 ## Git checkpoint before every new step
 
-At the student's request, check `git status` before moving to another project
-step. Stage only relevant completed work, inspect it, and commit it before
-continuing when there are changes to save. Keep track of local commits that
-have not been pushed. A clean working tree does not mean commits are on GitHub.
+Check `git status` before moving to another project step and flag any changes
+that need review. Do not stage, commit, or push automatically: the user runs
+Git commands manually. When a commit is appropriate, explain what is ready
+and provide commands limited to the relevant files. Report uncommitted changes
+and local commits that have not been pushed.

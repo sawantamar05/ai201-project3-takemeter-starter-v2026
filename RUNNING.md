@@ -77,9 +77,10 @@ your three seeds, and `results.json` records it for you.
 
 ### It reads and writes this folder
 
-There is nothing to upload and nothing to download. `labels.csv` is already
-here; `results.json`, `test_split.csv` and `results_three_seeds_*.json` land
-here when the notebook writes them.
+Create `labels.csv` in this repository during the data-collection milestone.
+The notebook reads it locally and writes `results.json`, `test_split.csv`,
+and `results_three_seeds_*.json` beside your code. Model files download on
+first use when they are not already cached; the training data stays local.
 
 **Commit them yourself**, the way you commit anything else. Nothing is pushed
 for you.
@@ -278,9 +279,9 @@ README has a block to fill in for each one.
 | `data/staff_posts.csv` | The staff set's 30 posts. Ships here |
 | `data/staff_labels.csv` | The staff set's labels. **Your TF gives you this** |
 | `README.md` | Your submission |
-| `results.json` | Written and committed by the notebook |
-| `test_split.csv` | Your held-out posts, committed by the notebook. `baseline.py` reads it |
-| `results_three_seeds_before.json` | Written and committed in unit 6, section 6 |
+| `results.json` | Written by the notebook; commit it manually |
+| `test_split.csv` | Held-out posts written by the notebook; commit manually. `baseline.py` reads it |
+| `results_three_seeds_before.json` | Written in unit 6, section 6; commit it manually |
 | `results_three_seeds_after.json` | The same cell re-run with `RUN_LABEL = "after"`, in Milestone 5 |
 | `baseline_results.json` | Written by `baseline.py`. **Commit it** |
 | `agreement_results.json` | Written by `agreement.py`. **Commit it** |

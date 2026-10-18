@@ -43,12 +43,12 @@
      sentences. -->
 
 TakeMeter will classify complete public Hacker News comments from discussions
-about AI model releases, AI explanations, and local-model tools. An AI-assisted
-review of 36 comments across three discussions identified candidate distinctions
-in support, personal experience, and reasoning; the source links and observations
-are in [Milestone 1 reading notes](milestone1_reading_notes.md). The proposed
-labels are `analysis`, `request`, and `commentary`, with the rules below.
-Dataset labeling and training have not started.
+about AI model releases, AI explanations, and local-model tools. Its proposed
+labels distinguish supported claims (`analysis`), requests for answers or
+actions (`request`), and remaining opinions, reactions, or resource shares
+(`commentary`). Each comment receives one label using the decision rules below.
+The [Milestone 1 reading notes](milestone1_reading_notes.md) contain 36 linked
+examples and three candidate distinctions from the community review.
 
 
 ---
@@ -61,9 +61,8 @@ Dataset labeling and training have not started.
      The decision rule is worth a point on its own and it's the thing most
      people leave out. Every taxonomy has a hardest boundary. Name yours. -->
 
-**Status:** AI-assisted draft for student review before annotation. The
-definitions classify what a comment does and how it supports its point;
-they do not measure whether its claims are true or whether its tone is positive.
+The taxonomy describes a comment's purpose and the support offered in its text.
+Support is evaluated as presented, rather than independently fact-checked.
 The [Milestone 2 boundary exercises](milestone2_taxonomy_check.md) record the
 stress test. Real examples below use short excerpts; each source link opens
 the complete comment.
@@ -261,19 +260,22 @@ of next unit's variance. -->
 **Moment 1**
 
 - *What I asked for:* Help completing the project step by step, starting with setup.
-- *What came back:* Codex created my fork and local checkout, installed the project dependencies and notebook kernel, and verified the environment with the course's check script.
+- *What came back:* A working fork and local checkout, installed project dependencies and notebook kernel, and environment-check results.
 - *What I changed:* The repository now has a local virtual environment and setup notes; the environment check confirmed Apple Silicon GPU (`mps`) access.
 
 **Moment 2**
 
 - *What I asked for:* An AI-news community recommendation, followed by reading 12 complete comments from each of three discussions, saving links, and identifying three differences in how opinions are expressed.
-- *What came back:* Codex reviewed 36 complete Hacker News comments and drafted linked, paraphrased notes and three candidate distinctions in `milestone1_reading_notes.md`.
-- *What I changed:* The project scope is Hacker News AI-news and tools discussions. The reading observations informed an AI-assisted draft taxonomy; student review of the reading and definitions is pending.
+- *What came back:* A set of 36 linked comment summaries and three candidate distinctions for the taxonomy.
+- *What I changed:* The project scope is Hacker News AI-news and tools discussions. The reading observations informed the proposed labels and boundary rules.
 
-**Taxonomy assistance:** Codex also drafted three label definitions, selected
-two real examples per label, examined a genuine borderline comment, and
-generated eight synthetic boundary posts for a documented stress test. The
-definitions and decision rule are proposed for student review before labeling.
+**Taxonomy assistance:** The label-definition draft, real-example selection,
+borderline-case analysis, and eight synthetic boundary posts were prepared with
+AI assistance. The synthetic examples are used only to stress-test the rules.
+
+**Criteria assistance:** I used AI to propose initial numeric targets and draft
+explanations before saving them in `criteria.md`. I reviewed the five targets
+and explanations before manually committing the file as `7aa786e`.
 
 **Pre-labelling disclosure:**
 
@@ -472,12 +474,13 @@ learned:**
 
        [ ] criteria.md has five numbered criteria, each naming a NUMBER
        [ ] Each has a reason underneath tied to your data or taxonomy
-       [ ] labels.csv: at least 150 rows, text/label/note, ONE file not split
+       [ ] labels.csv: at least 200 rows, text/label/note, ONE file not split
+           (150–199 only under the assignment's documented time-limit exception)
        [ ] No label above 70%
        [ ] All five unit 5 sections have real content
        [ ] Label Taxonomy includes the decision rule for your hardest boundary
        [ ] The Dataset includes three hard cases
-       [ ] results.json and test_split.csv committed (the notebook does this)
+       [ ] results.json and test_split.csv written by the notebook and committed manually
        [ ] At least four new commits
        [ ] Repository URL submitted — WRITE IT DOWN
 

@@ -1,7 +1,8 @@
 # Milestone 2: taxonomy boundary check
 
-**Status:** AI-assisted draft for student review. No dataset annotation,
-acceptance-criteria writing, or training was performed in this milestone.
+**Scope:** Proposed label definitions, real examples, boundary rules, and
+synthetic stress tests. Dataset annotation and training are later milestones.
+The README's **How I Used AI** section records the assistance used.
 
 The proposed labels, one-sentence definitions, six real examples, and ordered
 decision rules are in the README's **Label Taxonomy** section. The same
@@ -38,8 +39,7 @@ The decision rule resolves the case by requiring a main claim and relevant
 support in the comment. The proposed result is `analysis` because the writer
 uses the quoted example and attempted fix to support the accessibility complaint.
 Its correctness is not independently verified; this taxonomy measures the
-support offered in the text. The student should review and take ownership of
-the rule before applying it to the dataset.
+support offered in the text. Apply the same rule consistently during annotation.
 
 ## Eight synthetic boundary posts
 
@@ -145,12 +145,16 @@ requests for action as well as questions seeking information.
 
 The eight proposed choices exercise each label and the mixed-purpose boundaries.
 This is a clarity check, not a measurement of human agreement or model accuracy.
-Any student revisions should be made consistently in README.md and
+Keep revisions consistent in README.md and
 `label_definitions.txt`, with label-name changes also reflected in the notebook.
 
 ## Next checkpoint
 
-Review the real examples and boundary rule, then write the five personal
-acceptance criteria with numeric targets and reasons in `criteria.md` before
-training. AI can check those criteria for clarity and testability once the
-student has written them.
+The community reading and taxonomy reviews have been confirmed.
+`criteria.md` contains five numeric targets and explanations covering overall
+accuracy, per-label performance, and dataset balance; the reviewed criteria
+were manually committed before training as `7aa786e`.
+
+The next build milestone is collecting at least 200 real comments and
+completing the first 20 annotations unaided before any AI pre-labeling of
+the remaining examples. The remaining build steps are in `setup_notes.md`.

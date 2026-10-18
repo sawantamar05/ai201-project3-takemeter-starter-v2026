@@ -1,9 +1,8 @@
 # Your label definitions, one per line, as `label: definition`.
 #
-# Copy these from your README so the baseline is judged on exactly the
-# definitions you wrote. baseline.py reads this file.
+# Keep these identical to the README definitions so the baseline uses the
+# same taxonomy. baseline.py reads this file.
 #
-# AI-assisted Milestone 2 draft; student review pending before annotation.
 # Apply the ordered decision rules and mixed-case guidance in README.md.
 
 analysis: A comment that, without primarily seeking an answer or action, explicitly states a substantive claim about a concrete result, behavior, limitation, accessibility problem, or implication and connects it to a specific reported observation, measurement, comparison, explanatory mechanism, or relevant source passage.

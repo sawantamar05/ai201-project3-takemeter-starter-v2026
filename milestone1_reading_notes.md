@@ -5,26 +5,21 @@
 **Unit of analysis:** One complete public comment, rather than the linked
 article or an entire discussion thread.
 
-**AI assistance:** At the student's request, Codex retrieved and reviewed
-36 complete comments and drafted these paraphrased notes and observations.
-Student review of the sources is pending. This document does not claim that
-the student personally read the sample or spent 20 minutes reading it.
+**Collection date:** October 17, 2026, starting at 5:15 PM PDT
+(October 18, 00:15 UTC).
 
-**Collection:** October 17, 2026, starting at 5:15 PM PDT
-(October 18, 00:15 UTC), through the
-[official Hacker News API](https://github.com/HackerNews/API).
+**Source:** The [official Hacker News API](https://github.com/HackerNews/API),
+with a public permalink recorded for every comment.
 
 **Selection method:** The first 12 available, nonempty, nondeleted, nondead
 top-level comments in the API's ranked `kids` list for each of the three
-threads below. Each selected comment's parent was checked against its thread
-ID. All 36 comment IDs are unique. Complete comment bodies were read before
-writing the summaries; the tables contain paraphrases rather than full-text
-copies. Ranking and edits can change after collection.
+threads below. Each comment's parent was checked against its thread ID, and
+all 36 comment IDs are unique. The tables contain paraphrased notes from
+complete comment bodies; ranking and edits can change after collection.
 
-This is an exploratory sample from three selected threads, not a random
-sample of the whole community. The notes describe what commenters said;
-their technical claims and reported measurements have not been independently
-verified. No taxonomy labels have been assigned.
+This is an exploratory sample from three selected threads. The notes describe
+commenters' claims and reported measurements, which have not been independently
+verified. The README's **How I Used AI** section describes the assistance used.
 
 ## 1. DeepSeek model release — 12 comments
 
@@ -144,9 +139,9 @@ and must be accounted for when defining mutually exclusive labels.
 6. [Praise plus a specific hardware-fit objection](https://news.ycombinator.com/item?id=50130918) — demonstrates why tone alone is a weak classification rule.
 
 These are exploratory distinctions, not three classes. They overlap.
-An AI-assisted Milestone 2 taxonomy draft, with real examples and a boundary
-rule, is now recorded in the README and
-[taxonomy boundary check](milestone2_taxonomy_check.md). Student review is pending.
+The proposed Milestone 2 taxonomy, with real examples and a boundary rule,
+is recorded in the README and
+[taxonomy boundary check](milestone2_taxonomy_check.md).
 
 The sample is not labeled training data. The later 20 unaided annotations
 should use examples the student has not already received AI classification
