@@ -46,8 +46,9 @@ TakeMeter will classify complete public Hacker News comments from discussions
 about AI model releases, AI explanations, and local-model tools. An AI-assisted
 review of 36 comments across three discussions identified candidate distinctions
 in support, personal experience, and reasoning; the source links and observations
-are in [Milestone 1 reading notes](milestone1_reading_notes.md). The final labels
-will be defined in Milestone 2. Dataset labeling and training have not started.
+are in [Milestone 1 reading notes](milestone1_reading_notes.md). The proposed
+labels are `analysis`, `request`, and `commentary`, with the rules below.
+Dataset labeling and training have not started.
 
 
 ---
@@ -60,35 +61,126 @@ will be defined in Milestone 2. Dataset labeling and training have not started.
      The decision rule is worth a point on its own and it's the thing most
      people leave out. Every taxonomy has a hardest boundary. Name yours. -->
 
-### `label_one`
+**Status:** AI-assisted draft for student review before annotation. The
+definitions classify what a comment does and how it supports its point;
+they do not measure whether its claims are true or whether its tone is positive.
+The [Milestone 2 boundary exercises](milestone2_taxonomy_check.md) record the
+stress test. Real examples below use short excerpts; each source link opens
+the complete comment.
 
-**Definition:**
+### `analysis`
 
-**Example 1:**
->
+**Definition:** A comment that, without primarily seeking an answer or action,
+explicitly states a substantive claim about a concrete result, behavior,
+limitation, accessibility problem, or implication and connects it to a specific
+reported observation, measurement, comparison, explanatory mechanism, or
+relevant source passage.
 
-**Example 2:**
->
+**Example 1 — [apecjic's benchmark comparison](https://news.ycombinator.com/item?id=50130421), excerpt:**
+> Overall 20% less tokens at each reasoning effort.
 
-### `label_two`
+The complete comment describes a benchmark against earlier weights and links
+the author's longer comparison; the measurements support the update assessment.
 
-**Definition:**
+**Example 2 — [kgeist's throughput comparison](https://news.ycombinator.com/item?id=50134730), excerpt:**
+> It says 46 tok/sec for Qwen3.6-27b 4 bit on RTX5090, but I get 60-70 tok/sec on a small context like that
 
-**Example 1:**
->
+The complete comment compares an estimate with reported results and identifies
+quantization, cache settings, and speculation as variables the estimate misses.
 
-**Example 2:**
->
+### `request`
+
+**Definition:** A comment whose main purpose is to seek information,
+clarification, validation, advice, or a concrete change, even when it includes
+detailed background or a hypothetical explanation, excluding rhetorical
+questions and questions merely emphasizing a conclusion the comment has
+already demonstrated.
+
+**Example 1 — [dullcrisp's key/value question](https://news.ycombinator.com/item?id=50126359), excerpt:**
+> For an LLM, the keys are the tokens in your context, and the values are … what exactly?
+
+The author asks readers to explain a missing part of their understanding.
+
+**Example 2 — [hizlikovboy27's workplace-use question](https://news.ycombinator.com/item?id=50128820), excerpt:**
+> to what extent could your setup handle this kind of workflow and how accurate are the results?
+
+The complete comment describes a database workflow as background for asking
+whether the tool's estimates apply; that background does not answer the question.
+
+### `commentary`
+
+**Definition:** A comment that neither primarily seeks an answer or action nor
+explicitly develops a supported substantive claim, instead expressing an
+unsupported assertion, opinion, or reaction or simply sharing a resource,
+including quoted wording used only to convey amusement, praise, or dislike.
+
+**Example 1 — [hum3hum3's appreciation](https://news.ycombinator.com/item?id=50126371), complete comment:**
+> The animated bird, the kea is absolutely fabulous.  I appreciate the effort and detail that went into this.
+
+This expresses appreciation without developing a supported assessment.
+
+**Example 2 — [jmward01's regulatory-motive claim](https://news.ycombinator.com/item?id=50132405), excerpt:**
+> This model is why OpenAI and Anthropic want regulatory hurdles.
+
+The complete comment advocates diversity, but offers no concrete example,
+observation, or source that supports the claimed regulatory motive.
+
+### How to choose exactly one label
+
+Apply these steps to the complete comment, including its own explanation
+around any quotation or link:
+
+1. If the main purpose is to obtain an actual answer or action, choose
+   `request`. Detailed background, a hypothetical worked example, or a
+   proposed interpretation for readers to validate does not override this.
+2. Otherwise, identify the main claim and the specific support offered for
+   it. If both are present and connected, choose `analysis`.
+3. Otherwise, choose `commentary`.
+
+A rhetorical question, or a question pointing out an inconsistency the
+comment has already demonstrated, does not by itself make the post a request.
+An explicit request for a feature belongs to `request`; a bare announcement
+or resource link belongs to `commentary` unless it develops a supported point.
+
+Concrete support can be a described task outcome or failure without an
+external citation. A model name, GPU name, number, link, or long quotation
+alone does not qualify: it must support the writer's main point. A mechanism
+must explain how or why the conclusion follows rather than simply repeat
+the judgment. Length, confidence, sentiment, and agreement with the author
+do not determine the label.
+
+Do not infer an unstated analytical conclusion from a joke or expression of
+feeling. If the writer only registers amusement, praise, or dislike about
+wording or presentation, choose `commentary`, even when the trigger is quoted.
+For `analysis`, the writer must also state a claim about a concrete result,
+behavior, limitation, accessibility problem, or implication and connect
+specific support to it. A quotation can support that claim; merely pointing
+at amusing wording cannot substitute for it.
 
 ### The hardest boundary
 
-**Which two labels:**
+**Which two labels:** `analysis` and `commentary`.
 
-**The decision rule I used every time:**
-<!-- e.g. "If the post names a specific checkable fact, it's `analysis`, even
-     if the tone is heated." -->
+**Decision rule to apply consistently:** After ruling out a primary request,
+choose `analysis` only when both the writer's main claim and a specific
+observation, measurement, comparison, explanatory mechanism, or source passage
+supporting it can be identified in the comment; otherwise choose `commentary`.
 
+**Real borderline post:** [gitowiec's notation complaint](https://news.ycombinator.com/item?id=50132341)
+combines a feeling of exclusion with a quoted passage of mathematical notation
+and an unsuccessful attempt to fix the apparent rendering problem. It could
+look like `commentary` because of the emotional response, or `analysis` because
+of the specific example and reported troubleshooting. Under the written rule,
+the proposed choice is **`analysis`**: those details support the accessibility
+complaint. The emotional tone does not remove that support.
 
+**Other difficult boundary:** A question with detailed background remains
+`request` when it seeks an unresolved answer, such as
+[the state-capital worked example](https://news.ycombinator.com/item?id=50131683).
+In [tom_alexander's memory-fit report](https://news.ycombinator.com/item?id=50130918),
+the comment demonstrates a specific contradiction and offers its own explanation
+about CPU/GPU offloading; its concluding question highlights that contradiction,
+so the proposed choice is `analysis`.
 
 ---
 
@@ -176,13 +268,20 @@ of next unit's variance. -->
 
 - *What I asked for:* An AI-news community recommendation, followed by reading 12 complete comments from each of three discussions, saving links, and identifying three differences in how opinions are expressed.
 - *What came back:* Codex reviewed 36 complete Hacker News comments and drafted linked, paraphrased notes and three candidate distinctions in `milestone1_reading_notes.md`.
-- *What I changed:* The project scope is Hacker News AI-news and tools discussions. Student review of the AI-assisted reading is pending, and the observations have not yet been turned into final labels.
+- *What I changed:* The project scope is Hacker News AI-news and tools discussions. The reading observations informed an AI-assisted draft taxonomy; student review of the reading and definitions is pending.
+
+**Taxonomy assistance:** Codex also drafted three label definitions, selected
+two real examples per label, examined a genuine borderline comment, and
+generated eight synthetic boundary posts for a documented stress test. The
+definitions and decision rule are proposed for student review before labeling.
 
 **Pre-labelling disclosure:**
 
-No training examples have been labeled yet. Milestone 1 reading notes were
-prepared with AI assistance. The later first 20 cold annotations remain to be
-completed by the student without AI labeling help.
+No training dataset has been labeled yet. Milestone 1 reading notes and the
+Milestone 2 taxonomy examples and boundary decisions were prepared with AI
+assistance. The synthetic stress-test posts are excluded from the real dataset.
+The later first 20 cold annotations remain to be completed by the student
+unaided, using fresh examples that have not received AI classification help.
 
 <!-- ═══════════════════════ UNIT 6 — THE TEST ═══════════════════════
 

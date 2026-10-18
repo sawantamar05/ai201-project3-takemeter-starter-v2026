@@ -49,12 +49,16 @@ https://github.com/HackerNews/API. Keep full comment text and source links;
 prefer comments that can be understood on their own.
 
 Student review of the AI-assisted reading notes and sources is pending.
-The taxonomy, acceptance criteria, and labeled dataset have not been completed.
-No training has been run.
+An AI-assisted taxonomy draft (`analysis`, `request`, `commentary`) is recorded
+in the README, with eight synthetic boundary exercises in
+[milestone2_taxonomy_check.md](milestone2_taxonomy_check.md). Student review of
+the definitions and decision rule is pending. Acceptance criteria and the
+labeled dataset have not been completed. No training has been run.
 
 Next, review the observations against the linked comments, then proceed in order:
 
-1. Design 2–4 labels, with two real examples each and a boundary rule.
+1. Review the three proposed labels, two real examples each, and the boundary
+   rule before annotation; revise the definitions consistently if needed.
 2. Write and commit five personal acceptance criteria with numeric targets
    and reasons, covering at least three required areas, before training.
 3. Collect at least 200 real posts into one unsplit `labels.csv`.
@@ -70,3 +74,10 @@ AI helped with repository setup, dependency installation, environment
 verification, the community recommendation, and the 36-comment source review.
 Continue updating the final README's AI disclosure with the specific
 interactions actually used during the work.
+
+## Git checkpoint before every new step
+
+At the student's request, check `git status` before moving to another project
+step. Stage only relevant completed work, inspect it, and commit it before
+continuing when there are changes to save. Keep track of local commits that
+have not been pushed. A clean working tree does not mean commits are on GitHub.

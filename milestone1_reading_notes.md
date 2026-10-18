@@ -143,9 +143,10 @@ and must be accounted for when defining mutually exclusive labels.
 5. [Unexplained notation and feeling excluded](https://news.ycombinator.com/item?id=50132341) — combines a reaction with a concrete observation.
 6. [Praise plus a specific hardware-fit objection](https://news.ycombinator.com/item?id=50130918) — demonstrates why tone alone is a weak classification rule.
 
-These are exploratory distinctions, not three finalized classes. They overlap.
-Milestone 2 still needs 2–4 label definitions, two real examples per label,
-and a repeatable decision rule for the hardest boundary.
+These are exploratory distinctions, not three classes. They overlap.
+An AI-assisted Milestone 2 taxonomy draft, with real examples and a boundary
+rule, is now recorded in the README and
+[taxonomy boundary check](milestone2_taxonomy_check.md). Student review is pending.
 
 The sample is not labeled training data. The later 20 unaided annotations
 should use examples the student has not already received AI classification
