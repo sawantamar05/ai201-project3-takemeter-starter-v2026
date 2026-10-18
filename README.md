@@ -212,8 +212,8 @@ batches, using [the first worksheet](cold20_worksheet.md),
 [the bulk worksheet](remaining200_worksheet.md). Their reviewed labels are
 now in `labels.csv`, with `AI-prelabelled; reviewed by student` in every note.
 There are no blank labels or duplicate comments. The required unaided
-annotations remain unmet, and the three hard-case writeups are outstanding.
-Training has not started.
+annotations remain unmet. The three hard-case explanations below have been
+reviewed. Training has not started.
 
 The [draft snapshot](data/remaining_draft_labels.json) retains the initial
 proposals for records 41–240, brief reasons, source IDs, and text hashes,
@@ -239,25 +239,45 @@ and acceptance criterion 5's stricter 60% cap.
      been, and what you chose. These are worth more than the easy 190. -->
 
 **1.**
-> *The post:*
+> *The post:* [CSV record 120 — questions about confirmation dialogs and focus](https://news.ycombinator.com/item?id=50018945).
+> The writer asks which agent workflows use the described dialogs and whether
+> changing their focus behavior would solve the visibility problem.
 >
-> *Could have been:*
+> *Could have been:* `request` or `analysis`, because the questions include
+> a technical explanation and a possible alternative fix.
 >
-> *I chose, because:*
+> *I chose, because:* `request`. The writer still seeks workflow details and
+> validation of the focus assumptions. The proposed explanation is conditional
+> rather than a demonstrated result, so the unresolved questions determine
+> the comment's primary purpose.
 
 **2.**
-> *The post:*
+> *The post:* [CSV record 205 — unfamiliar AI innovation](https://news.ycombinator.com/item?id=50037316).
+> The writer predicts that AI innovation could become difficult to recognize,
+> citing an unnamed mathematician's reported description of recent AI-generated
+> mathematics as "alien-like."
 >
-> *Could have been:*
+> *Could have been:* `analysis` or `commentary`, because the prediction is
+> speculative and its quoted support is second-hand.
 >
-> *I chose, because:*
+> *I chose, because:* `analysis`. The writer states an explicit implication
+> and connects the reported mathematics description to it as an illustration.
+> That support is weak and unverified, but the taxonomy evaluates whether
+> support is presented and connected, rather than whether the prediction
+> has been proven.
 
 **3.**
-> *The post:*
+> *The post:* [CSV record 107 — the "technical dept" typo](https://news.ycombinator.com/item?id=49864195).
+> The writer quotes advice about AI-assisted work, notices "dept" instead of
+> "debt," and reacts to the wording as funny.
 >
-> *Could have been:*
+> *Could have been:* `commentary` or `analysis`, because the comment quotes
+> a technical passage and interprets its wording.
 >
-> *I chose, because:*
+> *I chose, because:* `commentary`. The quotation primarily supplies the
+> trigger for amusement. Calling it true on a profound level does not explain
+> a substantive conclusion or mechanism. The humor rule applies; a quotation
+> alone does not make the comment analysis.
 
 ---
 
@@ -303,6 +323,10 @@ of next unit's variance. -->
 **Taxonomy assistance:** The label-definition draft, real-example selection,
 borderline-case analysis, and eight synthetic boundary posts were prepared with
 AI assistance. The synthetic examples are used only to stress-test the rules.
+
+**Hard-case assistance:** AI helped select three boundary examples from the
+reviewed dataset and draft explanations using their saved labels. I reviewed
+all three explanations.
 
 **Criteria assistance:** I used AI to propose initial numeric targets and draft
 explanations before saving them in `criteria.md`. I reviewed the five targets

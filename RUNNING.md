@@ -147,8 +147,8 @@ received AI classification help and do not qualify as the required unaided set.
 The README records the departure from the required cold-first
 sequence; unaided annotations remain outstanding and need fresh examples.
 A multiline comment is one CSV record. Annotation validation passed, including
-the 60% balance target. The three README hard-case writeups remain to be
-completed before moving to the training step.
+the 60% balance target. The three README hard-case explanations have been
+reviewed. Manually commit the documentation before moving to the training step.
 
 ### The check before training
 

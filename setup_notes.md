@@ -111,15 +111,20 @@ zero duplicate comments, and zero `cold` notes. All original comment text and
 row order are preserved. The largest class meets both the assignment's 70%
 cap and acceptance criterion 5's 60% cap. Training has not started.
 
+The complete annotation checkpoint was manually committed as `443e00c`;
+that commit awaits push. Three hard-case explanations are now recorded in
+the README for records 120 (`request`), 205 (`analysis`), and 107
+(`commentary`). Their links and explanations match the saved labels and
+taxonomy. The user confirmed review of all three explanations. The reviewed
+documentation is ready for a manual commit before the training step.
+
 ## Remaining build milestones
 
-1. Manually commit the completed 240 annotations, bulk worksheet, draft
-   snapshot with review confirmation, and updated documentation.
-2. Record and review three hard cases. Retain the disclosure of the unmet
-   unaided requirement and earlier cold-first sequence deviation.
-3. Commit the completed annotations manually, run notebook sections 1–5, and manually commit
+1. Manually commit the reviewed hard-case documentation. Retain the disclosure of the unmet unaided
+   requirement and earlier cold-first sequence deviation.
+2. Run notebook sections 1–5 and manually commit
    the resulting `results.json` and `test_split.csv`.
-4. Complete the five unit 5 README sections, verify at least four new commits,
+3. Complete the five unit 5 README sections, verify at least four new commits,
    push manually, and submit the fork URL in the Course Portal.
 
 ## Git checkpoint before every new step
