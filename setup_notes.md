@@ -70,16 +70,15 @@ with no duplicate comment IDs or normalized texts and no overlap with the
 - `data/collection_manifest.json`: collection settings, exclusions, and first-20 reservation.
 - `labels.csv`: 240 records with exactly `text,label,note` columns.
 
-The collection checkpoint was manually committed as `5df3d88`; it has not
-been pushed yet. The manifest records the original reservation of the first
+The collection checkpoint was manually committed as `5df3d88` and pushed.
+The manifest records the original reservation of the first
 20 **data records** for unaided annotation. At the user's later request,
 those records received AI draft labels in `cold20_worksheet.md`. The user
 confirmed review of all 20, and the saved labels were transferred into
 `labels.csv` with `AI-prelabelled; reviewed by student` notes. The reviewed
 counts at that checkpoint were 9 `analysis`, 4 `request`, and 7 `commentary`,
 with 220 records blank. These 20 reviewed records are not eligible for `cold` notes. The
-reviewed annotations were manually committed as `3cd207e`. Both that commit
-and the collection checkpoint await a manual push.
+reviewed annotations were manually committed as `3cd207e` and pushed.
 
 The README records this departure from the required cold-first sequence.
 Unaided annotations must use fresh comments without classification help.
@@ -90,20 +89,34 @@ At the user's request, AI proposed labels for CSV records 21–40 in
 `unaided20_worksheet.md`. The user confirmed review of this second batch,
 and its saved labels were imported with `AI-prelabelled; reviewed by student`
 notes. The complete comment text, source links, and order are preserved.
-The current totals are 40 reviewed records (14 `analysis`, 9 `request`,
-17 `commentary`), 200 records with blank labels and notes, and zero `cold`
-records. The unaided requirement remains outstanding. The second worksheet,
-reviewed annotations, and documentation updates need a manual commit.
+At that checkpoint the totals were 40 reviewed records (14 `analysis`,
+9 `request`, 17 `commentary`), 200 records with blank labels and notes, and
+zero `cold` records. The second worksheet, reviewed annotations, and documentation were
+manually committed as `0b9af49` and pushed. Git was clean and synced before
+preparing the bulk drafts below.
+
+The user chose AI drafts for all remaining 200 comments, acknowledging that
+the unaided requirement would remain unmet. `remaining200_worksheet.md`
+contains the reviewed labels for records 41–240, with complete text and source
+links. The user confirmed review of all 200, and the saved labels were imported
+with `AI-prelabelled; reviewed by student` notes.
+`data/remaining_draft_labels.json` records the initial draft labels, brief
+reasons, uncertainty flags, IDs, and hashes, plus the review/import confirmation.
+All 240 comments have now received classification help and are ineligible for
+the required unaided annotations.
+
+The final unsplit dataset has 240 reviewed labels: 87 `analysis` (36.25%),
+58 `request` (24.17%), and 95 `commentary` (39.58%). It has zero blank labels,
+zero duplicate comments, and zero `cold` notes. All original comment text and
+row order are preserved. The largest class meets both the assignment's 70%
+cap and acceptance criterion 5's 60% cap. Training has not started.
 
 ## Remaining build milestones
 
-1. Manually commit the second reviewed batch and documentation updates.
-   Required unaided annotations must still use fresh comments without
-   classification help. Retain the disclosure of the earlier cold-first
-   sequence deviation.
-2. Label the remaining examples, personally reviewing every AI pre-label.
-   Record three hard cases. Check the assignment's 70% maximum class share
-   and the chosen acceptance criterion's stricter 60% maximum.
+1. Manually commit the completed 240 annotations, bulk worksheet, draft
+   snapshot with review confirmation, and updated documentation.
+2. Record and review three hard cases. Retain the disclosure of the unmet
+   unaided requirement and earlier cold-first sequence deviation.
 3. Commit the completed annotations manually, run notebook sections 1–5, and manually commit
    the resulting `results.json` and `test_split.csv`.
 4. Complete the five unit 5 README sections, verify at least four new commits,

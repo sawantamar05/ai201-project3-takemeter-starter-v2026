@@ -206,27 +206,32 @@ excluded from this dataset.
 **How I labelled them:** <!-- Cold first? Pre-labelled with AI and corrected?
 Say so plainly — the disclosure is required, not penalised. -->
 
-The first 40 records were pre-labelled with AI and then reviewed by me in
-two batches, using [the first worksheet](cold20_worksheet.md) and
-[the second worksheet](unaided20_worksheet.md). Their reviewed labels are now
-in `labels.csv`, with `AI-prelabelled; reviewed by student` in each note. The
-remaining 200 records have blank labels and notes. The required unaided
-annotations and three hard-case writeups are outstanding. Training waits
-until every row has a valid label.
+All 240 records were pre-labelled with AI and then reviewed by me in three
+batches, using [the first worksheet](cold20_worksheet.md),
+[the second worksheet](unaided20_worksheet.md), and
+[the bulk worksheet](remaining200_worksheet.md). Their reviewed labels are
+now in `labels.csv`, with `AI-prelabelled; reviewed by student` in every note.
+There are no blank labels or duplicate comments. The required unaided
+annotations remain unmet, and the three hard-case writeups are outstanding.
+Training has not started.
+
+The [draft snapshot](data/remaining_draft_labels.json) retains the initial
+proposals for records 41–240, brief reasons, source IDs, and text hashes,
+alongside a record of the completed review and import.
 
 **Counts per label:**
 
-These counts describe the 40 reviewed records; final counts and balance will
-be checked after all 240 records are annotated.
+These are the final counts in the unsplit, reviewed dataset.
 
-| Label | Reviewed count | Share of reviewed records |
+| Label | Count | Share |
 |---|---|---|
-| `analysis` | 14 | 35% |
-| `request` | 9 | 22.5% |
-| `commentary` | 17 | 42.5% |
-| **Reviewed total** | **40** | 100% |
+| `analysis` | 87 | 36.25% |
+| `request` | 58 | 24.17% |
+| `commentary` | 95 | 39.58% |
+| **Reviewed total** | **240** | 100% |
 
-**Collected total:** 240. **Awaiting annotation:** 200.
+The largest label is 39.58% of the dataset, meeting the assignment's 70% cap
+and acceptance criterion 5's stricter 60% cap.
 
 **Three hard cases**
 
@@ -322,6 +327,13 @@ At my request, AI also proposed labels for records 21–40 in a second review
 worksheet. I reviewed all 20, and their saved labels were imported into
 `labels.csv` with the same AI-prelabelling and review notes. They do not
 qualify as unaided annotations.
+
+I then chose AI drafts for all remaining 200 comments, understanding that
+the required 20 unaided annotations would remain unmet. I reviewed all 200
+in `remaining200_worksheet.md`, and their saved labels were imported into
+`labels.csv` with AI-prelabelling and student-review notes. All 240 collected
+comments received AI classification help; none qualifies as an unaided
+annotation. All 240 reviewed labels are now in `labels.csv`.
 
 Milestone 1 reading notes and the Milestone 2 taxonomy examples and boundary
 decisions were also prepared with AI assistance. Synthetic stress-test posts

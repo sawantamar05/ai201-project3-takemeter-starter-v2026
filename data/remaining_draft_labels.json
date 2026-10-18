@@ -1,0 +1,1897 @@
+{
+  "created_at_utc": "2026-10-18T06:53:36.586022+00:00",
+  "status_at_creation": "AI draft snapshot; student review pending",
+  "csv_sha256_at_creation": "c203c517495b041a76c36da37b484c0aca668f8e6087ec1a7360ec8a34501145",
+  "source_provenance_sha256": "dd6e53d291a5225b62c888ea38b742d1d68359a1ec4d3f5c9f41215a8e2cea22",
+  "csv_data_records": {
+    "first": 41,
+    "last": 240,
+    "count": 200
+  },
+  "draft_counts": {
+    "analysis": 73,
+    "commentary": 78,
+    "request": 49
+  },
+  "rows": [
+    {
+      "csv_row": 41,
+      "comment_id": 49818957,
+      "text_sha256": "aebd9b88fc1fc41ff70b35aae37e79b7bcdace4d18bbfc881a1774e1398fa46c",
+      "label": "analysis",
+      "reason": "Reports a specific token-usage comparison while separating it from uncertain quality.",
+      "uncertain": true,
+      "alternative": "commentary",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 42,
+      "comment_id": 50131216,
+      "text_sha256": "5ab7657a5923673860c65e2b61f608187d98d2ab51351918cb25fb54807cb1a7",
+      "label": "commentary",
+      "reason": "Expresses a sarcastic judgment about competitors without offering supporting details.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 43,
+      "comment_id": 49937917,
+      "text_sha256": "7a8540bf7a4ee9454defd6b4e01da070f8d13a383b0d14eea6093bd6c26fc3e0",
+      "label": "request",
+      "reason": "Explicitly solicits feedback on the described project.",
+      "uncertain": true,
+      "alternative": "analysis",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 44,
+      "comment_id": 49859774,
+      "text_sha256": "7fe2d2d08ffcdb5fda50ebdbe7f12848e2efda3c88d223d0d01d7994e2c59534",
+      "label": "analysis",
+      "reason": "Supports rejection of generated code with reported bugs, debugging time, and changes to the writer's workflow.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 45,
+      "comment_id": 50031364,
+      "text_sha256": "d44573013767803c0630e0d35176b625c29ce0e6ec950e05e7acab7350ff313c",
+      "label": "request",
+      "reason": "Asks whether intentional capability restrictions explain the observed situation.",
+      "uncertain": true,
+      "alternative": "commentary",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 46,
+      "comment_id": 49850293,
+      "text_sha256": "578c16d9842f1eccde0a3b85049263abbab61dfcbd9e68b1e93f4d241b1d0143",
+      "label": "analysis",
+      "reason": "Explains how the same concentration of wealth could benefit elites while harming others, supporting different evaluations.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 47,
+      "comment_id": 50103041,
+      "text_sha256": "8455c9f67bb781a99c542114f3e666efc7567851a22224ed256af6f9262c2963",
+      "label": "analysis",
+      "reason": "Connects woodworking suitability to extensible features, professional use, and licensing details.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 48,
+      "comment_id": 50098164,
+      "text_sha256": "d1ffb0491fcadac4e9506325eebc82cdf104f5efb030fcf7d1a87706194a0920",
+      "label": "commentary",
+      "reason": "Names the writer's preferred application without developing a supported conclusion.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 49,
+      "comment_id": 50126276,
+      "text_sha256": "422faa4dda0ec933573932127a04dc12cdb4e7efd101260ff62bdd0303e77529",
+      "label": "analysis",
+      "reason": "A relevant quoted claim supports an explicit challenge to its mathematical validity.",
+      "uncertain": true,
+      "alternative": "commentary",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 50,
+      "comment_id": 50021932,
+      "text_sha256": "89d2567943aa74bd2707cb265081f2b70bc899915ad355bb2aa47b354750f60d",
+      "label": "request",
+      "reason": "Proposes adding explanations of permission-button consequences so users can make informed decisions.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 51,
+      "comment_id": 50070260,
+      "text_sha256": "96a9f3396b51bc7072900e2f1966a5b4e8076fb67a9db5245d74dac50db27c0c",
+      "label": "commentary",
+      "reason": "Expresses concern about SSD wear without a reported failure or explanatory mechanism.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 52,
+      "comment_id": 50016946,
+      "text_sha256": "7beec42dff444723b2ed2e39b8ff5d2919334342ddfcf944bc09a1c92c631747",
+      "label": "analysis",
+      "reason": "Supports a competitive-motive interpretation with lobbying behavior and a named politician's advocacy.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 53,
+      "comment_id": 50019247,
+      "text_sha256": "99c988a9fc72ca8a743e0be8ec6e9800c2fce205614b3b00694e1755da96cf02",
+      "label": "analysis",
+      "reason": "Supports a claim of earlier authorship with a dated source-code excerpt and links to the original implementation.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 54,
+      "comment_id": 50098113,
+      "text_sha256": "41d75e82e13415fd65d33789166972099e62ac2f284d489523398c6b4b16929e",
+      "label": "analysis",
+      "reason": "Described task allocation supports the suggested role classification, making the questions rhetorical.",
+      "uncertain": true,
+      "alternative": "request",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 55,
+      "comment_id": 49930930,
+      "text_sha256": "54e3ce07aef1e2e274d30364dcc3a4774718ea7f788a71063d3f5b375ffe36e4",
+      "label": "request",
+      "reason": "Requests clarification of the difference between a harness and a complete chat application.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 56,
+      "comment_id": 49941607,
+      "text_sha256": "9895ce01c0db9171250ab9f469aa3aa48cb28a7aa7392c73bc8ff46d83e60f6c",
+      "label": "commentary",
+      "reason": "Offers enthusiasm and thanks without developing a supported claim.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 57,
+      "comment_id": 49969987,
+      "text_sha256": "1cac0778e1d195a9e29625f38cb5c04cce41c3a4839dd154ba84583a8cf1727f",
+      "label": "commentary",
+      "reason": "Expresses enjoyment and thanks without an explanation or request.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 58,
+      "comment_id": 49855083,
+      "text_sha256": "cd30af3a119f435fd4b847f605756cdc3577c704497bcc348bdda42a23d1063e",
+      "label": "analysis",
+      "reason": "Explains how workplace refactoring invalidates an accumulated mental model.",
+      "uncertain": true,
+      "alternative": "commentary",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 59,
+      "comment_id": 50015544,
+      "text_sha256": "6dbe58d721cb84569da53e694332b5db89f8d7f8eef10a8a6fd1db358a2f69fd",
+      "label": "request",
+      "reason": "Seeks corroboration of an experience despite supplying comparative background.",
+      "uncertain": true,
+      "alternative": "analysis",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 60,
+      "comment_id": 50028615,
+      "text_sha256": "35cabee11691a5ed460a423163607387f7e29c8d499f9c52a74840aac0ce38a9",
+      "label": "request",
+      "reason": "Asks how improved abductive reasoning in future models could change the situation.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 61,
+      "comment_id": 50102960,
+      "text_sha256": "79756020fca3c65ed791c59f4f42b02c7ed7d99cba088940b0f20b03c32439bd",
+      "label": "analysis",
+      "reason": "Supports a preference for manual woodworking with reported adjustments and an explanation of natural material variability.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 62,
+      "comment_id": 49929795,
+      "text_sha256": "c649311a905341d72f4dc75905c9bec999385c0d51e5b2b75997cc4ecf4d5678",
+      "label": "commentary",
+      "reason": "Uses wordplay and dissatisfaction to react to another harness without developing a supported evaluation.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 63,
+      "comment_id": 50129031,
+      "text_sha256": "7addc6e787c88398cf8e285cc911ffd4fb62b801de16fb7335fa25a43c3f7db9",
+      "label": "request",
+      "reason": "Asks what is missing from the stated understanding of AI cost incentives.",
+      "uncertain": true,
+      "alternative": "commentary",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 64,
+      "comment_id": 50036917,
+      "text_sha256": "b59135dafb9a8bc82fa30a8888da3b2a1c8f7089c7c85621581f7dc8a2445bd9",
+      "label": "commentary",
+      "reason": "Offers a skeptical characterization of the research metric and a meme without supplying support for that characterization.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 65,
+      "comment_id": 49997638,
+      "text_sha256": "fbae7ef8eda5915eb83ca88574a9fb047376f4276cd476b629eb3b568b0021a8",
+      "label": "analysis",
+      "reason": "An identified announcement-chart comparison supports the interpretation of pricing strategy.",
+      "uncertain": true,
+      "alternative": "commentary",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 66,
+      "comment_id": 50017303,
+      "text_sha256": "2c7004c7a1a0379c8376ac8404d10c9fa681fd4e5b5a24fdbf506a2cf6192390",
+      "label": "analysis",
+      "reason": "Explains different market responses using a reported enterprise trial and specific adoption-friction details.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 67,
+      "comment_id": 49854999,
+      "text_sha256": "c3988c17dbbdac53fe4b7341431b6b77d439659d650402c91bbb8e1fc20dc239",
+      "label": "commentary",
+      "reason": "States a preference for automated coding without developing a supported conclusion about its results.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 68,
+      "comment_id": 49859487,
+      "text_sha256": "3aabd43cd49fa8705614e18ea5446781b1d44123e2c9ac595dd1ca8b22262816",
+      "label": "analysis",
+      "reason": "Supports concerns about chess understanding with specific failure modes, including illegal moves and invented pieces.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 69,
+      "comment_id": 50064801,
+      "text_sha256": "be7e4866929eaa008001b3a1a7ef9486f5fd52355391d95b293672117f8f58d9",
+      "label": "analysis",
+      "reason": "A specifically configured speed demonstration supports the stated adequacy judgment for local human use.",
+      "uncertain": true,
+      "alternative": "commentary",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 70,
+      "comment_id": 49858019,
+      "text_sha256": "f071a721ebf60b32737b6e62deed0a49418703e94827e9529be479800fad2f54",
+      "label": "commentary",
+      "reason": "Responds to quoted wording with dismissive judgments without concrete evidence or a developed explanatory mechanism.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 71,
+      "comment_id": 49848636,
+      "text_sha256": "ce24e2317a6c555aa8138a895edbc9ef5f9afc48f6cfab200f49cd9f60dd512b",
+      "label": "request",
+      "reason": "Suggests adding net-worth and audience-size dimensions.",
+      "uncertain": false,
+      "alternative": null,
+      "quality_checked": true
+    },
+    {
+      "csv_row": 72,
+      "comment_id": 50122922,
+      "text_sha256": "d2d6f8c7d5929ab94a7c0afdc815fb5af896d22cea157970f52eda470a7881ba",
+      "label": "commentary",
+      "reason": "The unexplained Epic reference does not supply support for the implied criticism.",
+      "uncertain": true,
+      "alternative": "analysis",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 73,
+      "comment_id": 49937645,
+      "text_sha256": "846741fd4771e862f394c427fc35168b69f61f8237dab24755e9b7fd2bc448ea",
+      "label": "analysis",
+      "reason": "Connects quoted energy figures and concrete comparisons to an argument that planned infrastructure exceeds plausible demand.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 74,
+      "comment_id": 50069973,
+      "text_sha256": "534869f7eecd4f13e6216e3668c99da0cd1afca67dc4f1bfc36f4e036796f79e",
+      "label": "request",
+      "reason": "Asks how the tool handles PDF tables and captions, using extraction problems as background.",
+      "uncertain": false,
+      "alternative": null,
+      "quality_checked": true
+    },
+    {
+      "csv_row": 75,
+      "comment_id": 50013648,
+      "text_sha256": "2a6140537f5ea161131ff9cf323f6ef6f444bf1c9e0058a5aedbaa88f7abf283",
+      "label": "analysis",
+      "reason": "Supports criticism of duplicated AI editors with observed app proliferation and a comparison to mature photography software.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 76,
+      "comment_id": 50122079,
+      "text_sha256": "407dec3ef4d94eeb7ca99915c6b734e71a8f7de27e12b219443bb5a1d7be2350",
+      "label": "analysis",
+      "reason": "Explains how easily measured tasks attract automation while obscuring negative externalities, supporting doubts about reported coverage.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 77,
+      "comment_id": 49865426,
+      "text_sha256": "d22d808073ec31ce8f3c19f221186c09ab5b67d4c819f889849cedab7c7f7f0c",
+      "label": "analysis",
+      "reason": "Specific career outcomes support the recommendation to pursue physical engineering work.",
+      "uncertain": true,
+      "alternative": "request",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 78,
+      "comment_id": 49804164,
+      "text_sha256": "0d717efc969bb8054abfbc4b5894a1e22dc46794f1948f5b5d56ee16ec5e4d39",
+      "label": "request",
+      "reason": "Proposes the concrete behavioral improvement of recognizing optimization opportunities without explicit prompting.",
+      "uncertain": true,
+      "alternative": "commentary",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 79,
+      "comment_id": 50078610,
+      "text_sha256": "9ae4a8ad04c42f83c448204711e0167718a302804f4a814ccfe083138e97dbec",
+      "label": "request",
+      "reason": "Makes a direct request to stop an unspecified action.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 80,
+      "comment_id": 50012773,
+      "text_sha256": "e73194c7d8df49f6e44cdf0a11af862133d34df7382d59da99b9baa9de71408a",
+      "label": "request",
+      "reason": "Asks unresolved questions about comparative advantages and implementation provenance.",
+      "uncertain": true,
+      "alternative": "analysis",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 81,
+      "comment_id": 50012137,
+      "text_sha256": "5901c114e9cbd44dc51c6e39ad993249a3a260f98d3251b57353642c125dc66e",
+      "label": "analysis",
+      "reason": "Reports a personal comparison of model costs and completion speed to explain readiness to switch providers.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 82,
+      "comment_id": 49850513,
+      "text_sha256": "d55c60dcc18bac58764cb93bea1f7237b95ff75416d2f3bd777c632a6c2e9956",
+      "label": "request",
+      "reason": "Asks why the quadrant corresponding to the writer's own outlook has so few occupants.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 83,
+      "comment_id": 50126840,
+      "text_sha256": "7fd5392984a996c6173c3c963cea7f263e65699bb21f8e9a46f5e99bf3c121c7",
+      "label": "commentary",
+      "reason": "Expresses surprise about allegedly similar workflows without describing the supporting comparison.",
+      "uncertain": true,
+      "alternative": "analysis",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 84,
+      "comment_id": 50123419,
+      "text_sha256": "c3f9b79e4df0acb18eaf75847e19e079ab39e97dbd68189379badd87a0da28b3",
+      "label": "analysis",
+      "reason": "Supports continued line-by-line review with specific defect types noticed during that review.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 85,
+      "comment_id": 49850381,
+      "text_sha256": "7435a635d62f5ba53e1d39618cfa9f2cc774f09a0a38cf91da422ef5e63102a2",
+      "label": "analysis",
+      "reason": "Compares the questionnaire result with a stated personal probability and explains the discrepancy through how answers were framed.",
+      "uncertain": false,
+      "alternative": null,
+      "quality_checked": true
+    },
+    {
+      "csv_row": 86,
+      "comment_id": 50019789,
+      "text_sha256": "10eb6a6e486d2f179bd65b12c0f3257182c84b8e97ce7e8f712e7e8a1e54fc28",
+      "label": "commentary",
+      "reason": "Dismisses the project without an example or explanation.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 87,
+      "comment_id": 49812557,
+      "text_sha256": "8695520595f50e6c52ac26a2c6ad61135c72c7b3244c8d0bbfe67d3cf9b8c9ba",
+      "label": "commentary",
+      "reason": "Makes a sarcastic counterfactual about pacing without offering support.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 88,
+      "comment_id": 50069817,
+      "text_sha256": "cbea83aacfff7bc1f7655ebec5e1a242476efd6a73aa075470362b0aff370711",
+      "label": "request",
+      "reason": "Requests performance information for larger files, additional formats, and an actual example result.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 89,
+      "comment_id": 49858178,
+      "text_sha256": "95fda00ad84b974e529f2a12d7f7c71a4724070c4fd5a22d38c896ac76e1159e",
+      "label": "commentary",
+      "reason": "Shares a chess application and its capabilities without developing a supported assessment.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 90,
+      "comment_id": 49933087,
+      "text_sha256": "1aafa19020b98e29db829bf329c02f8e9134a314a50060130fbb24cd0f0e40c5",
+      "label": "request",
+      "reason": "Asks whether the tool is cheaper or better than existing alternatives.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 91,
+      "comment_id": 49846939,
+      "text_sha256": "41416171b554b82dfd19218dd79539f766950ba430f271ad07cd52616f85091a",
+      "label": "commentary",
+      "reason": "Joking hobby advice is neither a genuine solicitation nor a supported conclusion.",
+      "uncertain": true,
+      "alternative": "request",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 92,
+      "comment_id": 50013528,
+      "text_sha256": "abe3a8f89120e54f1ee81bc57dfb96c2be7c37aa217ae593256393ba60206544",
+      "label": "request",
+      "reason": "Asks for a comparison with Gimp and whether the project offers meaningful advantages.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 93,
+      "comment_id": 50028598,
+      "text_sha256": "c12c713f6fcf6772a6aab3264dbb21a02c2b61e3e7faeb150fb08f10033f6ad5",
+      "label": "request",
+      "reason": "Asks about an unresolved experimental condition, with evaluation concerns as background.",
+      "uncertain": true,
+      "alternative": "analysis",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 94,
+      "comment_id": 49941588,
+      "text_sha256": "a2cefc9be2e8be1595d964d537fb9b3fd7a24b48f1e356f0dd93117463438e21",
+      "label": "commentary",
+      "reason": "Offers praise without a supporting claim or request.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 95,
+      "comment_id": 49833724,
+      "text_sha256": "35337d76de56faf508c2dfe5e3536a93be8287fb8b8b2cbb549f5c58abcd7288",
+      "label": "analysis",
+      "reason": "Reported loss of control and concrete behavioral changes explain the shift toward offline activities.",
+      "uncertain": true,
+      "alternative": "commentary",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 96,
+      "comment_id": 49888457,
+      "text_sha256": "336466b58508ffd028468f8f20a604d1cf4ccae2efc861f3875857cae9412783",
+      "label": "commentary",
+      "reason": "Expresses enthusiasm about local browser models without a specific result or developed explanation.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 97,
+      "comment_id": 49835679,
+      "text_sha256": "72834f610a8dd3f88fd8f1ef4447165686ae77257ce0b4863c98990de0293c6e",
+      "label": "commentary",
+      "reason": "States a societal-cost judgment and a general wish for better metrics without supporting them.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 98,
+      "comment_id": 50011666,
+      "text_sha256": "693c76f928e2b1ae3a48c7f930540b0c48b5df4193e3f77712e0ab6017cc19e7",
+      "label": "analysis",
+      "reason": "Explains slower task completion through reported prolonged reasoning time.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 99,
+      "comment_id": 50099791,
+      "text_sha256": "b1398271f182d622e3b115d3d986b3b2f4187a81cffbd13ff8240893f06bd0f7",
+      "label": "analysis",
+      "reason": "Explains an image-to-CAD workflow through camera-pose estimation, silhouette optimization, and export steps.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 100,
+      "comment_id": 49891699,
+      "text_sha256": "5a20a11166db92cff9654d199e8d2aa7dc3e154d37b176de44e1c7951b8ef187",
+      "label": "analysis",
+      "reason": "Supports a model-performance comparison with a concrete prompt and the repetitive answer it produced.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 101,
+      "comment_id": 49938345,
+      "text_sha256": "8741b7f286aa5d8f1a34b9235d16da89543f997622ce14cae2c9173849d42734",
+      "label": "request",
+      "reason": "Requests token-cost estimates for named models and examples.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 102,
+      "comment_id": 50099573,
+      "text_sha256": "fa66278e871e3c781d48fd3ba5b47303f3b7903182ebeeba145f9a8ef5864698",
+      "label": "commentary",
+      "reason": "An unexplained name and question mark do not identify a genuine requested answer.",
+      "uncertain": true,
+      "alternative": "request",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 103,
+      "comment_id": 49938628,
+      "text_sha256": "06a4e57fc3d64755f11e19eb4836503cc2fcce72b81cdd1fa6001e022c8ce0e3",
+      "label": "request",
+      "reason": "Proposes a concrete tool for generating a LEGO inventory from photographs.",
+      "uncertain": true,
+      "alternative": "commentary",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 104,
+      "comment_id": 50121612,
+      "text_sha256": "9b60ece88ae4fbad32633fe82529f09fa26da30a1fed03ddd671395581260e79",
+      "label": "commentary",
+      "reason": "Broad human-capital attributions lack specific examples or a developed explanatory mechanism.",
+      "uncertain": true,
+      "alternative": "analysis",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 105,
+      "comment_id": 50036020,
+      "text_sha256": "383ecf9710601509989be6eb27105a32659f2295a85179470352b2dbb5668f7e",
+      "label": "analysis",
+      "reason": "Explains a predicted reliability limit through complexity, unverifiability, and inability to reproduce results.",
+      "uncertain": true,
+      "alternative": "commentary",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 106,
+      "comment_id": 50012978,
+      "text_sha256": "3972575abdd6b01d89a913c642352ebc8ac671f91b40316ec80c055b7823e56e",
+      "label": "analysis",
+      "reason": "Specific retention and throughput features support the model recommendation.",
+      "uncertain": true,
+      "alternative": "commentary",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 107,
+      "comment_id": 49864195,
+      "text_sha256": "8019a221b12aef49ece986bb30de2b7a8dc577ea9a09b41077e44a0ee77e1e93",
+      "label": "commentary",
+      "reason": "Reacts humorously to a quoted typo without stating a separate substantive analytical conclusion.",
+      "uncertain": false,
+      "alternative": null,
+      "quality_checked": true
+    },
+    {
+      "csv_row": 108,
+      "comment_id": 50012411,
+      "text_sha256": "d391464805c1e1d766946ec1824c9ff186ae3b0f8857d7a89949613d9b2a7e96",
+      "label": "request",
+      "reason": "Urges a concrete reverse-engineering effort targeting Nvidia software, drivers, and CUDA.",
+      "uncertain": true,
+      "alternative": "commentary",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 109,
+      "comment_id": 50128727,
+      "text_sha256": "8f98ba808af84b583875ca22e5ed6e0956a5046eda1b98f7f9b75a31e0147e1a",
+      "label": "commentary",
+      "reason": "Uses a quoted repository description as the trigger for a naming joke.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 110,
+      "comment_id": 49886358,
+      "text_sha256": "579a218529303eb44a8291120f482a32000b9963b22bc3c3245af017a3e758f6",
+      "label": "commentary",
+      "reason": "Shares a related project and its goals without developing a supported assessment.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 111,
+      "comment_id": 49858031,
+      "text_sha256": "2a65b6a4afd8a58d759ecc3cb71276fbf8e041e738f812619d155080fa95d20b",
+      "label": "analysis",
+      "reason": "Explains the roles of traditional chess engines and LLM commentary in assessing novelty.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 112,
+      "comment_id": 49832296,
+      "text_sha256": "1ef6805d4c826144f077d0fb5a79a21464d192ae3ff2dace83d945373b105ba1",
+      "label": "analysis",
+      "reason": "Uses named historical examples to explain technology adoption and resentment of lower entry barriers.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 113,
+      "comment_id": 50012754,
+      "text_sha256": "93a4c1fd5ec5ef0b4ca399ba2c249916a809fa0dd4daa5117be7d43465a1049b",
+      "label": "analysis",
+      "reason": "Specific costs, workflow roles, and model comparisons support the reported tradeoffs.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 114,
+      "comment_id": 49891179,
+      "text_sha256": "4d163168042813c704b8da352d9948d23451d5b40cbec68d25e820d79e076605",
+      "label": "analysis",
+      "reason": "Reported hallucinations and looping outputs support the negative evaluation of the examples.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 115,
+      "comment_id": 50015970,
+      "text_sha256": "715870165a687eb90aebfa113d50b8bc97eb2a364256931ec9155756604a8888",
+      "label": "analysis",
+      "reason": "Describes a subscription switch following an API price increase.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 116,
+      "comment_id": 49932585,
+      "text_sha256": "bac0d8a5987cb4ddf9bc0607f68c81aeb0907a5bebecffcf36d55d845d796205",
+      "label": "commentary",
+      "reason": "States hypothetical third-party risks and a preference without a specific observation or developed mechanism.",
+      "uncertain": true,
+      "alternative": "analysis",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 117,
+      "comment_id": 49858757,
+      "text_sha256": "1e2153a39d7d5368821162ddbdbc7c883118eea71234e9d632f5ef36c37a7763",
+      "label": "commentary",
+      "reason": "Expresses fascination and appreciation without developing a supported conclusion.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 118,
+      "comment_id": 50121825,
+      "text_sha256": "6ff572be6792ccb2c6c9b771ab13383d2969c746e539e7bf1c8c277731f3dfd6",
+      "label": "request",
+      "reason": "Seeks an explanation of zero AI task coverage despite described food-delivery automation.",
+      "uncertain": true,
+      "alternative": "analysis",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 119,
+      "comment_id": 50122978,
+      "text_sha256": "a2c89536381435528f4956f07d943ae0e20974230a6630f2f9c8a43d4851445a",
+      "label": "commentary",
+      "reason": "Makes a sarcastic benchmark comparison without developing an explicit analytical conclusion.",
+      "uncertain": false,
+      "alternative": null,
+      "quality_checked": true
+    },
+    {
+      "csv_row": 120,
+      "comment_id": 50018945,
+      "text_sha256": "b5829b3aa545b5affb4686ff6130df703de791378fc98cdc26d87660a4744739",
+      "label": "request",
+      "reason": "Seeks unresolved workflow and focus clarification while offering a conditional alternative.",
+      "uncertain": true,
+      "alternative": "analysis",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 121,
+      "comment_id": 50036783,
+      "text_sha256": "b6e06f5c2181f36948c1074ebac295f9118d7bb9e8a160b909078b6cd9dddc56",
+      "label": "analysis",
+      "reason": "Specific compute costs and scaffolding comparisons support a critique of the evaluation design.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 122,
+      "comment_id": 49997858,
+      "text_sha256": "4086b11f496b8f615fdf54290c9cb7504fb89a5c91dd1987a6371fd9c76c85a4",
+      "label": "commentary",
+      "reason": "Expresses confusion about naming and effort levels without specific examples or explanation.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 123,
+      "comment_id": 50018981,
+      "text_sha256": "f4839cfc315418b0693088c6550653c56f50938d10f8d022ae8899b9d0e79035",
+      "label": "commentary",
+      "reason": "Offers praise alone.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 124,
+      "comment_id": 49895903,
+      "text_sha256": "d3ae460afc52ef01ff51be532e8c161f95e3b7ff3a8b3f2b45142981c886faaa",
+      "label": "analysis",
+      "reason": "Reported echoing of German questions supports the claimed language limitation.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 125,
+      "comment_id": 49827123,
+      "text_sha256": "1e5a2f9e303efc4cd9bf6d70fb76cdaa917f01c2e180e3183658e0ffe7bbdd76",
+      "label": "analysis",
+      "reason": "Explains how a shift toward taste and creativity gives established creative professionals a competitive advantage.",
+      "uncertain": true,
+      "alternative": "commentary",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 126,
+      "comment_id": 50069881,
+      "text_sha256": "e012187645f4875c517fbe95e816a8570508495f0b6661b4f2181a9efccc6559",
+      "label": "commentary",
+      "reason": "Offers praise and a recommendation based on unspecified good experiences.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 127,
+      "comment_id": 49930565,
+      "text_sha256": "6c46802d3369a680018e468579858059d01896755ca5af22cec06b93db809e23",
+      "label": "commentary",
+      "reason": "Calls plugin architecture sensible without explaining how it addresses changing needs.",
+      "uncertain": true,
+      "alternative": "analysis",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 128,
+      "comment_id": 49930395,
+      "text_sha256": "b47dd4c1714e378ef3ef7b1ac59b2098f1d9f2878a35b7567cd402ce0374618c",
+      "label": "commentary",
+      "reason": "Predicts smaller harnesses from better models without identifying the functions or improvements involved.",
+      "uncertain": true,
+      "alternative": "analysis",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 129,
+      "comment_id": 49889582,
+      "text_sha256": "2ce7fe1ed579392f7e4971232dd4e9cddec4944692a85cd6a18d6dd49b63e5b6",
+      "label": "commentary",
+      "reason": "Uses quoted model output as the trigger for sarcasm without an additional analytical conclusion.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 130,
+      "comment_id": 49834071,
+      "text_sha256": "c8709a624e427eaf23f600bab2ee79b754cd54a722824db8fb1fab3cdc58981a",
+      "label": "commentary",
+      "reason": "Recommends moving upmarket based on an unsupported displacement prediction.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 131,
+      "comment_id": 49942399,
+      "text_sha256": "3a6e4d01a559d4aa1e4b5c7b7eadc930ea60ef286085be14cbbd0ea47374c713",
+      "label": "analysis",
+      "reason": "Explains why token consumption confounds per-token costs and links more relevant task-level comparisons.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 132,
+      "comment_id": 49829428,
+      "text_sha256": "a277bd730d8e8b6a84cc9ba973eab7389f2690902de4b451c5959ba274116d32",
+      "label": "analysis",
+      "reason": "Explains the growing value of judgment through the contrast between falling production costs and persistent evaluation costs.",
+      "uncertain": true,
+      "alternative": "commentary",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 133,
+      "comment_id": 50122643,
+      "text_sha256": "80c78812a80d1cbebdebf5ab5a2748c3137d074e3a89ed0bf530ab2cada39c6e",
+      "label": "commentary",
+      "reason": "Offers a brief unsupported percentage assertion without enough context to develop an argument.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 134,
+      "comment_id": 49933843,
+      "text_sha256": "ef52e62304794b395a4aa40d5a92b7631b173f4edd7df7259efcde286a0ab26a",
+      "label": "request",
+      "reason": "Asks how to verify software safety despite dependency risks.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 135,
+      "comment_id": 49858035,
+      "text_sha256": "436b004d9c0cb59f16981f7b1a4ae7ce5c27c12b00f29347b27c7461dddb5ad7",
+      "label": "request",
+      "reason": "Asks how the chess tool works and supplies prior failures as background.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 136,
+      "comment_id": 50071210,
+      "text_sha256": "b073a9326a0594d42eaa2ee0003e2fe57c8535d9f0b9c6bf945646c85b7e2c67",
+      "label": "analysis",
+      "reason": "Supports the paid-credit criticism by comparing its result with a named free alternative.",
+      "uncertain": true,
+      "alternative": "commentary",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 137,
+      "comment_id": 49938219,
+      "text_sha256": "9f19db262aca3eab76c712385e45ae29c22c7eb2a77d1f2efa788beb9346d6b9",
+      "label": "analysis",
+      "reason": "Summarizes a specific constrained-parts experiment and links the relevant prior paper.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 138,
+      "comment_id": 50028523,
+      "text_sha256": "02d68f7d20dc04c04bd5f98cf44880a10d889b2506c28c206400183c68e7818a",
+      "label": "analysis",
+      "reason": "Explains capability limits through differences in innovation, measurable objectives, and ambiguous judgment.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 139,
+      "comment_id": 50100449,
+      "text_sha256": "003415b76030c73872443ed3d0240aef9505eaed75994ce5e8265bd53ecab301",
+      "label": "request",
+      "reason": "Asks for woodworking learning resources and required tools.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 140,
+      "comment_id": 49997533,
+      "text_sha256": "8a02a76b581150444476a3026b53eb2d7c39a49fd8d068298955ff8a4914b0a0",
+      "label": "analysis",
+      "reason": "Provides a specific benchmark token count and a comparable model contrast.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 141,
+      "comment_id": 49849379,
+      "text_sha256": "cf41d7e334518f67545eaad8b930533a3cca7c2aeae6a37d09f3d173e8fc3ebd",
+      "label": "request",
+      "reason": "Asks about simulated-answer provenance and requests clearer disclosure.",
+      "uncertain": false,
+      "alternative": null,
+      "quality_checked": true
+    },
+    {
+      "csv_row": 142,
+      "comment_id": 49884085,
+      "text_sha256": "54f86cc66f14b8d5436c62c7362268aa2c32bdc1a672d2f9643a6f0263e1a295",
+      "label": "request",
+      "reason": "Explicitly asks for feedback on a related browser-model proposal.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 143,
+      "comment_id": 49996683,
+      "text_sha256": "e27f2805be5c87158776216bb524692799eed9e650acb10709e933c2bf2d0dd4",
+      "label": "analysis",
+      "reason": "A detailed quoted policy supports the conclusion that subscription plans now include API credits.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 144,
+      "comment_id": 50013154,
+      "text_sha256": "cc44fa94af700fb13b7d0b168d6e3284b2353c0bd069535e36dbbc72a75b2597",
+      "label": "request",
+      "reason": "Asks why similar projects have appeared in the preceding two days.",
+      "uncertain": true,
+      "alternative": "commentary",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 145,
+      "comment_id": 49938415,
+      "text_sha256": "70604a50644271b29e5f8703f189e1714b74857a8ed668ad5da05da8cbc66af2",
+      "label": "analysis",
+      "reason": "Detailed cache rates, price changes, and reported comparisons support the cost and energy critique.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 146,
+      "comment_id": 50125697,
+      "text_sha256": "e42758f55d34d256075f11455dd019e05a2dc170bdd133256e7d53751419a479",
+      "label": "commentary",
+      "reason": "A sarcastic benchmark question expresses criticism rather than seeking a defined measurement.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 147,
+      "comment_id": 49996562,
+      "text_sha256": "dd991aa735865b5d95ab8a9b3449caee823336f3e1c6c26bd94a7cc686ebf295",
+      "label": "commentary",
+      "reason": "Expresses approval that an update has arrived.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 148,
+      "comment_id": 49805251,
+      "text_sha256": "30f14ea83640c8e1e74457589487fa979f84087c186867d54d46a7d378e97682",
+      "label": "analysis",
+      "reason": "Connects the positive subscription assessment to bankable rate-limit resets reportedly lasting a month.",
+      "uncertain": true,
+      "alternative": "commentary",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 149,
+      "comment_id": 49844439,
+      "text_sha256": "3e04d5bc289f77a8a862db9756b29b19f20c9c9b17cb97769a78d80ec6868b52",
+      "label": "analysis",
+      "reason": "Explains the claimed resilience of the manual trade through its physical movement and embodiment requirements.",
+      "uncertain": true,
+      "alternative": "commentary",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 150,
+      "comment_id": 49996610,
+      "text_sha256": "4d4e271ad9924a8d6c3b3d443a27541ebe0eb30586fe2378c0c123f9f553108e",
+      "label": "request",
+      "reason": "Asks other users about their Haiku use cases.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 151,
+      "comment_id": 50085345,
+      "text_sha256": "610169a35bb2dbd581beda20afcf400b8a594b9a6d83b491454ea58d6e6c2dba",
+      "label": "analysis",
+      "reason": "Lists concrete offline application capabilities to support a comparison and recommendation.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 152,
+      "comment_id": 50069869,
+      "text_sha256": "e1e6ff28b6f7537564ef24f95ac7a5722c92f60d3f93cdddbb0d68ebccd50dff",
+      "label": "request",
+      "reason": "Requests an audio sample rather than merely praising the project.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 153,
+      "comment_id": 50066255,
+      "text_sha256": "0c5376b6c7b6af3c6ba50de6f59b56c35217fcf7818087652e54c621b534850e",
+      "label": "commentary",
+      "reason": "Asserts repeated reinvention without identifying the relevant existing feature or supporting example.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 154,
+      "comment_id": 49835479,
+      "text_sha256": "a4dc36694d12aa2b82b0b9c71bc4b7af0030917072ffc883a44f1a0b31db888b",
+      "label": "commentary",
+      "reason": "Offers motivational advice and an extended metaphor without a concrete supporting result or mechanism.",
+      "uncertain": true,
+      "alternative": "analysis",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 155,
+      "comment_id": 50028526,
+      "text_sha256": "a6ff6d233699cb793b42b7354d892e5c46612d394001daebdbd76c4f648087f6",
+      "label": "analysis",
+      "reason": "Quoted evaluation findings and an explicit self-training mechanism support the negative conclusion.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 156,
+      "comment_id": 49932855,
+      "text_sha256": "b9b9049069b8ea1994dfecb729ef1d86245a3d30efceb5e0a5dae2067733fb92",
+      "label": "request",
+      "reason": "Asks what advantages explain laboratories maintaining separate harnesses.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 157,
+      "comment_id": 49887920,
+      "text_sha256": "0f09c82b0d0d23b530527d7b0e315a19668fb144a186196728b325b1870902fd",
+      "label": "commentary",
+      "reason": "Expresses an impression of speed without describing a specific task or result.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 158,
+      "comment_id": 50012349,
+      "text_sha256": "1ad006c459e4cc9ced0b33d1cd14f5425e9ab36731f0cf10b56e025202625e5b",
+      "label": "commentary",
+      "reason": "Offers praise alone.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 159,
+      "comment_id": 49937824,
+      "text_sha256": "57e4631fc31d63ac4e52340b41194475fe6bb8ff549d58c10c548bdd3a57b840",
+      "label": "request",
+      "reason": "Asks whether the article contains an explanation and examples of its reported failure.",
+      "uncertain": true,
+      "alternative": "commentary",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 160,
+      "comment_id": 49875613,
+      "text_sha256": "b2f5d89d61843a5ae3c197215c9c2b7a916c74b9b0b8ba3cac8900bd5c0dcf4a",
+      "label": "analysis",
+      "reason": "Reported style injection despite explicit instructions supports the prompting complaint.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 161,
+      "comment_id": 49828397,
+      "text_sha256": "7f75674fb295edfe4f54c317592fbe05df78a7a03aa0e168df73b9b96dec56e3",
+      "label": "analysis",
+      "reason": "Historical industry comparisons support an argument about commoditization and the value of business skills.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 162,
+      "comment_id": 50070023,
+      "text_sha256": "8e443b763da2674bf1006af19573f9be2f2730c2272b6f1bfe2e5d485a25a962",
+      "label": "request",
+      "reason": "Proposes distributing experts across network nodes and streaming the model.",
+      "uncertain": true,
+      "alternative": "commentary",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 163,
+      "comment_id": 49804269,
+      "text_sha256": "7f99c620a155a886ec7d814f318d1b4fa8988a8d2a2b86b025d82045e0860851",
+      "label": "commentary",
+      "reason": "Shares a link with a reaction but no developed supporting argument.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 164,
+      "comment_id": 50006803,
+      "text_sha256": "210f27a4d08baccac79e5cae55e89836afea8b48e2f30546f56b0e2f1cf7e1f0",
+      "label": "request",
+      "reason": "Asks for reasons to choose one model over another.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 165,
+      "comment_id": 50024682,
+      "text_sha256": "b6f568a27805a94de7f99f847afc5c609da0cbfa98ee44f435ed065e84e26ebb",
+      "label": "commentary",
+      "reason": "Uses a funding figure as the trigger for sarcasm.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 166,
+      "comment_id": 49848275,
+      "text_sha256": "9c52f8684e4e9a80431ad154c2410aaac6ca9af92f0c6c0539ee06d45cd4211f",
+      "label": "request",
+      "reason": "Asks why the product requires login after objecting to the offered login method.",
+      "uncertain": true,
+      "alternative": "commentary",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 167,
+      "comment_id": 49883933,
+      "text_sha256": "dbf83026a1df983f777a69e2ebdc0deba8437a0db9b1cb469b5b3b2f52fe0c1b",
+      "label": "commentary",
+      "reason": "Shares a related experiment without describing a supported conclusion.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 168,
+      "comment_id": 49808224,
+      "text_sha256": "84076aab6d7b9e69d65187e1c6daf1bb3893c4b19fbf2f4cbabf7187ad6fd508",
+      "label": "request",
+      "reason": "Asks whether the updated model still exhibits the specified undesirable writing style.",
+      "uncertain": true,
+      "alternative": "commentary",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 169,
+      "comment_id": 49850749,
+      "text_sha256": "366d64339cc0d995fe337081e257eabb0655e7bcf8d82166bf1e585d418685b9",
+      "label": "commentary",
+      "reason": "Challenges the chart placement using a broad impression rather than a specific supporting example.",
+      "uncertain": true,
+      "alternative": "analysis",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 170,
+      "comment_id": 49876339,
+      "text_sha256": "07cba72bbbdb498afa434197756b5706796eadbd221569d33ae1dfcd34e8c35e",
+      "label": "request",
+      "reason": "Asks why the prompting details are not included in the system prompt and proposes that change.",
+      "uncertain": true,
+      "alternative": "commentary",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 171,
+      "comment_id": 50013760,
+      "text_sha256": "3e98356f230bd8d5ef1d470d36ee44d7ab1c591643f59c06953dcf810ede59d1",
+      "label": "request",
+      "reason": "Asks whether the project uses a clean-room implementation.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 172,
+      "comment_id": 49875600,
+      "text_sha256": "058f9503c16e6954b29d34ed548bf4c7c19b86320ad8f5151fed14d74d7a8377",
+      "label": "request",
+      "reason": "Requests concrete visibility improvements and cold-cache safeguards using detailed failures as background.",
+      "uncertain": true,
+      "alternative": "analysis",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 173,
+      "comment_id": 50128787,
+      "text_sha256": "97e17a4940b2e7a54d006ea96b45d07a9b386ec26775dc0d0e22915b778b5ca2",
+      "label": "commentary",
+      "reason": "Makes broad quality and competence accusations without a specific demonstrated code failure.",
+      "uncertain": true,
+      "alternative": "analysis",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 174,
+      "comment_id": 50068469,
+      "text_sha256": "555ff7db789bfa3c12720b51dc166c04ff22c04c27f0b55870f06186d254f5c3",
+      "label": "request",
+      "reason": "Raises the unresolved practical question of ordinary multitasking while the model runs.",
+      "uncertain": false,
+      "alternative": null,
+      "quality_checked": true
+    },
+    {
+      "csv_row": 175,
+      "comment_id": 50065035,
+      "text_sha256": "16c245cdea10c9a76582c82d442ec9ad382fcc55308ad4b1392b1ff5ab0f4b9d",
+      "label": "request",
+      "reason": "Asks whether the tool works with a virtual disk backed by S3 or Dropbox.",
+      "uncertain": false,
+      "alternative": null,
+      "quality_checked": true
+    },
+    {
+      "csv_row": 176,
+      "comment_id": 49849684,
+      "text_sha256": "12e24de62b580af4b983b96d7bd55fc09624434be6beb61dac38c24cdaeb8f52",
+      "label": "analysis",
+      "reason": "Reports being unable to progress beyond 30% to support a usability complaint.",
+      "uncertain": true,
+      "alternative": "commentary",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 177,
+      "comment_id": 50100796,
+      "text_sha256": "0236f0447f44ce14fc846991a7f4f85e10205ff5a7d998792ef99068a3509a59",
+      "label": "analysis",
+      "reason": "Connects faster furniture design to specific OpenSCAD, blueprint, and LLM workflow comparisons.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 178,
+      "comment_id": 49808591,
+      "text_sha256": "21d623e475906afb49c3093259dd29b0ee07f98db6c28e956bdd1885fc90c14e",
+      "label": "analysis",
+      "reason": "Supports a cyber-filter sensitivity complaint with repeated blocked embedded and system tasks.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 179,
+      "comment_id": 50115291,
+      "text_sha256": "a14e3bf6cb8679b8f4a9abccf7c6c7580f467b7974b859128681c0a0538b89de",
+      "label": "commentary",
+      "reason": "Shares CadQuery and its features without developing a supported assessment.",
+      "uncertain": true,
+      "alternative": "analysis",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 180,
+      "comment_id": 49930624,
+      "text_sha256": "98c3df0ad72377ed35fd79b91030c9f102ddbab14984ce1aebecddbd99ab0401",
+      "label": "commentary",
+      "reason": "Offers brief praise for the harness and code.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 181,
+      "comment_id": 49999546,
+      "text_sha256": "23e569d11bee632123e2e25724995419d7a91d4ff43a11ee153e6b71e6f91a83",
+      "label": "request",
+      "reason": "Asks whether Anthropic has released a decision model.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 182,
+      "comment_id": 49855101,
+      "text_sha256": "6ad8731da17e8538e2cff98dad4e328306adf7e967e85fd3ddebe846f0cedeed",
+      "label": "analysis",
+      "reason": "Explains how faster low-reasoning responses preserve hands-on participation and reduce waiting.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 183,
+      "comment_id": 49876890,
+      "text_sha256": "eafcc526853e58fe94d0097acbefcd8b715e389b3b0b8fc644b7a86bd83cc372",
+      "label": "commentary",
+      "reason": "Reacts to a quoted regional restriction by choosing another provider.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 184,
+      "comment_id": 50020302,
+      "text_sha256": "dc317194c72463e9c2e971be1ddf265cf0a0d7548001ab529b9b9e082b5fe4b5",
+      "label": "commentary",
+      "reason": "Makes a humorous remark about token consumption.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 185,
+      "comment_id": 49848504,
+      "text_sha256": "9bcfb3c1328f451ce0102dab4426c9b71cb4bf43db4b17e9c34a46e572d82cf8",
+      "label": "request",
+      "reason": "Proposes moving Gary Marcus lower on the worldview chart.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 186,
+      "comment_id": 50065459,
+      "text_sha256": "c9885c4dfd6a37f271a77105c7017025e000805c9f37635b0160214a0c6fd140",
+      "label": "request",
+      "reason": "Asks why older models were chosen and Qwen 3.8 was omitted.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 187,
+      "comment_id": 49866560,
+      "text_sha256": "33d96876e034790fe8ba61e5b096a70994ee78ec2f1a8d7257f5b5f7bb8deeea",
+      "label": "commentary",
+      "reason": "Expresses broad views about programming and AI without a specific supporting task or outcome.",
+      "uncertain": true,
+      "alternative": "analysis",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 188,
+      "comment_id": 50070651,
+      "text_sha256": "df44ab41f0e7fe6fe744fea4d7e34b8dc98d44b3ce53d17751c4032b42f5cf58",
+      "label": "commentary",
+      "reason": "Promotes an audio app and invites optional feedback without a developed supported claim.",
+      "uncertain": true,
+      "alternative": "request",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 189,
+      "comment_id": 49875239,
+      "text_sha256": "575c2cf63cf9b53a70378a04109b0332aa672ed42fadc880f0b1aa5582b9a7a0",
+      "label": "analysis",
+      "reason": "Connects the reported restriction on reasoning output to a shift toward other providers.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 190,
+      "comment_id": 50017666,
+      "text_sha256": "f1b037a580885a89eab0f3c4bebf1a00ff14a0112884c8bb730dcdc31ee94d1d",
+      "label": "analysis",
+      "reason": "Uses subscription-versus-API price comparisons to support the pricing and coding-use assessment.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 191,
+      "comment_id": 49804569,
+      "text_sha256": "4856b27e889bd1ac10fb6de1ca3afa8a315888096148b0ea4a3b3a45d603e7ad",
+      "label": "request",
+      "reason": "Asks whether an already accepted practitioner must reapply to the verification program.",
+      "uncertain": false,
+      "alternative": null,
+      "quality_checked": true
+    },
+    {
+      "csv_row": 192,
+      "comment_id": 50036627,
+      "text_sha256": "a5d4275203851886abc7946a08e720390e3f55e7e495d0a358deddb06adc1bfa",
+      "label": "commentary",
+      "reason": "Predicts guaranteed AI innovation without specific evidence or a developed explanatory mechanism.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 193,
+      "comment_id": 49940518,
+      "text_sha256": "5aa501c68b244f1afe1ca561a00697b7604c767e67082dafbf85e060459f7d8b",
+      "label": "commentary",
+      "reason": "Expresses excitement and worry about Chinese open-weight models.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 194,
+      "comment_id": 49855147,
+      "text_sha256": "d5f5e93b4df502eab45c2827df8b3707b023f1806425670ded7ef068a2c7a308",
+      "label": "analysis",
+      "reason": "Supports the shift away from manual coding with a dated personal comparison and increased output.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 195,
+      "comment_id": 49937863,
+      "text_sha256": "7ab11ae54450c43b8bbd6976f6db491ee3f150a1160e6fa6dd693e052fe4247c",
+      "label": "commentary",
+      "reason": "Praises generic minor-fix performance without describing a concrete fix or result.",
+      "uncertain": true,
+      "alternative": "analysis",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 196,
+      "comment_id": 50065884,
+      "text_sha256": "89e9a43ad445a568d9cdd33ee2d50ff8bce475c836820024a2c60d36a19a5ccb",
+      "label": "analysis",
+      "reason": "Supports potential local-model usefulness with a reported throughput limit and workflow bottleneck.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 197,
+      "comment_id": 49878398,
+      "text_sha256": "1e014b38d2f9aa0922b8ec9f6736e0ce5dd7ee4acb5e2c63c3d9312dfa0735ad",
+      "label": "commentary",
+      "reason": "Expresses difficulty reading the writing without a specific supporting example.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 198,
+      "comment_id": 49861502,
+      "text_sha256": "4b810538c4e6d3a1ff7961b0f9af7c001d051e55691d5c9dc320340fef782945",
+      "label": "analysis",
+      "reason": "Supports the changing value of hand coding through comparisons with displaced manual skills.",
+      "uncertain": true,
+      "alternative": "commentary",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 199,
+      "comment_id": 50000946,
+      "text_sha256": "1d28ddb8e49bd5a037e5011a2425f76199c80e1f6652909d6f282c0755184b06",
+      "label": "request",
+      "reason": "Asks for additional projects that benchmark and compare language models.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 200,
+      "comment_id": 49939886,
+      "text_sha256": "9bfd76fa6b012d637df18aa5e08815eef8fc3286580ba5d2e6c07c1b1a6c248f",
+      "label": "commentary",
+      "reason": "Offers brief enthusiastic praise.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 201,
+      "comment_id": 50125664,
+      "text_sha256": "7d805cefb42a803d99c82d18cbe0c9952dc6dcb9606d9792ebaea10390ec0d4b",
+      "label": "analysis",
+      "reason": "Reports a functional self-built harness without flicker to support criticism of the competing tool.",
+      "uncertain": true,
+      "alternative": "commentary",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 202,
+      "comment_id": 50039750,
+      "text_sha256": "b5f5b24d9db658959018de3bf36f833e7ac5ab6f206273e42bec38c2c1e395c5",
+      "label": "analysis",
+      "reason": "Explains a specific S3-listing performance failure through connection-pool defaults and comparative results.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 203,
+      "comment_id": 49875263,
+      "text_sha256": "4587283e4b8dc2fe3f54790b2a043bd4e39498d693a7436659b7f82690622f3a",
+      "label": "analysis",
+      "reason": "Supports criticism of progress-update complexity with observed tool-call presentation and a UI mechanism.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 204,
+      "comment_id": 50123907,
+      "text_sha256": "3509dfb1e9f914a0b82a5a6845ea69338072627f5c82f549dd066c4e45c6a83f",
+      "label": "request",
+      "reason": "Seeks recommendations for automated code review while describing current options and costs.",
+      "uncertain": false,
+      "alternative": null,
+      "quality_checked": true
+    },
+    {
+      "csv_row": 205,
+      "comment_id": 50037316,
+      "text_sha256": "6636ea79984b6e51b89bed8a39d96dacc289555e451fee541acff959d748785f",
+      "label": "analysis",
+      "reason": "Connects a reported alien-like reaction to a specific recent math release with the implication of bewildering innovation.",
+      "uncertain": true,
+      "alternative": "commentary",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 206,
+      "comment_id": 49929771,
+      "text_sha256": "ddd6293619acd184ef04aad400e18691e7e80c2de849fa8329391680522f49cf",
+      "label": "analysis",
+      "reason": "Identifies benchmark limitations through its one-shot tasks, single-model backend, and static snapshot.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 207,
+      "comment_id": 49938259,
+      "text_sha256": "068ed0151797675df065f0a0aa243b22d04c4e1c6c4e1d900b324db145429681",
+      "label": "commentary",
+      "reason": "Expresses appreciation and mentions a similar family project.",
+      "uncertain": false,
+      "alternative": null,
+      "quality_checked": true
+    },
+    {
+      "csv_row": 208,
+      "comment_id": 50069698,
+      "text_sha256": "4c25539e618e9f16b57254a47fd37c1656a2b863ca6072c9633cb75d66af4b00",
+      "label": "commentary",
+      "reason": "Uses a rhetorical credit-card analogy to express suspicion about sharing API keys.",
+      "uncertain": true,
+      "alternative": "request",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 209,
+      "comment_id": 50022562,
+      "text_sha256": "19ef6da9e8264e88fbe82bf9095bb17eb07abd0125dd7178c828ddc048ea8f45",
+      "label": "analysis",
+      "reason": "Supports mobile-accessibility criticism with specific rendering and zoom failures in the Android app.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 210,
+      "comment_id": 49875332,
+      "text_sha256": "251e2c850c7ef0fc67f124a88318efd3c5aa8619b22c5f785299d078b6580941",
+      "label": "analysis",
+      "reason": "Reports covering more work within five-hour sessions as support for improved token efficiency.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 211,
+      "comment_id": 50011572,
+      "text_sha256": "b96f94cf11c2a0442d9d421c9ab4221066ebda6268379bec39e08eafc4fe839e",
+      "label": "commentary",
+      "reason": "Offers an unsupported accusation through a rhetorical question.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 212,
+      "comment_id": 49808135,
+      "text_sha256": "d8c146bcae6ff4177685e272a5a7440a6fa957294d1c711086521b546dca3501",
+      "label": "analysis",
+      "reason": "Supports the outdated-benchmark claim with the specific versions used by both labs.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 213,
+      "comment_id": 49810660,
+      "text_sha256": "f79bf7f9b0f502ede8be7c2029cf837fa2e739eb918f26eb1fccc3ecb11aaf49",
+      "label": "analysis",
+      "reason": "Explains similar practical costs through a reported comparison of token use between models.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 214,
+      "comment_id": 49848239,
+      "text_sha256": "c75be957c463210962254864b8b0f0b0d9abf00a7a133f18d320a3926407d1e2",
+      "label": "commentary",
+      "reason": "Makes a wordplay joke about bloom.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 215,
+      "comment_id": 49938699,
+      "text_sha256": "3b02a779ae645a851a63fbcded5c01650185703cc37f50a6914d5bac17d40589",
+      "label": "commentary",
+      "reason": "Combines praise with an unsupported expression of discomfort.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 216,
+      "comment_id": 49996502,
+      "text_sha256": "60796164b77c58e67a962951ac56aa61b616fdc795a0a8a454a7188d72a1c5f9",
+      "label": "analysis",
+      "reason": "Supports the pricing assessment with quoted rates, context thresholds, and competitor comparisons.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 217,
+      "comment_id": 50069554,
+      "text_sha256": "b6410fbbf9fb524ef354331593a2db9aa1dbc3e5399bf5e35f453e7c39edd1e0",
+      "label": "analysis",
+      "reason": "Supports workflow suitability by explaining furniture calculations, agent integration, and CAD export paths.",
+      "uncertain": true,
+      "alternative": "commentary",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 218,
+      "comment_id": 49859054,
+      "text_sha256": "26306dde6671a2c0dd60cc6583648299a5f9d5da1c72b97d7f13e07633cbda92",
+      "label": "commentary",
+      "reason": "Promotes a chess variant with a resource link.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 219,
+      "comment_id": 50091040,
+      "text_sha256": "0f0c04de5f6d43677e51faa2208402ead4a341e6a4a17db99b68a4dbee4d1ee5",
+      "label": "commentary",
+      "reason": "Expresses hope for future effectiveness on a specific low-memory Mac.",
+      "uncertain": true,
+      "alternative": "request",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 220,
+      "comment_id": 49938643,
+      "text_sha256": "86dabb850bca1d1287ff3a15596723801b7fc4d00d81305d5978c7935af90e2e",
+      "label": "analysis",
+      "reason": "Supports concern about the reported bill with a comparison to personal subscription token usage.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 221,
+      "comment_id": 49939831,
+      "text_sha256": "0f67e2519edfb519369cead1da3c11686df768c86cc987f57dffe7fb4f45e232",
+      "label": "commentary",
+      "reason": "Offers broad model-quality impressions without a specific task, measurement, or developed mechanism.",
+      "uncertain": true,
+      "alternative": "analysis",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 222,
+      "comment_id": 49804935,
+      "text_sha256": "975635f821a2d142ddcd246b2695f809a16cbcfe81c1b4bc7fdd7b4be78b2a2c",
+      "label": "commentary",
+      "reason": "Mocks quoted wording without developing a substantive supported assessment.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 223,
+      "comment_id": 50103798,
+      "text_sha256": "dffcad59714045b9119c3d82de7ce719a8b44a3572d8b22bff2ce4ab7c921fae",
+      "label": "commentary",
+      "reason": "Shares a maker forum and describes participants without developing an analytical claim.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 224,
+      "comment_id": 49857136,
+      "text_sha256": "e9aec11c1819ee5690ca57f2bc7f55795f9b0426a91628b22ba27601fedf4071",
+      "label": "commentary",
+      "reason": "Asserts that people skip research without specific supporting observations.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 225,
+      "comment_id": 49939558,
+      "text_sha256": "378a374914424be6f08fae9f106810858e5ced4b9ba2cffc53efb716447eca4b",
+      "label": "commentary",
+      "reason": "Expresses anger and dislike.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 226,
+      "comment_id": 49858551,
+      "text_sha256": "6d44a659d720adb14a7e122d07d489d753fe62611af70ad55bf5ddd807c6a81e",
+      "label": "commentary",
+      "reason": "Shares enthusiasm about AI games and unsupported impressions of card-counting ability.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 227,
+      "comment_id": 49881657,
+      "text_sha256": "bbf807a28eddce690ed9d801081fa2f727f13ae3a63eed6b345902679145d9ef",
+      "label": "request",
+      "reason": "Asks whether vision input consumes more tokens than notation.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 228,
+      "comment_id": 50075338,
+      "text_sha256": "a005bff904a07a29b9e1b93bd5bae802b91e675bfd724278458bb42be6a74921",
+      "label": "analysis",
+      "reason": "Provides a concrete Mac command supporting an audiobook alternative that requires no API key.",
+      "uncertain": true,
+      "alternative": "commentary",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 229,
+      "comment_id": 49858824,
+      "text_sha256": "5006e169a53664b70bace7bbeb6f6fc4cdcc7d826887d47196db3ec0cbf5c710",
+      "label": "commentary",
+      "reason": "Expresses a preference for concise AI reports without a specific supporting example.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 230,
+      "comment_id": 49858329,
+      "text_sha256": "11251724e52c016c9e97e60e3dcc9a4a2fd43c1d8de2fa8aaee4203f503a44b6",
+      "label": "request",
+      "reason": "Asks whether the skills were handwritten or generated from prompts.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 231,
+      "comment_id": 49858722,
+      "text_sha256": "1095d4448b9f60928dcc8473705fb00d16fe3551f3aed49fdae00b32d9ff76f2",
+      "label": "commentary",
+      "reason": "Offers harsh judgments about skill files and AI-written prompts without specific supporting results.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 232,
+      "comment_id": 50077447,
+      "text_sha256": "b228e05d06d2f5ce6de1aab619e92d559d6e0117f001b4e39c639abf8d0f459e",
+      "label": "commentary",
+      "reason": "Uses rhetorical questions to complain generally about terminology and clickbait.",
+      "uncertain": true,
+      "alternative": "request",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 233,
+      "comment_id": 49826586,
+      "text_sha256": "6ffb18ae74911e0b39e7125653cb84b14557584c28a2c58cd1b01f4084df881d",
+      "label": "analysis",
+      "reason": "Supports adaptation to AI with specific changes in coding responsibilities and newly feasible projects.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 234,
+      "comment_id": 49943804,
+      "text_sha256": "43b6eb32c8e06200d343653cdaa01c73710981a8dd8bdfbce6b1df79c02655e8",
+      "label": "commentary",
+      "reason": "Expresses affection for a model and describes an integration without a supported performance claim.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 235,
+      "comment_id": 49931576,
+      "text_sha256": "dd5600a8de9db832f5d0e5a31f82c65b62569dd021a34227ccf1c345923e0ace",
+      "label": "analysis",
+      "reason": "Supports criticism of the webpage with a reported Android experience of at most five frames per second.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 236,
+      "comment_id": 49884135,
+      "text_sha256": "aee220413f10b8224a1af21c53d8557199f5a22df3f8dfc117944a22c165e30e",
+      "label": "commentary",
+      "reason": "Expresses that chat feels limiting and shares a repository without explaining the limitation.",
+      "uncertain": true,
+      "alternative": "analysis",
+      "quality_checked": true
+    },
+    {
+      "csv_row": 237,
+      "comment_id": 49803976,
+      "text_sha256": "94d9622e9c1f23067a5330ec5949d334256831b150917cf7c766f3d1d446a20a",
+      "label": "commentary",
+      "reason": "Makes a sarcastic joke about skipped version numbers and plateauing.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 238,
+      "comment_id": 50027461,
+      "text_sha256": "2846d8e2a4dbe781a8d9fb8057b181100e840b2b41ec9f87aeace7e8a10f233f",
+      "label": "commentary",
+      "reason": "Offers a brief comparison to Clippy without developing a supported claim.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 239,
+      "comment_id": 50125371,
+      "text_sha256": "7f7d85b1860410f8d4476145acc8cd3fc34d8aa66b513f6baddb1b6361257541",
+      "label": "commentary",
+      "reason": "Makes an unsupported accusation about token-selling incentives and dismisses the post.",
+      "uncertain": false,
+      "alternative": null
+    },
+    {
+      "csv_row": 240,
+      "comment_id": 50012031,
+      "text_sha256": "d8cbcccf8e43723265f5f84a35e7ef1c20b4e301de8eb1b62a3f25e08c676995",
+      "label": "commentary",
+      "reason": "Expresses general approval of coding performance without a specific task or outcome.",
+      "uncertain": false,
+      "alternative": null,
+      "quality_checked": true
+    }
+  ],
+  "review_confirmation": {
+    "status": "Student confirmed review of all 200 proposed labels",
+    "recorded_at_utc": "2026-10-18T06:57:39.575796+00:00",
+    "imported_records": 200,
+    "labels_changed_from_initial_draft": 0,
+    "reviewed_worksheet_sha256_at_import": "cf5838c5e79f7f77c9e6b6bb5a5eae7d8747811f225ffef7a8d63f6dfcc48d86",
+    "labels_csv_sha256_after_import": "a1d5ff65d441c25c37f1333f1db47e4c5859990f3bb4b781c146d1eb4cadce84"
+  }
+}

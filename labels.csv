@@ -154,8 +154,8 @@ There are already an insane amount of ""common sense"" improvements to most offi
 "I think GitHub repos should have a new tag listing the model used to write it along with the token cost.
 
 I don’t want to bother reading anything sub-Fable, and this one looks sub-Fable.",request,AI-prelabelled; reviewed by student
-"Token spend is noticeably less than Opus 5, I can't really tell if it's better though.",,
-I hope my competitors do code review this way.,,
+"Token spend is noticeably less than Opus 5, I can't really tell if it's better though.",analysis,AI-prelabelled; reviewed by student
+I hope my competitors do code review this way.,commentary,AI-prelabelled; reviewed by student
 "Hi there :-)
 
 New on HN, first time posting, and (I guess) my post on Show HN was rejected...
@@ -178,28 +178,28 @@ Long story short: using GPT-6 Astra and Opus 5.5, I've managed to create a pytho
 
 I've packed it all as a dockerized web app for others to try and experiment, with several providers (and agents) to choose from: OpenAI, Claude and OpenRouter.
 
-I'd really appreciate feedback and comments, let's see where this goes =)",,
+I'd really appreciate feedback and comments, let's see where this goes =)",request,AI-prelabelled; reviewed by student
 "Not so long ago I read something on HN which resonated with me: we’re moving into the era that is comparable to car mechanics enthusiasts. You have a previous generation of cars where people just enjoy working on with hand tools, and there’s modern cars where people like to tune with software patches.
 
 From the very start of llms I’ve had nothing but bad experiences with code that was generated for me. Either it’s buggy, it works but I end up losing an evening on some obscure bug, or it’s full of red flags.
 
-My latest hobby project is just in a text editor with markup and that’s it. I’m also done with the augmented assistance in the IDE. I google things I forgot. I constantly read these amazing stories of people vibe-coding some firmware/driver that just works, and honestly I’m starting to question whether I’m reading the posts of some promotional bot.",,
-Could it be that the companies have nerfed the models on these domains? It is a very hard thing to do because it can hurt related domains. But its not beyond the ideology of Dario - he tried it publicly .,,
+My latest hobby project is just in a text editor with markup and that’s it. I’m also done with the augmented assistance in the IDE. I google things I forgot. I constantly read these amazing stories of people vibe-coding some firmware/driver that just works, and honestly I’m starting to question whether I’m reading the posts of some promotional bot.",analysis,AI-prelabelled; reviewed by student
+Could it be that the companies have nerfed the models on these domains? It is a very hard thing to do because it can hurt related domains. But its not beyond the ideology of Dario - he tried it publicly .,request,AI-prelabelled; reviewed by student
 "Doom or Bloom for Whom?
 
 Say that I believe that AI is an ordinary technology (in the same way as the internet or transistors) that will be used to concentrate massive amounts of wealth and power into a small set of unaccountable oligarchs and their handmaidens while everyone else gets endless enshittification.
 
-Pretty great outcome if you're one of the lucky few. Why wouldn't Musk or Andreesen think that's ""bloom""? The exact same outcome OTOH seems pretty doom to me (a random dude)",,
-"Onshape, like Shapr3D, is based on Parasolid and works on  desktop and mobile. They added MCP support a few months ago and there’s a lot of people who use it professionally for cabinetry etc. Even before they added MCP support, the way everything can be customized through the FeatureScript language has led to libraries of custom features for woodworking. If everything you’re working on is for fun (non-commercial), your Onshape license is free.",,
-I use blender,,
+Pretty great outcome if you're one of the lucky few. Why wouldn't Musk or Andreesen think that's ""bloom""? The exact same outcome OTOH seems pretty doom to me (a random dude)",analysis,AI-prelabelled; reviewed by student
+"Onshape, like Shapr3D, is based on Parasolid and works on  desktop and mobile. They added MCP support a few months ago and there’s a lot of people who use it professionally for cabinetry etc. Even before they added MCP support, the way everything can be customized through the FeatureScript language has led to libraries of custom features for woodworking. If everything you’re working on is for fun (non-commercial), your Onshape license is free.",analysis,AI-prelabelled; reviewed by student
+I use blender,commentary,AI-prelabelled; reviewed by student
 "> One colleague said slowing down does lower your error rate, but mostly because you're doing less of everything
 
-That’s not how rates work",,
-"I think this makes a lot of sense for tutorials, but permission prompts need different treatment. Besides pointing to a button, the assistant should explain what clicking it will do, so the user can make their own decision.",,
-"Honestly, I’m more worried about losing my SSD especially with where the prices are today. Pretty sure this is going to put a lot of strain on it.",,
+That’s not how rates work",analysis,AI-prelabelled; reviewed by student
+"I think this makes a lot of sense for tutorials, but permission prompts need different treatment. Besides pointing to a button, the assistant should explain what clicking it will do, so the user can make their own decision.",request,AI-prelabelled; reviewed by student
+"Honestly, I’m more worried about losing my SSD especially with where the prices are today. Pretty sure this is going to put a lot of strain on it.",commentary,AI-prelabelled; reviewed by student
 "I think the industry is freaking out about open weights models in general, if not specifically DeepSeek. That is why we're now on the ~4th call for pacing the frontier from the very people who, if they wanted to pace the frontier, would simply do it rather than asking Washington to get involved.
 
-And it's why people like Hillary Clinton have been trotted out to talk about the dangers of open weights models -- I mean, does she even know what that phrase means? (I know HRC is a controversial figure and I'm not bringing her up for that purpose; I just note that she and other prominent retired politicians are now doing the circuit on Anthropic's behalf.)",,
+And it's why people like Hillary Clinton have been trotted out to talk about the dangers of open weights models -- I mean, does she even know what that phrase means? (I know HRC is a controversial figure and I'm not bringing her up for that purpose; I just note that she and other prominent retired politicians are now doing the circuit on Anthropic's behalf.)",analysis,AI-prelabelled; reviewed by student
 "Ha ha, I love it! I wrote a pointing hand annotation overlay in PostScript in 1989 for NeWS and the PSIBER Space Deck's Pseudo Scientific Visializer:
 
   %  @(#)handy.ps
@@ -219,52 +219,52 @@ https://youtu.be/_fqCeuue5Ac?t=213
 
 The Shape of PSIBER Space: PostScript Interactive Bug Eradication Routines — October 1989:
 
-https://medium.com/@donhopkins/the-shape-of-psiber-space-oct... (https://medium.com/@donhopkins/the-shape-of-psiber-space-october-1989-19e2dfa4d91e)",,
+https://medium.com/@donhopkins/the-shape-of-psiber-space-oct... (https://medium.com/@donhopkins/the-shape-of-psiber-space-october-1989-19e2dfa4d91e)",analysis,AI-prelabelled; reviewed by student
 "At what point is it no longer being a woodworker?  Ai does the design and the modeling work.  A robot actually does the cutting.
 
-Isn’t this closer to being an architect or a designer now?",,
-"I'm sorry, what is a harness, compared to a complete Web LLm ""chat"" like Mistral Vibe ?",,
-"This is a really interesting idea. I've never seen something unique like this in a long time, thank you for sharing!",,
-That's really fun ! thanks for sharing !,,
-"This is great for personal projects, but at work chances are someone will have completely rewritten/refactored/rearchitected everything I'd built up a good mental model of next time I blinked.",,
+Isn’t this closer to being an architect or a designer now?",analysis,AI-prelabelled; reviewed by student
+"I'm sorry, what is a harness, compared to a complete Web LLm ""chat"" like Mistral Vibe ?",request,AI-prelabelled; reviewed by student
+"This is a really interesting idea. I've never seen something unique like this in a long time, thank you for sharing!",commentary,AI-prelabelled; reviewed by student
+That's really fun ! thanks for sharing !,commentary,AI-prelabelled; reviewed by student
+"This is great for personal projects, but at work chances are someone will have completely rewritten/refactored/rearchitected everything I'd built up a good mental model of next time I blinked.",analysis,AI-prelabelled; reviewed by student
 "It's quite good and the labs are definitely scared, that's why they are lowering API prices and continuing to subsidize subscription plans aggressively to keep anyone from using this stuff.
 
-That said, has anyone else found DS models to be unpolished? They seem to ""lose their mind"" a lot more often than Claude/GPT. I have tried all of the top open source models that came out over the past ~4 months or so and the GLM models (5.2, 5.3, and 5.3-Flash) have been much more usable for me. They feel like Opus but X months ago, DS feels like something else.",,
-How much of this can change if subsequent training runs produce models that are much better at abduction?,,
+That said, has anyone else found DS models to be unpolished? They seem to ""lose their mind"" a lot more often than Claude/GPT. I have tried all of the top open source models that came out over the past ~4 months or so and the GLM models (5.2, 5.3, and 5.3-Flash) have been much more usable for me. They feel like Opus but X months ago, DS feels like something else.",request,AI-prelabelled; reviewed by student
+How much of this can change if subsequent training runs produce models that are much better at abduction?,request,AI-prelabelled; reviewed by student
 "Why ruin the fun of a hands-on project with computers? I'm also a hobbyist woodworker/DIYer and enjoy the drawing aspect, thinking through the space, the dimensions, etc. and drawing that out with pencil and paper. Its relaxing and by nature disconnected. I'm not on the clock and trying to build things for customers so speed isn't necessary. The level of accuracy in software is thrown out the window when you start dealing with actual wood that has grain, knots, different sizes, etc. I find myself making adjustments in the shop as a project progresses where fine measurements on paper are mostly useless.
 
-I would argue if you're building plans to make a lot of repeatable items, then you're beyond hobby level.",,
+I would argue if you're building plans to make a lot of repeatable items, then you're beyond hobby level.",analysis,AI-prelabelled; reviewed by student
 "Sigh. Yet another harness...
 
-I'd probably check it out if it was actually called 'YAH Harness' and not [insert Chinese AI lab here] Harness",,
-I still think that AI is optimized first for the most overpaid jobs to reduce costs for the corporations and countries. What I don’t understand?,,
+I'd probably check it out if it was actually called 'YAH Harness' and not [insert Chinese AI lab here] Harness",commentary,AI-prelabelled; reviewed by student
+I still think that AI is optimized first for the most overpaid jobs to reduce costs for the corporations and countries. What I don’t understand?,request,AI-prelabelled; reviewed by student
 "This metric seems to be asking if years of research by specialists could be emulated by a few LLM api calls.  Reminds me of this meme:
 
-https://imgflip.com/i/b366vm",,
-"no AA benchmarks yet and the last chart in the announcement makes Haiku look useless vs new Sonnet pricing, interesting to see what 3rd party benchmarks show because i think Anthropic are costpertaskmaxxing here and it's going to look more like that bottom chart than the top ones.",,
+https://imgflip.com/i/b366vm",commentary,AI-prelabelled; reviewed by student
+"no AA benchmarks yet and the last chart in the announcement makes Haiku look useless vs new Sonnet pricing, interesting to see what 3rd party benchmarks show because i think Anthropic are costpertaskmaxxing here and it's going to look more like that bottom chart than the top ones.",analysis,AI-prelabelled; reviewed by student
 "Marketing.
 
 Have you guys see how aggressive is the push for enterprise use by both OpenAI and Anthropic? I had friend from a non-tech industry in Asia telling me that their company was offered free trial of the enterprise version of Claude, with trainings and such.
 
 On the other hand, DS and Z.ai, have zero to none marketing outside China. There is friction to use DS/GlM models and the ZDR is unclear, so most enterprise that has heavy AI usage hasn't move over yet. They would rather spent $200 for the peace of mind than to take the risk of being slam as a national traitor down the road (which again is another form of marketing by Big AI, trying to frame Chinese models as thiefs).
 
-So, I don't think they are not freaking out, it's just that they are addressing different market segments and reacting to the situation differently.",,
-"Appreciate the read, even if the workflow's not for me personally. I've found that I'm just not that interested in writing the code by hand now that the option to not do so is available - but I totally understand people who still want to!",,
-You only need to spend a couple of minutes talking to an LLM about chess to realize it has no understanding of the game. It will produce reasonable sounding explanations for things that are completely wrong. It will make illegal moves. It will hallucinate pieces on squares even when the entire PGN is in the context. There are no prompts you can give it to fix this. I don't really understand how you could create this skill without noticing this.,,
+So, I don't think they are not freaking out, it's just that they are addressing different market segments and reacting to the situation differently.",analysis,AI-prelabelled; reviewed by student
+"Appreciate the read, even if the workflow's not for me personally. I've found that I'm just not that interested in writing the code by hand now that the option to not do so is available - but I totally understand people who still want to!",commentary,AI-prelabelled; reviewed by student
+You only need to spend a couple of minutes talking to an LLM about chess to realize it has no understanding of the game. It will produce reasonable sounding explanations for things that are completely wrong. It will make illegal moves. It will hallucinate pieces on squares even when the entire PGN is in the context. There are no prompts you can give it to fix this. I don't really understand how you could create this skill without noticing this.,analysis,AI-prelabelled; reviewed by student
 "If anyone needs to see what 62 tokens/second looks like: https://token.qusai.pro/?speed=62
 
-Which seems sufficient for mortals who are not running gas town, but want a local model.",,
+Which seems sufficient for mortals who are not running gas town, but want a local model.",analysis,AI-prelabelled; reviewed by student
 """The result is not perfect"" as LLMs are
 
 ""The fact that it reflects on my own thinking during the game makes it interesting from a teaching point of view, so I thought it was worth sharing."" As AI the premium sycophantic scammer does
 
 ""but for me it is a much more pleasant and memorable experience than clicking around Stockfish branches""
 
-And SO much less effective than doing the harder, more tedious feeling work",,
-Needs more dimensions for net worth and social media audience size.,,
+And SO much less effective than doing the harder, more tedious feeling work",commentary,AI-prelabelled; reviewed by student
+Needs more dimensions for net worth and social media audience size.,request,AI-prelabelled; reviewed by student
 "Video game designers: 0/24 tasks.
 
-Apparently Epic thinks otherwise.",,
+Apparently Epic thinks otherwise.",commentary,AI-prelabelled; reviewed by student
 "One thing about these numbers that's absolutely shocking to me is how low the energy use is:
 
 > That model’s usage was well within our budget ($68, about 4kWh of energy use / 365 grams of carbon emissions).
@@ -273,8 +273,8 @@ The energy cost is literally 1% of the total cost. For context, 4kWh of energy w
 
 With the talk of AI data centers' impact on the world, you'd think this would be 10x to 100x the amount of energy in order to get the effects they're using here.
 
-My takeaway: the AI data center buildout is an overbuild probably at least as large as the fiber buildout that left us with so much dark fiber. If not even bigger. The only thing that will save the economy is the inability of NVIDIA and chip fabs to produce enough chips to match the buildout planned.",,
-how does it handle weird formatting in pdfs like tables or image captions? i always get trash output when doing pdf text extraction.,,
+My takeaway: the AI data center buildout is an overbuild probably at least as large as the fiber buildout that left us with so much dark fiber. If not even bigger. The only thing that will save the economy is the inability of NVIDIA and chip fabs to produce enough chips to match the buildout planned.",analysis,AI-prelabelled; reviewed by student
+how does it handle weird formatting in pdfs like tables or image captions? i always get trash output when doing pdf text extraction.,request,AI-prelabelled; reviewed by student
 "Pro photographer here. And I've counted at least ten of these photo editing apps that have appeared in the last year, many of them in the last few months. All of them LLM-assisted or completely vibe coded.
 
 They definitely work but...
@@ -283,51 +283,51 @@ Unlike Lightroom or Darktable (an open source Raw editor that took years to get 
 
 To me this highlights the absurdity of AI, because enormous amounts of energy is wasted on duplicating stuff and making something new.
 
-I won't try and argue that nothing nice can come out of it, but it seems absurd to me to waste so much energy as a species this way. I wouldn't be surprised if there were a hundred more of these apps in another year.",,
+I won't try and argue that nothing nice can come out of it, but it seems absurd to me to waste so much energy as a species this way. I wouldn't be surprised if there were a hundred more of these apps in another year.",analysis,AI-prelabelled; reviewed by student
 "Based on my own experience working on AI-based solutions for one of the better-covered job families according to this map, I think 90% might be overstating the case. It's true that we've got a lot of published benchmarks, but they tend to cover the lowest value add tasks.
 
-It's really easy to fall into the McNamara fallacy when rolling out these kinds of solutions. Focusing on the low value stuff is attractive. It tends to be easier to do, and also easier to quantify outcomes. But it also tends to direct attention away from important but difficult to quantify considerations, which may mean you don't notice negative externalities. So we often found ourselves in a verschilmmbessern situation where automating what we could automate made things worse overall.",,
+It's really easy to fall into the McNamara fallacy when rolling out these kinds of solutions. Focusing on the low value stuff is attractive. It tends to be easier to do, and also easier to quantify outcomes. But it also tends to direct attention away from important but difficult to quantify considerations, which may mean you don't notice negative externalities. So we often found ourselves in a verschilmmbessern situation where automating what we could automate made things worse overall.",analysis,AI-prelabelled; reviewed by student
 "I was laid off in April and decided to switch profession a bit. Move from creating things that can only be seen on screen to things that can be touched and be helpful. The pay is not good, but working on real things side by side with people, cursing loudly when it doesn't work and cheering each other when it does instead of ""as-per-my-last-email""ing and nitpicking on PRs made my life feel more fulfilled. Soldering fumes and metal particles maybe aren't good for my health, but so was a sitting lifestyle. Now I almost don't touch a PC at work, my screentime is lowest in the last 5 years, grease replaced a moisturizing hands cream, but I no longer care about LLM/Diffusion slop that much.
 
-So, if you want to continue programming, I can only advise to go for embedded/robotics, learn CAD (for 3D-print, CNC, PCBs, etc) and do things that can be touched. LLMs won't be able to catch up with you for a long time. You can still use LLMs to consult/rubber-duck, but they won't be able to replace you or walk the walk for you.",,
+So, if you want to continue programming, I can only advise to go for embedded/robotics, learn CAD (for 3D-print, CNC, PCBs, etc) and do things that can be touched. LLMs won't be able to catch up with you for a long time. You can still use LLMs to consult/rubber-duck, but they won't be able to replace you or walk the walk for you.",analysis,AI-prelabelled; reviewed by student
 "> It’s good at finding and fixing inefficiencies in software
 
 Holy shit! Its happening!
 
-Now if we can the AI to understand this *implicitly* so that it doesn't need to be stated upfront, we might be able to undo years of ""premature optimization is the root of all evil"".",,
-Please don't.,,
+Now if we can the AI to understand this *implicitly* so that it doesn't need to be stated upfront, we might be able to undo years of ""premature optimization is the root of all evil"".",request,AI-prelabelled; reviewed by student
+Please don't.,request,AI-prelabelled; reviewed by student
 "What advantages does this offer over Darktable, the long standing FOSS lightroom alternative?
 
-Edit: One criticism of Darktable is that it emphasizes its ""scene-referred workflow"" as opposed to a ""display-referred workflow"" like Lightroom does, making it not a true Lightroom alternative. Seems like this also happens to be written in C++ and also uses a scene-referred workflow? Quite the coincidence. How much of the important design decisions (or implementation) are just copied from Darktable?",,
+Edit: One criticism of Darktable is that it emphasizes its ""scene-referred workflow"" as opposed to a ""display-referred workflow"" like Lightroom does, making it not a true Lightroom alternative. Seems like this also happens to be written in C++ and also uses a scene-referred workflow? Quite the coincidence. How much of the important design decisions (or implementation) are just copied from Darktable?",request,AI-prelabelled; reviewed by student
 "I did a test on this a couple weeks ago. What I found was that the chinese models were far better than API rates, but about comparable on price vs the subsidized subcription model (chatgpt). Also it was my experience that codex completed tasks quicker.
 
-That said, it's my best understanding that these american companies aren't profitable and will eventually raise rates (the old uber trick) so I'm keeping myself ready to switch when that day comes.",,
+That said, it's my best understanding that these american companies aren't profitable and will eventually raise rates (the old uber trick) so I'm keeping myself ready to switch when that day comes.",analysis,AI-prelabelled; reviewed by student
 "I'm in the incremental bloom quadrant and I knew that even before I took the test. It's not even that I'm hesitant about this. I mean, I don't know the future but the incremental bloom is by far the likeliest thing I can imagine.
 
-That being said, it strikes me as odd how empty this quadrant is. Why?",,
+That being said, it strikes me as odd how empty this quadrant is. Why?",request,AI-prelabelled; reviewed by student
 "I'm astounded that I kinda ended up building the same agentic workflow they are talking about in this article and distributed it amongst the org (eng and product/designers).
 
-On the other hand, I would have expected Anthropic to have a drastically more elegant SDLC.",,
-"Here I am still unable to stop myself from doing line-by-line code review. I notice too many things (redundant code, duplicate code, overly complex architecture, etc.) by doing it that I feel it would be careless not to.",,
+On the other hand, I would have expected Anthropic to have a drastically more elegant SDLC.",commentary,AI-prelabelled; reviewed by student
+"Here I am still unable to stop myself from doing line-by-line code review. I notice too many things (redundant code, duplicate code, overly complex architecture, etc.) by doing it that I feel it would be careless not to.",analysis,AI-prelabelled; reviewed by student
 "I deliberately used non-emotive language and didn't explicitly hint at how I see things evolving with AI – otherwise what's the point if it's just telling me what I already know?
 
 Instead I tried to stick to my view on both current and future capabilities of AI, and how it's likely to progress in the coming years.
 
 My result was closed to Hinton which isn't that reflective of my actual view (I'd put doom at around 99% at this point). But that's probably just because of how I answered.
 
-I like it though! Especially how it clearly exposes how unreasonable Ed Zitron is, and perhaps myself =)",,
-Another slop project on front page.,,
-Without pacing we would have had Opus 6.. damn it! /s,,
+I like it though! Especially how it clearly exposes how unreasonable Ed Zitron is, and perhaps myself =)",analysis,AI-prelabelled; reviewed by student
+Another slop project on front page.,commentary,AI-prelabelled; reviewed by student
+Without pacing we would have had Opus 6.. damn it! /s,commentary,AI-prelabelled; reviewed by student
 "How well does it handle larger files? And other book formats, like epub or mobi?
 
-I'd love to see an actual result what it can do",,
+I'd love to see an actual result what it can do",request,AI-prelabelled; reviewed by student
 "You could also download my free chess app that hooks up to Claude for real time game analysis or chat about the game. 
-https://pwalessi.itch.io/chess-buddy",,
-Is this cheaper or better then just using openrouter and every other harness / tui out there?,,
-"Switch your hobby to Chess. AIs are not taking it over anymore than they already have, lol. The Chess community has reached equilibrium and lives happily with its AI overlords pointing their pitiful moves.",,
-How does this compare with Gimp? Dramatically better or just a thing you do because you can.,,
-I think the more interesting thing is was it unable to do it even knowing the solution? I feel like only testing a single innovation is biasing the current state of automated AI R&D.,,
-That's so cool!,,
+https://pwalessi.itch.io/chess-buddy",commentary,AI-prelabelled; reviewed by student
+Is this cheaper or better then just using openrouter and every other harness / tui out there?,request,AI-prelabelled; reviewed by student
+"Switch your hobby to Chess. AIs are not taking it over anymore than they already have, lol. The Chess community has reached equilibrium and lives happily with its AI overlords pointing their pitiful moves.",commentary,AI-prelabelled; reviewed by student
+How does this compare with Gimp? Dramatically better or just a thing you do because you can.,request,AI-prelabelled; reviewed by student
+I think the more interesting thing is was it unable to do it even knowing the solution? I feel like only testing a single innovation is biasing the current state of automated AI R&D.,request,AI-prelabelled; reviewed by student
+That's so cool!,commentary,AI-prelabelled; reviewed by student
 "I have/am having many adjacent experiences, and after having all of my angst and rage and confusion at a particlarly horrible techno cluster fuck, waved away by a pretty barista, we remain flirtatious, I kept comming back to the moment she brought me back, and realised that what I was suffering was much worse than and ordinary or extrodinary personal issue with technology, what I am working through is a complete loss of faith, that was so fundamental to my bieng that I didnt see it, raised by scientists, and academics,medical people, and engineers, part of the first generation to have computers in grade school
 an early adopter of everything and quite certain of my ability to understand and control the technology around me, to finding that the presets are non optional, and the twits think mightily of themselves for standing in front of things taking selfies of the acomplishments.
 still not as bad as soul, gospel and bluesman I know who has to be nice while rando's force him to listen to the 'music' the song they made with ai.
@@ -335,12 +335,12 @@ so back to the girl who brought me back, to our still overarching analog reality
 am delegating or ignoring most of the internet,even better now that I have java script,dom storage and all images dissabled.
 physical things, a couple of dreadnought acoustic guitars strung with 13's, bushwacking with no device, hard work, good food, no fucks to give about technology or what people think
 
-sound vaugely familiar?",,
-Pretty neat how far these small models have come. Running them locally in the browser feels like magic for quick experiments.,,
+sound vaugely familiar?",analysis,AI-prelabelled; reviewed by student
+Pretty neat how far these small models have come. Running them locally in the browser feels like magic for quick experiments.,commentary,AI-prelabelled; reviewed by student
 "I agree. A lower barrier entry at a significant cost to society.
 
-I wish there was a way to metric creativity, strategy and effort.",,
-"In my experience it just takes so much longer to arrive at ""done"" state for me. It thinks for soooooo long. I guess if you're running 12 sessions at once you don't really notice.",,
+I wish there was a way to metric creativity, strategy and effort.",commentary,AI-prelabelled; reviewed by student
+"In my experience it just takes so much longer to arrive at ""done"" state for me. It thinks for soooooo long. I guess if you're running 12 sessions at once you don't really notice.",analysis,AI-prelabelled; reviewed by student
 "I've tested different ways to use agents to model stuff from images with accuracy. Maybe this is something that can help or give you ideas: https://janne-alatalo.fi/en/articles/silhouette-modeling/
 
 If you have some physical reference, for example a coffee table, you can create an accurate 3D model of that quickly. The agent creates model that can be converted to STEP format and opened with any CAD software.
@@ -349,36 +349,36 @@ This might help you? You get a good model that you can start editing towards you
 
 Here is agent skill that works with OpenAI models and Codex https://github.com/janne-alatalo/image-to-cad-skill
 
-Basically you take few pictures. Three is usually enough of furnitures. The agent uses the pictures to find the exact camera poses and creates a 3D model that minimizes the difference between the object's silhouette in images and in the 3D-model when projected with the virtual cameras to the 2D planes. The agents create the model with python scripts. First using numpy for faster optimization and finally CadQuery for easy exports to CAD formats.",,
+Basically you take few pictures. Three is usually enough of furnitures. The agent uses the pictures to find the exact camera poses and creates a 3D model that minimizes the difference between the object's silhouette in images and in the 3D-model when projected with the virtual cameras to the 2D planes. The agents create the model with python scripts. First using numpy for faster optimization and finally CadQuery for easy exports to CAD formats.",analysis,AI-prelabelled; reviewed by student
 "Smol was the only one to answer a basic question about javascript correctly, but I loved this answer from L20 Edu:
 
 Prompt: I'm writing a vanilla javascript and HTML text adventure game. The player will use the keyboard to switch between screens or to choose storylet options in the main screen. Game is turn-based. What is the the best method in javascript to detect keypresses?""
 
-Answer: I'm a good player. Anyway, I'm a good player. Anyway, I'm a good player. Anyway, I'm a good player. Anyway, I'm a good player. Anyway, I'm a good player. Anyway, I'm a good player. Anyway, I'm a good player. Anyway,",,
-"Any estimates for token costs to generate these models? Curious about costs for Astra, Opus and Jev for some of the examples you have in the video.",,
-zoodev?,,
-Up next: a tool that converts a photograph of your dumped bin of old Lego into a catalogue of all the Lego in your collection..,,
-"Worse still most of the cost savings from AI in software development is primarily due to labor inefficiency, such as tasks more efficiently accomplished in other ways. Most of that is due to development reliance on inefficient conventions to cover for poor training and emotional insecurity. No matter how you slice it it’s always human capital problem more than a technology problem.",,
-"The only outcome I see is that AI will become so complex that we won’t be able to rely on it for R&D, because we won’t be able to measure and prove its results. Some AI collaboration and speed of work will be impossible for humans to replicate, making it neither good nor bad—just something beyond human ability.",,
-"Deepseek V4.1 Flash is a hidden gem, really. Not to mention, you can easily get it through many providers that offer zero data retention and consistent speeds above 200 tokens per second!",,
+Answer: I'm a good player. Anyway, I'm a good player. Anyway, I'm a good player. Anyway, I'm a good player. Anyway, I'm a good player. Anyway, I'm a good player. Anyway, I'm a good player. Anyway, I'm a good player. Anyway,",analysis,AI-prelabelled; reviewed by student
+"Any estimates for token costs to generate these models? Curious about costs for Astra, Opus and Jev for some of the examples you have in the video.",request,AI-prelabelled; reviewed by student
+zoodev?,commentary,AI-prelabelled; reviewed by student
+Up next: a tool that converts a photograph of your dumped bin of old Lego into a catalogue of all the Lego in your collection..,request,AI-prelabelled; reviewed by student
+"Worse still most of the cost savings from AI in software development is primarily due to labor inefficiency, such as tasks more efficiently accomplished in other ways. Most of that is due to development reliance on inefficient conventions to cover for poor training and emotional insecurity. No matter how you slice it it’s always human capital problem more than a technology problem.",commentary,AI-prelabelled; reviewed by student
+"The only outcome I see is that AI will become so complex that we won’t be able to rely on it for R&D, because we won’t be able to measure and prove its results. Some AI collaboration and speed of work will be impossible for humans to replicate, making it neither good nor bad—just something beyond human ability.",analysis,AI-prelabelled; reviewed by student
+"Deepseek V4.1 Flash is a hidden gem, really. Not to mention, you can easily get it through many providers that offer zero data retention and consistent speeds above 200 tokens per second!",analysis,AI-prelabelled; reviewed by student
 "> Don’t just let it research something, accept its results as facts and plan from there. This will lead to embarrassing technical dept.
 
-I assume that is a typo and he meant “debt” but it is very, very funny, and  true on a profound level.",,
+I assume that is a typo and he meant “debt” but it is very, very funny, and  true on a profound level.",commentary,AI-prelabelled; reviewed by student
 "Given that some are now reversing all closed software using LLMs, it should be now finally worth reversing the whole of Nvidia’s closed source software, drivers and blobs, including CUDA.
 
-No excuses this time.",,
+No excuses this time.",request,AI-prelabelled; reviewed by student
 "> Claude Code lives in its own repository, separate from the monorepo
 
-I have some bad news about that ""monorepo"" designation.",,
+I have some bad news about that ""monorepo"" designation.",commentary,AI-prelabelled; reviewed by student
 "Similar, simpler: https://tiny.tobelabs.com/
 
 Small LM trained on Tiny Stories. My first goal was to get people to see tokens from the model ASAP, the second was to demo Tiny Stories for those who may be unfamiliar. Oh and play with ternary models. https://arxiv.org/abs/2305.07759
 
-There's larger QA model on the same page too.",,
-"Just a note that this is not novel. Automatic analysis of chess games built on traditional engines has existed for a long time. Without using stockfish as a sidekick, this wouldn’t be interesting because of the poor play of LLMs, however having an LLM enhance the commentary is interesting and I suspect has already been done by chess.com for years.",,
+There's larger QA model on the same page too.",commentary,AI-prelabelled; reviewed by student
+"Just a note that this is not novel. Automatic analysis of chess games built on traditional engines has existed for a long time. Without using stockfish as a sidekick, this wouldn’t be interesting because of the poor play of LLMs, however having an LLM enhance the commentary is interesting and I suspect has already been done by chess.com for years.",analysis,AI-prelabelled; reviewed by student
 "Master painters hated the first cameras. It was not considered art. People who use a DAW in their bedrooms aren't considered musicians by the classically trained. But think of the importance of Earthrise by William Anders. Or even Skrillex. He may not be your cup of tea, but he got paid (net worth estimated to be $70 million).
 
-Each advance in technology lowers the threshold of entry into any hobby or profession. And the people who ""paid the price"" or ""did it the hard way"" resent people who find a way to crowd in without all the suffering and sacrifice. It's a very valid feeling. It won't stop innovation, however. We're just stuck in the middle of the transition phase and it's going to be a bumpy ride.",,
+Each advance in technology lowers the threshold of entry into any hobby or profession. And the people who ""paid the price"" or ""did it the hard way"" resent people who find a way to crowd in without all the suffering and sacrifice. It's a very valid feeling. It won't stop innovation, however. We're just stuck in the middle of the transition phase and it's going to be a bumpy ride.",analysis,AI-prelabelled; reviewed by student
 "I have been using DeepSeek 4.1 flash intensively for over a month. If I run it all day long it costs $1-2. Its fast. Previously I was always quickly running up to my Claude/Codex 5 hour window (on the $20/month plan). The cost savings of DeepSeek is real as shown in this article and I am using subsidized plans.
 
 DeepSeek is horrible at grilling sessions (the /grill* skills to make technical decisions). It doesn't know how to explain things. Maybe the skill could be adjusted. It also doesn't come up with as good solutions as Opus/Sol.
@@ -396,30 +396,30 @@ Previously I planned with Opus/Sol/Astra and then I used DeepSeek for coding, an
 
 They are all working together in Pi using the extension @tintinweb/pi-subagents where my workflow skill is calling different subagents that use different models.
 
-Luna is cost competitive, but doesn't score as well on intelligence. I do need the intelligence for most of what I use it for, so I am not motivated to use Luna. Haiku also doesn't seem like a competitive price/performance mix.",,
-"Every model I just tried in here gave me very nonsensical hallucinations, or immediately fell into a loop. Not the best examples of what Petite GPTs (as one is called) can do, I hope.",,
-That's what I thought until August. Used it for half a year almost exclusively. But after the API price increase I'm back at the Claude Pro and Kimi subscriptions.,,
+Luna is cost competitive, but doesn't score as well on intelligence. I do need the intelligence for most of what I use it for, so I am not motivated to use Luna. Haiku also doesn't seem like a competitive price/performance mix.",analysis,AI-prelabelled; reviewed by student
+"Every model I just tried in here gave me very nonsensical hallucinations, or immediately fell into a loop. Not the best examples of what Petite GPTs (as one is called) can do, I hope.",analysis,AI-prelabelled; reviewed by student
+That's what I thought until August. Used it for half a year almost exclusively. But after the API price increase I'm back at the Claude Pro and Kimi subscriptions.,analysis,AI-prelabelled; reviewed by student
 "My problem with plugins is that I don't want to install stuff from third parties. It might be malware, become unsupported, or generally have a lower quality. I rather have a curated and polished feature set out of the box.
 
-It's nice for having your AI create your own plugins. But I haven't really found the need yet.",,
-"As a chess player I feel this is fascinating although there are plenty of analysis options already on lichess on chess.com. Still, sometimes it is more about learning and curiosity. Well done.",,
-Curious how food service is at 0 tasks covered by AI. A few places have been switching to using those robots on wheels to run food to tables. And Doordash and Uber Eats have some robot and drone delivery in select markets now.,,
-100% of US working hours are spent on tasks not covered well by pen and pencil benchmarks,,
+It's nice for having your AI create your own plugins. But I haven't really found the need yet.",commentary,AI-prelabelled; reviewed by student
+"As a chess player I feel this is fascinating although there are plenty of analysis options already on lichess on chess.com. Still, sometimes it is more about learning and curiosity. Well done.",commentary,AI-prelabelled; reviewed by student
+Curious how food service is at 0 tasks covered by AI. A few places have been switching to using those robots on wheels to run food to tables. And Doordash and Uber Eats have some robot and drone delivery in select markets now.,request,AI-prelabelled; reviewed by student
+100% of US working hours are spent on tasks not covered well by pen and pencil benchmarks,commentary,AI-prelabelled; reviewed by student
 "Am I missing something here?
 
 What terminal / agentic workflows spawn the demonstrated dialogue boxes that require the User to click/reject the action? Aren't most such flows actually inline UIs? And finally, if the core issue is that these confirmation boxes are tied to the terminal that triggered them, which does not autofocus, what's the point of said ""big arrow"" that is also lurking behind without focus?
 
-If the said ""big arrow"" automatically gains focus, isn't the real fix here to just make the dialogue boxes themselves gain focus automatically? Both are similarly disruptive anyway.",,
+If the said ""big arrow"" automatically gains focus, isn't the real fix here to just make the dialogue boxes themselves gain focus automatically? Both are similarly disruptive anyway.",request,AI-prelabelled; reviewed by student
 "I think this sort of small scale research on this problem is inherently pointless and will be a lagging indicator of diffusion, not a leading indicator of capability.
 
 The Navier Stokes results used millions of dollars of tokens and thousands of parallel agents to get the result.
 
 If the AI could do this task we would see this happening in places where the economic incentives let them spend millions of dollars on this problem, not on an eval like this.
 
-This specific form of eval where you just ask the agent to solve it with no specific scaffolding besides GPU access (e.g. nothing like AlphaEvolve, ArchPilot, etc that try to work around model shortcomings) is also going to further trail what is possible at small scale. It's good that we at least give them execution environments now, but this feels like the experiments that were worked on figuring out how to get LLMs to do native arithmetic rather than just giving them a calculator/python env.",,
-I am perpetually confused about every name and version combination from both OpenAI and Anthropic. Especially in conjunction with the effort levels.,,
-I love it.,,
-Seems the models only support English. Questions in German are just echoed,,
+This specific form of eval where you just ask the agent to solve it with no specific scaffolding besides GPU access (e.g. nothing like AlphaEvolve, ArchPilot, etc that try to work around model shortcomings) is also going to further trail what is possible at small scale. It's good that we at least give them execution environments now, but this feels like the experiments that were worked on figuring out how to get LLMs to do native arithmetic rather than just giving them a calculator/python env.",analysis,AI-prelabelled; reviewed by student
+I am perpetually confused about every name and version combination from both OpenAI and Anthropic. Especially in conjunction with the effort levels.,commentary,AI-prelabelled; reviewed by student
+I love it.,commentary,AI-prelabelled; reviewed by student
+Seems the models only support English. Questions in German are just echoed,analysis,AI-prelabelled; reviewed by student
 "You are almost seeing it. If good taste and creativity is the new seperator then please tell me since when was that the strength of programmers?
 
 That's what's scary isn't it?
@@ -428,64 +428,64 @@ There are people with more good taste and creativity than you.They actually buil
 
 And that's who you need to catch up to now.
 
-Or you can dig I guess and be an artisinal programmer. There's honour in that ,I hear. Just no paycheck.",,
+Or you can dig I guess and be an artisinal programmer. There's honour in that ,I hear. Just no paycheck.",analysis,AI-prelabelled; reviewed by student
 "Great work, op.
 I have also had good experiences with Qwen3-TTS.
-Might be worthwhile to explore for everyone who wants to do longform locally.",,
+Might be worthwhile to explore for everyone who wants to do longform locally.",commentary,AI-prelabelled; reviewed by student
 "The ""everything is a plugin"" concept is also what the Juggler harness does.
 
-I'm not yet sure if it is really sensible long-term, but it is definitely now while we're still trying to figure out what exactly we want and need from LLMs and harnesses.",,
-"I don't see much of a future for these kinds of intricate harnesses, or harnessing in general for that matter. As models are getting better, harnessing will shrink until they are at the level of vanilla Pi or not even that.",,
+I'm not yet sure if it is really sensible long-term, but it is definitely now while we're still trying to figure out what exactly we want and need from LLMs and harnesses.",commentary,AI-prelabelled; reviewed by student
+"I don't see much of a future for these kinds of intricate harnesses, or harnessing in general for that matter. As models are getting better, harnessing will shrink until they are at the level of vanilla Pi or not even that.",commentary,AI-prelabelled; reviewed by student
 "> Is a cat an animal? Answer yes or no.
 >> Cats are not animals. Cats are warm-blooded animals that have a backbone and a heart. They are not mammals.
 
-Good job PetitGPT research-v1.",,
-IMO you need to pivot to higher-end software as the low-end cheap stuff is going to be gobbled up by vibe-coders,,
+Good job PetitGPT research-v1.",commentary,AI-prelabelled; reviewed by student
+IMO you need to pivot to higher-end software as the low-end cheap stuff is going to be gobbled up by vibe-coders,commentary,AI-prelabelled; reviewed by student
 "That pareto graph isn't very helpful because it shows cost per token, but some models are way more token hungry than others. There are also massive differences in speed to complete a task.
 
 My two favorite graphs are AA's A Index vs Time Per Task and AA Index vs Cost Per Task.
 
 https://artificialanalysis.ai/#intelligence-comparison-tabs
 
-https://artificialanalysis.ai/?intelligence-comparison=intel... (https://artificialanalysis.ai/?intelligence-comparison=intelligence-vs-time-per-task#intelligence-comparison-tabs)",,
+https://artificialanalysis.ai/?intelligence-comparison=intel... (https://artificialanalysis.ai/?intelligence-comparison=intelligence-vs-time-per-task#intelligence-comparison-tabs)",analysis,AI-prelabelled; reviewed by student
 "The cost of producing code has dropped to almost zero, but the cost of knowing whether that code is actually useful hasn't.
 
 I think the same is true for images, videos, and music. The cost of producing content is approaching zero, but taste, originality, judgment, and intent still matter.
 
-In a world where anyone can create almost anything, having good taste could become increasingly important.",,
-Used to be 100%...,,
-"How do i make sure it won't hack my machine?  It's open source and i can compile it on my own, but if it has a dependency, it's all it takes.",,
+In a world where anyone can create almost anything, having good taste could become increasingly important.",analysis,AI-prelabelled; reviewed by student
+Used to be 100%...,commentary,AI-prelabelled; reviewed by student
+"How do i make sure it won't hack my machine?  It's open source and i can compile it on my own, but if it has a dependency, it's all it takes.",request,AI-prelabelled; reviewed by student
 "How does it work? Does it just use stockfish under the hood?
-I just remember the times when I tried to use an AI model to play chess and half of the time it either hung a piece or made an illegal move.",,
+I just remember the times when I tried to use an AI model to play chess and half of the time it either hung a piece or made an illegal move.",request,AI-prelabelled; reviewed by student
 "This trend to sell subscription with a price for ""credits"".
 
 For a wrapper around costly LLM providers.
 
-For a result one could get with voicebox for free.",,
+For a result one could get with voicebox for free.",analysis,AI-prelabelled; reviewed by student
 "Nice job. I actually read a paper on Arxiv last year about this exact thing - using LLMs to drive model building through LDraw that might be worth reading [1].
 
 They had some interesting experiments like giving the LLM a fixed set of parts as a constraint and asked it to ""build"" tools out of those available lego.
 
 I think they were using Opus 4.5 so I'm sure with even more powerful models it'll be even better.
 
-[1] - https://arxiv.org/pdf/2512.15743",,
+[1] - https://arxiv.org/pdf/2512.15743",analysis,AI-prelabelled; reviewed by student
 "In my experience R&D has basically two axes: how innovative it is, and how well we can measure the results.
 
 For the quadrant of non-innovative tasks where we already have a good way to measure performance, Claude can handle this. There is very little ambiguity, and we are basically just looking to maximize some metric under a set of constraints.
 
 Many business processes are not like that. They might be conceptually simple, but it isn’t that easy to say whether a system has done a good job or not. I would say that LLMs can help with this a lot but they have bad judgement because it requires talking to people.
 
-And the other, perhaps more rare issue is in problems where there is data but actually modeling it to sufficient quality or fast enough is hard.",,
-Since relevant community is here - what are some of the good online resources to learn woodwork? What tools/power tools one needs to know specifically?,,
-"According to AA benchmarks, it uses 162k output tokens per task (with max reasoning) - over double GLM-5.3 Flash for similar level of Intelligence",,
-"What are the ""simulated answers"" for the public figures based on? They don't seem to be direct quotes, so I assume they're AI-generated in their voice from the sources? I'd make that more clear since you risk misrepresenting people's opinions.",,
+And the other, perhaps more rare issue is in problems where there is data but actually modeling it to sufficient quality or fast enough is hard.",analysis,AI-prelabelled; reviewed by student
+Since relevant community is here - what are some of the good online resources to learn woodwork? What tools/power tools one needs to know specifically?,request,AI-prelabelled; reviewed by student
+"According to AA benchmarks, it uses 162k output tokens per task (with max reasoning) - over double GLM-5.3 Flash for similar level of Intelligence",analysis,AI-prelabelled; reviewed by student
+"What are the ""simulated answers"" for the public figures based on? They don't seem to be direct quotes, so I assume they're AI-generated in their voice from the sources? I'd make that more clear since you risk misrepresenting people's opinions.",request,AI-prelabelled; reviewed by student
 "Really cool project. Giving web apps direct access to on-device models is something I’m excited about, and it’s cool to see the different approaches.
 
-I’ve been working on a related proposal called the Web Models API, which explores a browser standard for an API that runs open-weight models on-device. Would love your thoughts: https://www.webmodels.dev",,
+I’ve been working on a related proposal called the Web Models API, which explores a browser standard for an API that runs open-weight models on-device. Would love your thoughts: https://www.webmodels.dev",request,AI-prelabelled; reviewed by student
 "> Second, this week, we’ll roll out a new monthly API credit to all Max and Team subscribers for use on the Claude Platform. Max 5x users will get $100 in credits per month, Max 20x users will get $200, and Team subscribers will receive up to $500, pooled across their users. These credits are designed to allow our users to experiment with building tools, apps, and agents that call our API. They can be used on any of our models. For more information, see our Help Center article.
 
-Did anyone read this? We get free API credits on some plans now",,
-Why are there so many of these in the last 2 days?,,
+Did anyone read this? We get free API credits on some plans now",analysis,AI-prelabelled; reviewed by student
+Why are there so many of these in the last 2 days?,request,AI-prelabelled; reviewed by student
 "There are some issue point not properly mentioned ...
 
 * Models like DeepSeek V4.1 Flash are much cheaper on DeepSeek their API directly because of the cache handeling is better. Neuralwatt can hit up to 98% but DeepSeek can do 99.x... That may not sound like a big difference but it quickly widens the gap on long tasks to grow 2x a 3x in price. DeepSeek their cache handeling is S-tier (with a ton of features, for instance 24h caching).
@@ -500,20 +500,20 @@ To answer the questions. It was stated by the CEO himself in one of the video bl
 
 Yes, DeepSeek API is cheaper then Neuralwatt. I have done way too many comparisons between NW and other providers, regarding their prices. Over long sessions, that gap grows because of the differences in caching. You need to use the NW Flex option to reduce the impact but then your constantly waiting on responses (good for overnight work, not great in prime time).
 
-Edit 2: I am getting a little bit fed up with the people who  downvote and do not give their reasons for the downvotes.",,
-Is there a benchmark for ass-kissing or back-slapping?,,
-It’s about time Haiku got an update!,,
+Edit 2: I am getting a little bit fed up with the people who  downvote and do not give their reasons for the downvotes.",analysis,AI-prelabelled; reviewed by student
+Is there a benchmark for ass-kissing or back-slapping?,commentary,AI-prelabelled; reviewed by student
+It’s about time Haiku got an update!,commentary,AI-prelabelled; reviewed by student
 "It's great that we are finally getting bankable rate limit resets for subscription users. According to another comment here they apparently last a month.
 
 I'm assuming that subscription usage limit is increased in line with the price decrease on the base model and that it's in line with the model's API price drop. Still a good change.
 
-This is a breath of fresh air on how they treat subscription customers. Hoping they keep this up.",,
+This is a breath of fresh air on how they treat subscription customers. Hoping they keep this up.",analysis,AI-prelabelled; reviewed by student
 "> How are you all dealing with this?
 
 I'm learning a very niche trade. It involves using my hands. Very artistic. Very, very difficult to master. I don't think AI will be able to do it, at least not until they have humanoid bodies and are able to move exactly like us.
 
-The web is trash. I hate it now. Let the power grid collapse. These trillion dollar companies instantly become worthless.",,
-How are y'all using Haiku though? I rarely select it.,,
+The web is trash. I hate it now. Let the power grid collapse. These trillion dollar companies instantly become worthless.",analysis,AI-prelabelled; reviewed by student
+How are y'all using Haiku though? I rarely select it.,request,AI-prelabelled; reviewed by student
 "Its BYOK, not subscription. And this does not seem to be very robust.
 
 I did something better a while ago, a fully offline webapp:
@@ -532,24 +532,24 @@ my friends are all using it. Better how:
 
 - keepalive so you can switch tabs while it is processing
 
-Hope this helps.",,
-"Cool! Curious to hear a sample. As any regular audiobook listener knows, having a great narrator is really key.",,
-"Every few weeks, someone stumbles on what llama.cpp has had for years again, and reimplements it. I'm not sure why.",,
-"(Tree was full of apples before, easy to grab, and no one even knew it. Later we started to jump, climb and find new ways that was progressive and very exciting. All a  sudden they figure out the tree that was already running out of apples, so what. Find a new one that requires tools/skills not much people has and still valuable, it is much harder to say but you are already one of the people who can and should. Your 12 year old of your self used curiosity, passion, what ever the motive is still there, just kick start it again, find your new AOL, do your first new Geocities level project that matches today's tech.That means imo it is time for you to train your first llm, dig into how inference works. Or write your first arduboy game for fun. The new challenging stuff that they can not touch any time soon hopefully that will trigger back your curiosity and passion. Best of luck! My 2 cents.)",,
+Hope this helps.",analysis,AI-prelabelled; reviewed by student
+"Cool! Curious to hear a sample. As any regular audiobook listener knows, having a great narrator is really key.",request,AI-prelabelled; reviewed by student
+"Every few weeks, someone stumbles on what llama.cpp has had for years again, and reimplements it. I'm not sure why.",commentary,AI-prelabelled; reviewed by student
+"(Tree was full of apples before, easy to grab, and no one even knew it. Later we started to jump, climb and find new ways that was progressive and very exciting. All a  sudden they figure out the tree that was already running out of apples, so what. Find a new one that requires tools/skills not much people has and still valuable, it is much harder to say but you are already one of the people who can and should. Your 12 year old of your self used curiosity, passion, what ever the motive is still there, just kick start it again, find your new AOL, do your first new Geocities level project that matches today's tech.That means imo it is time for you to train your first llm, dig into how inference works. Or write your first arduboy game for fun. The new challenging stuff that they can not touch any time soon hopefully that will trigger back your curiosity and passion. Best of luck! My 2 cents.)",commentary,AI-prelabelled; reviewed by student
 "Short version of the article: no, not even close.
 
 Practically every paragraph is negative, with sentences like ""Agents made misleading claims about their work,"" and ""A natural question is whether the agents could have improved with larger GPU budgets. Although both improved across their runs, in the case of Fable the improvements were almost entirely due to attempted cheating."" and ""For Sol, the answer is less clear-cut; it did make some progress, although its method was fairly incremental and had limited applicability to the coding task. This suggests that we should be pessimistic about further GPU spending,"" all reinforcing the fact that LLMs aren't currently capable of this.
 
-My own view is ""No, of course not, in fact they will never be capable of achieving good results with that technique."" Because that technique will end up training the LLMs on their own output and lead to the inability to distinguish reality from hallucination. If you think I'm wrong about that, I'd be interested in hearing why.",,
+My own view is ""No, of course not, in fact they will never be capable of achieving good results with that technique."" Because that technique will end up training the LLMs on their own output and lead to the inability to distinguish reality from hallucination. If you think I'm wrong about that, I'd be interested in hearing why.",analysis,AI-prelabelled; reviewed by student
 "Why does every lab producing an LLM want to have their own harness? Lock-in? Is there any other advantage for the lab?
 
 I'm using Cursor (it's the only way my company allows us to use Grok) and OpenChamber (when using GPT, Muse Spark and others) and I'm happy. If I were to use DeepSeek, I'd use it through OpenChamber too.
 
-* OpenChamber is a GUI for OpenCode.",,
-Impressive how much you can do locally now. Was expecting much slower inference but it's surprisingly snappy.,,
-Love this.,,
-"Was this post generated with LLM, did he properly mention anywhere why exactly did it fail with example or i have trouble reading.",,
-"Still finding Opus 5.5 a bit too eager to inject its own style, even when explicitly told not to. Requires careful negative prompting.",,
+* OpenChamber is a GUI for OpenCode.",request,AI-prelabelled; reviewed by student
+Impressive how much you can do locally now. Was expecting much slower inference but it's surprisingly snappy.,commentary,AI-prelabelled; reviewed by student
+Love this.,commentary,AI-prelabelled; reviewed by student
+"Was this post generated with LLM, did he properly mention anywhere why exactly did it fail with example or i have trouble reading.",request,AI-prelabelled; reviewed by student
+"Still finding Opus 5.5 a bit too eager to inject its own style, even when explicitly told not to. Requires careful negative prompting.",analysis,AI-prelabelled; reviewed by student
 "Every industry goes through a cycle of birth, explosion of creativity, enormous profitability, followed by consolidation and a small corporate class, and a large hobby class.
 
 A time ago,  sewing and tailoring was a valuable skill.  Cheap clothes made it unnecessary. Today sewing is a hobby and most people who sew do so at a lower quality than a machine. You can say the same about pottery and ceramics.
@@ -560,32 +560,32 @@ Today lots of people cook at home at a level far superior to (at least) fast foo
 
 I have been lucky to spend my career at the birth of the industry. It is now moving into the next stage, the commoditization of the skill set. I've seen the industry change before though, this is just the next cycle of that.
 
-Lots of people will make a lot of software for themselves. But they won't sell it. Lots of other people will buy software because programming (ai or not) won't interest them. Programming isn't the skill here. Everything else in the business is.",,
+Lots of people will make a lot of software for themselves. But they won't sell it. Lots of other people will buy software because programming (ai or not) won't interest them. Programming isn't the skill here. Everything else in the business is.",analysis,AI-prelabelled; reviewed by student
 "I'm waiting for this idea to get generalized out to networks.
 
-e.g. each expert lives on one node of the network and the model gets streamed.",,
-I knew it. https://news.ycombinator.com/item?id=49801266,,
-Real talk; why would you use Haiku over say Deepseek v4.1 Flash?,,
-"Really groundbreaking stuff guys, another $100 billion to you",,
+e.g. each expert lives on one node of the network and the model gets streamed.",request,AI-prelabelled; reviewed by student
+I knew it. https://news.ycombinator.com/item?id=49801266,commentary,AI-prelabelled; reviewed by student
+Real talk; why would you use Haiku over say Deepseek v4.1 Flash?,request,AI-prelabelled; reviewed by student
+"Really groundbreaking stuff guys, another $100 billion to you",commentary,AI-prelabelled; reviewed by student
 "> log-in with X
 
-No thanks? Also why do you even need a login?",,
-I have been experimenting with something similar here - https://sonistellar.com/lab/,,
-"I don’t care about pricing, I don’t care about speed, I don’t care about the agentic coding improvements. Those are already fine. Does it still reply with walls of invented jargon, stitched-up phrases, and manage to cram 10 concepts/subjects in one sentence?",,
-"I'm surprised to see Tyler Cowen on the ""incremental"" side of the Y axis. He seems pretty AI-pilled, at least compared to the guests he has on his pod that aren't themselves involved with AI companies.",,
-Why is this not just baked into the system prompt? I shouldn’t have to know these details.,,
+No thanks? Also why do you even need a login?",request,AI-prelabelled; reviewed by student
+I have been experimenting with something similar here - https://sonistellar.com/lab/,commentary,AI-prelabelled; reviewed by student
+"I don’t care about pricing, I don’t care about speed, I don’t care about the agentic coding improvements. Those are already fine. Does it still reply with walls of invented jargon, stitched-up phrases, and manage to cram 10 concepts/subjects in one sentence?",request,AI-prelabelled; reviewed by student
+"I'm surprised to see Tyler Cowen on the ""incremental"" side of the Y axis. He seems pretty AI-pilled, at least compared to the guests he has on his pod that aren't themselves involved with AI companies.",commentary,AI-prelabelled; reviewed by student
+Why is this not just baked into the system prompt? I shouldn’t have to know these details.,request,AI-prelabelled; reviewed by student
 "Is it a full clean-room implementation?  I really want to see how the AI clean-room reverse engineering projects fare against legal challenges.
 
-Supposedly clean-room implementations are legal.  But they're so easy with AI - it seems like that will need to change.  Or the world will come crashing down.  Hard to say which is more likely right now.",,
+Supposedly clean-room implementations are legal.  But they're so easy with AI - it seems like that will need to change.  Or the world will come crashing down.  Hard to say which is more likely right now.",request,AI-prelabelled; reviewed by student
 "One of my key complaints with Opus 5.5 so far has been that sometimes it'll execute long-running commands in a way that is blocking any further input or it starts doing stuff without providing much visibility. I've tried giving it instructions to stop doing that but it keeps falling into the same trap.
 
 I feel like hybrid AI-driver UIs are a bit underexplored and are probably a good way to increase visibility. Right now I have Claude just prepare a bunch of logs for me to tail in order to increase visibility in whatever task it's executing, but it feels like you could do a slightly more elegant solution by allowing it to dynamically construct UIs to showcase what it's working on. Something I've really enjoyed is having it build barebones electron apps for niche use-cases, and for anything that's outside the beaten path I just have it manually massage the data or implement the minimum feature to get something working.
 
-Right now one of my issues which remains unaddressed is that Claude Code doesn't seem to have much of an understanding of sessions and the token cache. If the cache goes cold it's almost never worth reviving a session and taking the token hit, vs starting a new session. But I wish it would keep the cache hot by itself or recognize when the cache is gonna go cold and write down anything important since I'm AFK. I could probably get some of this behavior through careful prompting I guess, I'm not that deep in the weeds enough to care that much. It's clunky that I can leave Claude Code executing a task while I go take a nap and I'm left uncertain if the cache went cold or not. I'd really like a gated ""Are you sure?"" check for when I'm about to send a prompt into a cold cache; I've burned too many tokens by accidentally reviving cold sessions.",,
-"Does anyone ever read what code these models produce? 50% or more is just crap: meaningless tests, convoluted code, a lot of indirection, unreadable with a lot of bugs. I am not surprised that they merge as much as they do, they just dont know what the code does but see it is somewhat working. Most people who are impressed by it, I am sure, are just shit coders themselves ngl",,
-"I think fits in a RAM is the first step, a real practical question is if in the mean time you can still use the machine for basic tasks like use browser watch YouTube/VS Code etc.",,
-"would this work on a virtual disk, say w s3 or dropbox",,
-I couldnt get past 30%. Useless.,,
+Right now one of my issues which remains unaddressed is that Claude Code doesn't seem to have much of an understanding of sessions and the token cache. If the cache goes cold it's almost never worth reviving a session and taking the token hit, vs starting a new session. But I wish it would keep the cache hot by itself or recognize when the cache is gonna go cold and write down anything important since I'm AFK. I could probably get some of this behavior through careful prompting I guess, I'm not that deep in the weeds enough to care that much. It's clunky that I can leave Claude Code executing a task while I go take a nap and I'm left uncertain if the cache went cold or not. I'd really like a gated ""Are you sure?"" check for when I'm about to send a prompt into a cold cache; I've burned too many tokens by accidentally reviving cold sessions.",request,AI-prelabelled; reviewed by student
+"Does anyone ever read what code these models produce? 50% or more is just crap: meaningless tests, convoluted code, a lot of indirection, unreadable with a lot of bugs. I am not surprised that they merge as much as they do, they just dont know what the code does but see it is somewhat working. Most people who are impressed by it, I am sure, are just shit coders themselves ngl",commentary,AI-prelabelled; reviewed by student
+"I think fits in a RAM is the first step, a real practical question is if in the mean time you can still use the machine for basic tasks like use browser watch YouTube/VS Code etc.",request,AI-prelabelled; reviewed by student
+"would this work on a virtual disk, say w s3 or dropbox",request,AI-prelabelled; reviewed by student
+I couldnt get past 30%. Useless.,analysis,AI-prelabelled; reviewed by student
 "OpensCAD and FreeCAD.
 
 I learned OpensCAD manually but it was so painful because you needed to take into account the most minimal and ridiculous thing using code, so I used Freecad in the end that is way more intuitive and fast with graphical tools.
@@ -603,55 +603,55 @@ I generate paper blueprints automatically of how the wood panels must be cut and
 It is ridiculous how easy it is now with LLMs to do all of that. I can do a new design in a couple hours, including the pdfs. Most of the code is already created and I just have to reuse it.
 
 I use Claude Code.
-From time to time I voluntarily teach children to do just that. Some of them are really good after a couple hours of instruction and some mentoring.",,
-"[cyber] classifier is incredibly sensitive with Opus 5.5 I cannot complete any embedded/driver/system-level tasks. Quite literally not a single task was able to complete today without getting flagged for [cyber], and what's more annoying is their narrow definition of what a cybersecurity specialist should be preventing me from getting an exception..",,
+From time to time I voluntarily teach children to do just that. Some of them are really good after a couple hours of instruction and some mentoring.",analysis,AI-prelabelled; reviewed by student
+"[cyber] classifier is incredibly sensitive with Opus 5.5 I cannot complete any embedded/driver/system-level tasks. Quite literally not a single task was able to complete today without getting flagged for [cyber], and what's more annoying is their narrow definition of what a cybersecurity specialist should be preventing me from getting an exception..",analysis,AI-prelabelled; reviewed by student
 "I had been using Gemini to build OpenScad models.  The other day Gemini mentioned CadQuery as an option.  It's essentially OpenScad for Python.  The big plus is b-rep modeler.
 
-https://github.com/cadquery/cadquery",,
+https://github.com/cadquery/cadquery",commentary,AI-prelabelled; reviewed by student
 "very nice harness!
-good code",,
-Has Anthropic released a decision model ala Jev? I wonder if they’ll launch something soon,,
+good code",commentary,AI-prelabelled; reviewed by student
+Has Anthropic released a decision model ala Jev? I wonder if they’ll launch something soon,request,AI-prelabelled; reviewed by student
 "I recently (2 days ago) noticed i enjoy it a lot more if i use a super fast model with low reasoning (gpt 6 luna low effort + fast mode). That way, i can still have hands on the entire time and dont have to wait around for 20minutes for it to finish up and have made a bunch of  decisions without me.
 
-Also, LLMs are first and foremost excellent at reading ultra fast. Makes it excellent for summarizing and re-representing modules of your code",,
+Also, LLMs are first and foremost excellent at reading ultra fast. Makes it excellent for summarizing and re-representing modules of your code",analysis,AI-prelabelled; reviewed by student
 "> App unavailable in your region
 
-I'll ask DeepSeek instead... * shrugs *",,
-There is no limit to burning tokens :),,
-"Gary Marcus in the center? He is a strong AI skeptic, I think he should be lower, away from the ""Civilizational change"" direction.",,
-Why are the models being used so old (in llm years anyway). Why no Qwen 3.8 ?,,
-"Programming is all about creation. If i am in project doing mundane things it kills me. LLMs enabled me to explore fascinating new things that would otherwise have spending too much time on setting up, reading tutorials etc etc. That said, i believe that the need for programmers will decrese but will not go away. Managers need people to manage ;-)",,
+I'll ask DeepSeek instead... * shrugs *",commentary,AI-prelabelled; reviewed by student
+There is no limit to burning tokens :),commentary,AI-prelabelled; reviewed by student
+"Gary Marcus in the center? He is a strong AI skeptic, I think he should be lower, away from the ""Civilizational change"" direction.",request,AI-prelabelled; reviewed by student
+Why are the models being used so old (in llm years anyway). Why no Qwen 3.8 ?,request,AI-prelabelled; reviewed by student
+"Programming is all about creation. If i am in project doing mundane things it kills me. LLMs enabled me to explore fascinating new things that would otherwise have spending too much time on setting up, reading tutorials etc etc. That said, i believe that the need for programmers will decrese but will not go away. Managers need people to manage ;-)",commentary,AI-prelabelled; reviewed by student
 "It was always harder to get it to sound right, I had built Lissin around this thesis itself. You can throw in a PDF or a link and can get a podcast, deepdive or just narration with different voices in Lissin.
 
 For those interested in better voices, you can try and let me know.
 
-https://apps.apple.com/app/apple-store/id6758897526?pt=12810... (https://apps.apple.com/app/apple-store/id6758897526?pt=128107412&ct=hacker-news&mt=8)",,
-"All that keeps jumping out at me is how they've set it to refuse giving users thinking tokens and prompts for full reasoning in output. Just drives me further away; I may not stop using Claude completely for now, but I'll be moving even more of my primary workload to Chinese providers. That's where openness and freedom is now at.",,
+https://apps.apple.com/app/apple-store/id6758897526?pt=12810... (https://apps.apple.com/app/apple-store/id6758897526?pt=128107412&ct=hacker-news&mt=8)",commentary,AI-prelabelled; reviewed by student
+"All that keeps jumping out at me is how they've set it to refuse giving users thinking tokens and prompts for full reasoning in output. Just drives me further away; I may not stop using Claude completely for now, but I'll be moving even more of my primary workload to Chinese providers. That's where openness and freedom is now at.",analysis,AI-prelabelled; reviewed by student
 "Because the free api is mispriced, opus 5.5 on subscription is 10x cheaper. Also, the use case for flash models are
 
 For coding, I rather spend 10x more than have even 1 bug but I'm only spending 2x 3x more if you count subscription cost.
 
-This is a killer use case for something like customer support though.",,
+This is a killer use case for something like customer support though.",analysis,AI-prelabelled; reviewed by student
 "> In the coming weeks we will also be expanding access to our Cyber Verification Program, and verified cybersecurity practitioners will be able to use Opus 5.5 for their work.
 
-I was accepted into the CVP a little while ago. Does this mean I'll need to apply again?",,
-"Give it a verification loop and enough compute, and AI will soon cook algorithmic R&D like it cooked mathematics. There is just no question whatsoever of this happening, it is guaranteed.",,
-I am excited and worried at the same time when it comes to these open weight models coming out of china..,,
+I was accepted into the CVP a little while ago. Does this mean I'll need to apply again?",request,AI-prelabelled; reviewed by student
+"Give it a verification loop and enough compute, and AI will soon cook algorithmic R&D like it cooked mathematics. There is just no question whatsoever of this happening, it is guaranteed.",commentary,AI-prelabelled; reviewed by student
+I am excited and worried at the same time when it comes to these open weight models coming out of china..,commentary,AI-prelabelled; reviewed by student
 "I just realized that the last time I wrote a for loop was in November 2025, so it’s been ten months.
 
 The previous time I had this kind of break from hands-on imperative programming was in… 1987.
 
 I was seven years old when I started doing BASIC, and though interests came and went (at one point I went to film school), I never stopped coding entirely. Until now.
 
-The amount of code I’m producing today is higher than before. I’m now also middle-managing a team and doing what’s effectively customer-facing product management, a combination that has become bearable thanks to AI. But it’s hard to shake the feeling that something is permanently gone from my life.",,
-"GLM5.3-flash has been fantastic for me to make minor fixes in ambigious ways. ""Fix x feature, whats going wrong. "" It does the job.",,
-"This could be a game changer for me. The best I've been able to do so far is ~8 tok/s with Qwen 35B A3B, 32GB RAM. But then again I just got an OpenCode Go plan yesterday and have yet to figure if I can even consume my quota on DeepSeek Flash as the need to plan things well is bottlenecking me. Might be a while before I try the local thing again.",,
-"Not sure if only me, but it's pretty hard to read this kind of slop.",,
+The amount of code I’m producing today is higher than before. I’m now also middle-managing a team and doing what’s effectively customer-facing product management, a combination that has become bearable thanks to AI. But it’s hard to shake the feeling that something is permanently gone from my life.",analysis,AI-prelabelled; reviewed by student
+"GLM5.3-flash has been fantastic for me to make minor fixes in ambigious ways. ""Fix x feature, whats going wrong. "" It does the job.",commentary,AI-prelabelled; reviewed by student
+"This could be a game changer for me. The best I've been able to do so far is ~8 tok/s with Qwen 35B A3B, 32GB RAM. But then again I just got an OpenCode Go plan yesterday and have yet to figure if I can even consume my quota on DeepSeek Flash as the need to plan things well is bottlenecking me. Might be a while before I try the local thing again.",analysis,AI-prelabelled; reviewed by student
+"Not sure if only me, but it's pretty hard to read this kind of slop.",commentary,AI-prelabelled; reviewed by student
 "> After just a few weeks of not coding and handing everything to agents you’ll notice that you have a hard time returning to coding yourself.
 
 The trend is in the opposite direction though, keeping your capability for hand coding is not going to help as much as you imply. How many people know how to ride a horse today, or routinely multiply large numbers by hand.
 
-The skill we need today is to compensate for coding agent blindspots and limitations, know their problems, have ways to approach those problems and still get code you can trust to be reliable and aligned with your intent.",,
+The skill we need today is to compensate for coding agent blindspots and limitations, know their problems, have ways to approach those problems and still get code you can trust to be reliable and aligned with your intent.",analysis,AI-prelabelled; reviewed by student
 "Some attempts to benchmark and compare LLM's:
 
 https://artificialanalysis.ai/
@@ -662,50 +662,50 @@ https://tokenscost.com
 
 https://www.vellum.ai/llm-leaderboard
 
-Are there any projects out there for doing something similar?",,
-Actually very cool and interesting stuff!,,
+Are there any projects out there for doing something similar?",request,AI-prelabelled; reviewed by student
+Actually very cool and interesting stuff!,commentary,AI-prelabelled; reviewed by student
 "I don't care how they do it.
 
 I vibe coded my harness that is superior to CC in functionality, and it still doesn't flicker.
 
-I don't need to hear their bullshit.",,
+I don't need to hear their bullshit.",analysis,AI-prelabelled; reviewed by student
 "I recently did a lower tech ""write an async divide and conquer S3 lister in Python"" and the results were fairly lackluster.
 
 Opus 5.5 and GLM 5.3 Flash came out with pretty reasonable code that was fairly fast. However, all the models left aioboto defaults which have a 10 connection pool size so they ended up all artificially capped even though they added semaphores with higher limits.
 
-My attempt I spent a couple hours AI assisted on ended up being faster, using less CPU time, and having roughly half the code.",,
+My attempt I spent a couple hours AI assisted on ended up being faster, using less CPU time, and having roughly half the code.",analysis,AI-prelabelled; reviewed by student
 "> Fourth, if long tool-calling turns still go quiet for longer than you want, have your harness ask for an update
 
 I'm not sure I understand this complexity. In all harnesses I've ever used, tool calls themselves are surfaced to the user as an indication of progress. When the UI/UX around this is engineered well, the user should be able to infer roughly what is going on. Different tools have different ideal presentations. You can't reduce everything to plaintext blobs.
 
-If I absolutely needed intra-turn progress updates, I'd accumulate a separate per-turn transcript and feed it into a cheaper model at deterministic intervals.",,
+If I absolutely needed intra-turn progress updates, I'd accumulate a separate per-turn transcript and feed it into a cheaper model at deterministic intervals.",analysis,AI-prelabelled; reviewed by student
 "what are people using for automated code review these days? the claude code review product originally mentioned it cost ""$15-25 per review"" (which is absurd), but it seems like they've removed that from their docs with the launch yesterday. we've looked at various products in the space (coderabbit, greptile, etc.) but have gripes with each.
 
-honestly i'm thinking it might be easier (and cheaper) to launch our own agent from GH webhooks and trigger `/code-review`..",,
+honestly i'm thinking it might be easier (and cheaper) to launch our own agent from GH webhooks and trigger `/code-review`..",request,AI-prelabelled; reviewed by student
 "If AIs start getting truly good at innovation, we may cease to recognise our reality.
 
 I saw one mathematician describe the recent OpenAI math-dump as 'alien-like' math.
 
-Imagine a world of countless new aircraft designs, fuel sources, musical genres, architectural styles. It could be bewildering.",,
+Imagine a world of countless new aircraft designs, fuel sources, musical genres, architectural styles. It could be bewildering.",analysis,AI-prelabelled; reviewed by student
 "https://frontierharness.org/ allegedly this is on the Pareto frontier, though I don't know how good of a benchmark this really is. it seems to focus on one-shot type tasks, whereas the real utility of one harness over another seems to make itself known in long running tasks.
 
-also this is a very limited static snapshot with one model as backend, I wish there were more consistently refreshed and diversified harness benchmarks.",,
-Thanks for sharing - I'm actually working with my kid on something similar but with physics modeling for First Lego League.  Cool to see your approach!,,
-"Is ""paste your OpenAI API key"" the new form of ""paste your credit card number with exp/code"" for example, to check if its been compromised?",,
+also this is a very limited static snapshot with one model as backend, I wish there were more consistently refreshed and diversified harness benchmarks.",analysis,AI-prelabelled; reviewed by student
+Thanks for sharing - I'm actually working with my kid on something similar but with physics modeling for First Lego League.  Cool to see your approach!,commentary,AI-prelabelled; reviewed by student
+"Is ""paste your OpenAI API key"" the new form of ""paste your credit card number with exp/code"" for example, to check if its been compromised?",commentary,AI-prelabelled; reviewed by student
 "I take this opportunity to shame GitHub for completely ignoring the mobile experience in their own Android app. The project's README is pages upon pages of largely blank space. In general, the app does not render mermaid diagrams and does not allow for zooming in, so smaller pictures are unusable. Even if you access pictures directly in a repo's source, you still can't zoom in. iPython Notebooks, which are extremely common in data science, are an ""unsupported file type"" and are not rendered.
 
-(OP, nice project! Sorry for my rant.)",,
+(OP, nice project! Sorry for my rant.)",analysis,AI-prelabelled; reviewed by student
 "I can feel that the token consumption has slowed down so that we’re able to cover more in a five-hour session than before.
-I'm using Korean, but sometimes the words or sentences are hard to read",,
-because we've all figured out that AI is just a huge grift?,,
+I'm using Korean, but sometimes the words or sentences are hard to read",analysis,AI-prelabelled; reviewed by student
+because we've all figured out that AI is just a huge grift?,commentary,AI-prelabelled; reviewed by student
 "So funny how both OpenAI and Anthropic post outdated pages at the same time. Opus 5.5 has benchmarks against Sol 5.6, and Sol & Luna 6 have their benchmarks against Opus 5.
 
-Why do those labs keep releasing on the same day?!?",,
-"excited to try this out. the thing with new models though even if it claims to be cheaper, sometimes it spent less tokens on different task. I found that with Astra I'm actually not so far off from Opus 5 since it spends much less token to complete a task. The claims in the article that it surpasses Astra on a lot of things is interesting to test though",,
-Bloom (like a mold),,
+Why do those labs keep releasing on the same day?!?",analysis,AI-prelabelled; reviewed by student
+"excited to try this out. the thing with new models though even if it claims to be cheaper, sometimes it spent less tokens on different task. I found that with Astra I'm actually not so far off from Opus 5 since it spends much less token to complete a task. The claims in the article that it surpasses Astra on a lot of things is interesting to test though",analysis,AI-prelabelled; reviewed by student
+Bloom (like a mold),commentary,AI-prelabelled; reviewed by student
 "Fun idea.  Congrats on building and releasing!
 
-That said, LLMs encroaching into the pure-imagination world of Lego gives me a bit of the icks...",,
+That said, LLMs encroaching into the pure-imagination world of Lego gives me a bit of the icks...",commentary,AI-prelabelled; reviewed by student
 "Pricing is...a bit weird.
 
     Input
@@ -720,49 +720,49 @@ That said, LLMs encroaching into the pure-imagination world of Lego gives me a b
 
 100k tokens is an absurdly low cutoff and it is only applicable to Haiku and not Sonnet or Opus. It's a low enough cutoff that it will be quickly exceeded if you are doing anything with Agents; for typical generation or Jev-like classifiers, it's a good value and as noted in this article, that is apparently the vast majority of Haiku use.
 
-In both cases, still much cheaper than Haiku 4.5's $1 input / $5 output and these prices better compete with GPT-6 Luna. ($0.10 input / $0.50 output, but with no token threshold [EDIT: the threshold for Luna is apparently 272k])",,
+In both cases, still much cheaper than Haiku 4.5's $1 input / $5 output and these prices better compete with GPT-6 Luna. ($0.10 input / $0.50 output, but with no token threshold [EDIT: the threshold for Luna is apparently 272k])",analysis,AI-prelabelled; reviewed by student
 "I'm building ShopSpec (https://shopspec.io/) for this kind of workflow. I'm a woodworker and use it for my own home and shop builds.
 
 It's a woodworking domain engine and parametric furniture builder focused on projects like bookshelves, cabinetry, and shop furniture. It works out the parts, joints, cut list, etc.
 
 There is an MCP component in beta (https://shopspec.io/agents) that allows an agent to explore designs while the engine still does the math. To take a design to CAD, a project can be exported as DXF or as a Ruby script that rebuilds it in SketchUp Pro.
 
-It's narrower than Shapr3D, but it might fit the projects you describe.",,
+It's narrower than Shapr3D, but it might fit the projects you describe.",analysis,AI-prelabelled; reviewed by student
 "You say chess and I’m here to shamelessly promote my “coin chess” version:)
 
-https://chesspoly.com/",,
-I sure hope this path keeps getting taken to the point we can do effective things on an M5 MacBook Air with 16gigs of RAM ..,,
+https://chesspoly.com/",commentary,AI-prelabelled; reviewed by student
+I sure hope this path keeps getting taken to the point we can do effective things on an M5 MacBook Air with 16gigs of RAM ..,commentary,AI-prelabelled; reviewed by student
 "> 450M tokens / $150 / 5kWh
 
-Makes me appreciate my ChatGPT subscription. I’ve had multiple days between 1B-2B tokens (now less so, models have indeed become token efficient) and regularly in the > 100M range. Even then, $150 sounds excessive. I wonder if their cache is getting nuked for some reason, or maybe they decide to use Cerebras that doesn’t subsidize cached tokens.",,
+Makes me appreciate my ChatGPT subscription. I’ve had multiple days between 1B-2B tokens (now less so, models have indeed become token efficient) and regularly in the > 100M range. Even then, $150 sounds excessive. I wonder if their cache is getting nuked for some reason, or maybe they decide to use Cerebras that doesn’t subsidize cached tokens.",analysis,AI-prelabelled; reviewed by student
 "I've been very excited with the most recent speed improvements for GLM5.3-Flash on DGX Spark clusters. It really feels close to what Opus ~4.5 was like to talk to. It's not quite there yet on consistency, but it's a really nice experience. Less guardrails and high quality abliterated versions further enhance its usefulness.
 
-Though, Qwen3.8-Flash-Next is very close to that level while requiring fewer resources to run, so I'm really looking forward to Qwen4.",,
+Though, Qwen3.8-Flash-Next is very close to that level while requiring fewer resources to run, so I'm really looking forward to Qwen4.",commentary,AI-prelabelled; reviewed by student
 """Where Opus 5.5’s advantage is very clear is efficiency.""
 
-Not efficiency in writing, clearly.",,
+Not efficiency in writing, clearly.",commentary,AI-prelabelled; reviewed by student
 "For those of you interested in building 3D things (using CNC, lasers, woodworking, 3D printing, etc), check out this forum:
 
 https://forum.makerforums.info/latest
 
-There are some active HN folks who participate in both communities. (Check out Oscar Gallegos, who uses AI to generate depth maps, and carves those into wood using CNC router)",,
-"It doesn't matter how fast you're going if you're going in the wrong direction. Programming can still be a challenge with LLM's, but everyone is panicking and skipping the research portion.",,
+There are some active HN folks who participate in both communities. (Check out Oscar Gallegos, who uses AI to generate depth maps, and carves those into wood using CNC router)",commentary,AI-prelabelled; reviewed by student
+"It doesn't matter how fast you're going if you're going in the wrong direction. Programming can still be a challenge with LLM's, but everyone is panicking and skipping the research portion.",commentary,AI-prelabelled; reviewed by student
 "Yeah, take the fun out of everything.
 
-Wtf is wrong with you all people.",,
-"Neat! I've been slopping together various games to have AI play them, balatro, poker, blackjack, it's just so fun. Was just thinking about chess, wondering if, if I gave them an unrestricted sandbox, they'd start using existing solvers or not. They're surprisingly good at doing cardcounting, by the way.",,
-doesn't using vision instead of notation burn tokens?,,
-"If you're on a Mac, `say -f book.txt -o book.aiff`, no API keys required.",,
-"Nice use of a skill for something concrete. I've been happier with AI helpers that spit out a short, checkable report than ones that try to be a whole coach.",,
+Wtf is wrong with you all people.",commentary,AI-prelabelled; reviewed by student
+"Neat! I've been slopping together various games to have AI play them, balatro, poker, blackjack, it's just so fun. Was just thinking about chess, wondering if, if I gave them an unrestricted sandbox, they'd start using existing solvers or not. They're surprisingly good at doing cardcounting, by the way.",commentary,AI-prelabelled; reviewed by student
+doesn't using vision instead of notation burn tokens?,request,AI-prelabelled; reviewed by student
+"If you're on a Mac, `say -f book.txt -o book.aiff`, no API keys required.",analysis,AI-prelabelled; reviewed by student
+"Nice use of a skill for something concrete. I've been happier with AI helpers that spit out a short, checkable report than ones that try to be a whole coach.",commentary,AI-prelabelled; reviewed by student
 "Very cool work!
 
-Did you write the skills (text, and code) all by hand, or are those prompt outputs?",,
+Did you write the skills (text, and code) all by hand, or are those prompt outputs?",request,AI-prelabelled; reviewed by student
 "Writing skills files like this one don't seem to be the future of computing or AI,  not by the quality, nor by the cost (15$ per usage?).
 
 Also, you seem to have written the actual SKILL.md prompts themselves with AI? I don't know what to say that's insane, at least write the prompts? This idea of asking chatgpt to write the prompts for you is beyond lazy. Then presenting it as a project or tool of value to share to others is delusional.
 
-Sorry for being harsh",,
-"Can people please get their terminology right, why am I getting clickbaited.",,
+Sorry for being harsh",commentary,AI-prelabelled; reviewed by student
+"Can people please get their terminology right, why am I getting clickbaited.",commentary,AI-prelabelled; reviewed by student
 "I've read similar sentiments over the past year, it seems to be a recurring theme.
 
 It's been amazing to participate in a hobby-turned-profession for the last two decades or so. But did we get into it because it was easy? No. Technology, computers, Internet, was a new world, full of excitement, mystery, and exploration. There may have been no immediate ROI in learning how to set up a Geocities site, but it was the gateway to HTML, programming, and eventually led to, what I hope has been, a rewarding career.
@@ -775,20 +775,20 @@ On personal projects, I'm executing on things that were out of reach before (or 
 
 Give it time for the mindset shift to happen. Take a break, if you can. You won't miss anything anyway, a few new models, harnesses, and workflows will have appeared, and they take about 5 minutes to understand. So the differentiating factors between you and the next pleb are your fundamentals, good taste, and creativity.
 
-Be like water, etc.",,
+Be like water, etc.",analysis,AI-prelabelled; reviewed by student
 "I really love GLM 5.3 Flash, I have it working on my own Coding Agent which gets called by my Central Orchestrator in Hermes.
 
-I created it's his own bot profile even...",,
+I created it's his own bot profile even...",commentary,AI-prelabelled; reviewed by student
 "They should probably ask Deepseek to optimize their webpage first before attempting to tackle the desktop...
 
-The webpage is a completely unusable stuttery mess on my Android phone (at most 5fps).",,
+The webpage is a completely unusable stuttery mess on my Android phone (at most 5fps).",analysis,AI-prelabelled; reviewed by student
 "I like it as I'm vibecoding an (airgappable) browser AI workspace myself, but in terms of putting the models to use, just exposing the chat interface feels a bit limiting to me.
 
 My take on this concept:
-https://github.com/willaaam/gemma-4-E2B-webgpu-vision",,
-"So we skipped 5.1, 5.2, 5.3, and 5.4: we really are plateauing",,
-This reminds me of good old Clippy.,,
+https://github.com/willaaam/gemma-4-E2B-webgpu-vision",commentary,AI-prelabelled; reviewed by student
+"So we skipped 5.1, 5.2, 5.3, and 5.4: we really are plateauing",commentary,AI-prelabelled; reviewed by student
+This reminds me of good old Clippy.,commentary,AI-prelabelled; reviewed by student
 "Token peddler says best way to do something is using more tokens.
 
-This is not HN-worthy",,
-"I like GLM 5.3 Flash, it seems good enough for coding features if you have a good structure and a good AGENTS.md",,
+This is not HN-worthy",commentary,AI-prelabelled; reviewed by student
+"I like GLM 5.3 Flash, it seems good enough for coding features if you have a good structure and a good AGENTS.md",commentary,AI-prelabelled; reviewed by student
