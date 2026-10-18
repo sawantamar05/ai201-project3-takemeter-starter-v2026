@@ -10,7 +10,7 @@ fair opponent. If it matches your fine-tuned model, your training added
 nothing, and that is a finding worth having rather than a failure.
 
 **The same posts, both models.** Section 5 of the notebook writes the held-out
-split to `test_split.csv` and commits it. This reads that file, so the two
+split to `test_split.csv`; you commit it manually. This reads that file, so the two
 columns of your Baseline vs. Trained table are scored on one set of posts. A
 comparison across two different sets isn't a comparison.
 

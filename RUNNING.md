@@ -138,18 +138,16 @@ environment. It refuses to overwrite existing output files. The saved
 `data/comment_sources.jsonl` and `data/collection_manifest.json` record
 provenance and collection settings.
 
-The current `labels.csv` contains 240 fully labelled and reviewed comments.
-The labels were reviewed in `cold20_worksheet.md`, `unaided20_worksheet.md`,
-and `remaining200_worksheet.md`, with every CSV note recording AI pre-labelling
-and student review. `data/remaining_draft_labels.json` preserves the initial
-bulk proposals, source hashes, and review/import confirmation. All 240 comments
-received AI classification help and do not qualify as the required unaided set.
-The README records the departure from the required cold-first
-sequence; unaided annotations remain outstanding and need fresh examples.
-A multiline comment is one CSV record. Annotation validation passed, including
-the 60% balance target. The three README hard-case explanations have been
-reviewed and committed. The prepared notebook uses seed 42 and a 256-token
-input limit; commit the training preparation before execution.
+The dataset contains 240 comments with reviewed labels. The README's
+**The Dataset** and **How I Used AI** sections describe the annotation method
+and completed review. A multiline comment is one CSV record. Annotation
+validation passed, including the 60% balance target. The three README
+hard-case explanations have been
+reviewed and committed. The seed-42 run completed using a 256-token input
+limit and `mps` (Apple Silicon GPU). The executed notebook, `results.json`,
+and `test_split.csv` are ready for manual commit. Accuracy was 0.5278 and
+macro F1 was 0.3996; the model made no `request` predictions. The original
+acceptance targets remain unchanged. Sections 6–7 remain for unit 6.
 
 ### The check before training
 

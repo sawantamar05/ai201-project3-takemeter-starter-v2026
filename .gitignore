@@ -18,13 +18,13 @@ models/
 
 # The notebook's training output directory. Checkpoints are hundreds of MB and
 # they are not evidence of anything — results.json is. Without this line a
-# `git add -A` in Colab commits a model checkpoint to your repo.
+# `git add -A` could stage a model checkpoint for a later commit.
 takemeter_out/
 
 # OS noise
 .DS_Store
 Thumbs.db
 
-# NOTE: results.json, results_three_seeds.json and baseline_results.json are
-# deliberately NOT ignored. They're evidence the run actually happened, and
-# they're part of what gets graded. Commit them.
+# NOTE: results.json, test_split.csv, results_three_seeds_*.json,
+# baseline_results.json, and agreement_results.json are deliberately NOT
+# ignored. They record the runs and are graded. Commit them manually.

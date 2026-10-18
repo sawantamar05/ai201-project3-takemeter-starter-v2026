@@ -1,0 +1,140 @@
+text,label,note
+"> After just a few weeks of not coding and handing everything to agents you’ll notice that you have a hard time returning to coding yourself.
+
+The trend is in the opposite direction though, keeping your capability for hand coding is not going to help as much as you imply. How many people know how to ride a horse today, or routinely multiply large numbers by hand.
+
+The skill we need today is to compensate for coding agent blindspots and limitations, know their problems, have ways to approach those problems and still get code you can trust to be reliable and aligned with your intent.",analysis,AI-prelabelled; reviewed by student
+"> In the coming weeks we will also be expanding access to our Cyber Verification Program, and verified cybersecurity practitioners will be able to use Opus 5.5 for their work.
+
+I was accepted into the CVP a little while ago. Does this mean I'll need to apply again?",request,AI-prelabelled; reviewed by student
+"Ha ha, I love it! I wrote a pointing hand annotation overlay in PostScript in 1989 for NeWS and the PSIBER Space Deck's Pseudo Scientific Visializer:
+
+  %  @(#)handy.ps
+  %
+  %  Handy Pointer
+  %  Copyright (C) 1989.
+  %  By Don Hopkins. (don@brillig.umd.edu)
+  %  All rights reserved.
+
+
+
+https://donhopkins.com/home/archive/psiber/cyber/pointer.ps
+
+PSIBER Space Deck and Pseudo Scientific Visualizer Demo:
+
+https://youtu.be/_fqCeuue5Ac?t=213
+
+The Shape of PSIBER Space: PostScript Interactive Bug Eradication Routines — October 1989:
+
+https://medium.com/@donhopkins/the-shape-of-psiber-space-oct... (https://medium.com/@donhopkins/the-shape-of-psiber-space-october-1989-19e2dfa4d91e)",analysis,AI-prelabelled; reviewed by student
+"This is a failure of the AI foundries; if we have to use totally different prompting techniques for every model, this wont work.
+
+AI is rapidly saturating it's ability to be useful and these products need to start to mature.
+
+It's not 'fun' to manage 50 different broken MCPs and their variety of ways in which they are broken.
+
+It was 'fun' at the start, now it's just 'broken technology'.
+
+Astra and Opus 5.5 are the 'starting point' for the next era of AI where we expect robust tooling.",commentary,AI-prelabelled; reviewed by student
+I love it.,commentary,AI-prelabelled; reviewed by student
+"Why ruin the fun of a hands-on project with computers? I'm also a hobbyist woodworker/DIYer and enjoy the drawing aspect, thinking through the space, the dimensions, etc. and drawing that out with pencil and paper. Its relaxing and by nature disconnected. I'm not on the clock and trying to build things for customers so speed isn't necessary. The level of accuracy in software is thrown out the window when you start dealing with actual wood that has grain, knots, different sizes, etc. I find myself making adjustments in the shop as a project progresses where fine measurements on paper are mostly useless.
+
+I would argue if you're building plans to make a lot of repeatable items, then you're beyond hobby level.",analysis,AI-prelabelled; reviewed by student
+"> Fourth, if long tool-calling turns still go quiet for longer than you want, have your harness ask for an update
+
+I'm not sure I understand this complexity. In all harnesses I've ever used, tool calls themselves are surfaced to the user as an indication of progress. When the UI/UX around this is engineered well, the user should be able to infer roughly what is going on. Different tools have different ideal presentations. You can't reduce everything to plaintext blobs.
+
+If I absolutely needed intra-turn progress updates, I'd accumulate a separate per-turn transcript and feed it into a cheaper model at deterministic intervals.",analysis,AI-prelabelled; reviewed by student
+"Some skills are impressive, hard to learn and take years or decades to master but are essentially worthless in a monetary sense. Just yesterday I witnessed a musician masterfully playing a beautiful piece on the accordion. Only he wasn't playing in a great music hall, he was in a busy subway station hoping to collect a few coins from passersby. I assume he mostly did it for the love of the game, while he could have made more money delivering food or sorting boxes at Amazon.
+
+That got me thinking that programming might be like that in the near future, it's still an impressive skill for a human to learn and master and it takes tremendous effort and the craft itself is beautiful, but economically it will just not matter anymore. And in the same way as the music industry today is bigger than it ever was and there's tremendous money in it but 95-99 % of highly talented musicians will never earn a decent wage with it, the software industry will be bigger than it ever was but the money will be highly concentrated in the hands of a few players. Maybe we will still have some rockstar programmers than can masterfully command legions of agents or that win the love of the crowd for their unique work, but most of us will be enjoying this craft as a creative hobby and will do other things for a living.
+
+Then again, coming back to the music parable, for a long time ""amateurs"" can make music with software tools without having any talent or even knowing musical notation or anything about tempo. Does that make them musicians? So take solace in the fact that these people aren't programmers and never will be, they're just pushing buttons on a synth board watching the ""music"" that comes out. Mastering a skill, regardless of what it is, will still matter to people, it will just not be worthwhile economically for most of us. There are so many things in that category, running for example isn't worthwhile for most of us in an economic sense as you have to be at the top 0.1 % of runners to make a living with it, still it has tremendous benefits and brings enjoyment.",analysis,AI-prelabelled; reviewed by student
+"This trend to sell subscription with a price for ""credits"".
+
+For a wrapper around costly LLM providers.
+
+For a result one could get with voicebox for free.",analysis,AI-prelabelled; reviewed by student
+"Can people please get their terminology right, why am I getting clickbaited.",commentary,AI-prelabelled; reviewed by student
+"Pro photographer here. And I've counted at least ten of these photo editing apps that have appeared in the last year, many of them in the last few months. All of them LLM-assisted or completely vibe coded.
+
+They definitely work but...
+
+Unlike Lightroom or Darktable (an open source Raw editor that took years to get to a sophisticated level), they are all rough around the edges. Maybe in the future they'll get better in terms of being really refined to handle advanced photography, but right now they're hobby applications.
+
+To me this highlights the absurdity of AI, because enormous amounts of energy is wasted on duplicating stuff and making something new.
+
+I won't try and argue that nothing nice can come out of it, but it seems absurd to me to waste so much energy as a species this way. I wouldn't be surprised if there were a hundred more of these apps in another year.",analysis,AI-prelabelled; reviewed by student
+"At what point is it no longer being a woodworker?  Ai does the design and the modeling work.  A robot actually does the cutting.
+
+Isn’t this closer to being an architect or a designer now?",analysis,AI-prelabelled; reviewed by student
+"Pricing is...a bit weird.
+
+    Input
+    $0.10 / MTok for prompts up to 100,000 tokens
+    $0.50 / MTok for prompts over 100,000 tokens
+
+    Output 
+    $0.50 / MTok for prompts up to 100,000 tokens
+    $2.50 / MTok for prompts over 100,000 tokens
+
+
+
+100k tokens is an absurdly low cutoff and it is only applicable to Haiku and not Sonnet or Opus. It's a low enough cutoff that it will be quickly exceeded if you are doing anything with Agents; for typical generation or Jev-like classifiers, it's a good value and as noted in this article, that is apparently the vast majority of Haiku use.
+
+In both cases, still much cheaper than Haiku 4.5's $1 input / $5 output and these prices better compete with GPT-6 Luna. ($0.10 input / $0.50 output, but with no token threshold [EDIT: the threshold for Luna is apparently 272k])",analysis,AI-prelabelled; reviewed by student
+How much of this can change if subsequent training runs produce models that are much better at abduction?,request,AI-prelabelled; reviewed by student
+I have been experimenting with something similar here - https://sonistellar.com/lab/,commentary,AI-prelabelled; reviewed by student
+"Short version of the article: no, not even close.
+
+Practically every paragraph is negative, with sentences like ""Agents made misleading claims about their work,"" and ""A natural question is whether the agents could have improved with larger GPU budgets. Although both improved across their runs, in the case of Fable the improvements were almost entirely due to attempted cheating."" and ""For Sol, the answer is less clear-cut; it did make some progress, although its method was fairly incremental and had limited applicability to the coding task. This suggests that we should be pessimistic about further GPU spending,"" all reinforcing the fact that LLMs aren't currently capable of this.
+
+My own view is ""No, of course not, in fact they will never be capable of achieving good results with that technique."" Because that technique will end up training the LLMs on their own output and lead to the inability to distinguish reality from hallucination. If you think I'm wrong about that, I'd be interested in hearing why.",analysis,AI-prelabelled; reviewed by student
+doesn't using vision instead of notation burn tokens?,request,AI-prelabelled; reviewed by student
+"How do i make sure it won't hack my machine?  It's open source and i can compile it on my own, but if it has a dependency, it's all it takes.",request,AI-prelabelled; reviewed by student
+"I'd say Claude/Codex plus whatever CAD modeling tool you want to use. But if you want to find some existing AI-assisted CAD design platforms, take a look at https://thecadhub.com/category/ai-assisted-design/",commentary,AI-prelabelled; reviewed by student
+"GLM5.3-flash has been fantastic for me to make minor fixes in ambigious ways. ""Fix x feature, whats going wrong. "" It does the job.",commentary,AI-prelabelled; reviewed by student
+"Some attempts to benchmark and compare LLM's:
+
+https://artificialanalysis.ai/
+
+https://benchlm.ai/
+
+https://tokenscost.com
+
+https://www.vellum.ai/llm-leaderboard
+
+Are there any projects out there for doing something similar?",request,AI-prelabelled; reviewed by student
+"Look, I love code. I have laser cut code snippets framed on my walls. I functions that I have shared online proudly multiple times. I have projects I have lovingly tended to for years just for the joy of making a computer do something strange.
+
+But what’s far far more important is making people happy by producing good software. Ever since my very first SWE internship I’ve cared most about the user. I’m extremely bummed if the user isn’t happy with my work. I’m ecstatic if my work can improve their day. LLMs change how my work gets done and what it is that my effort goes towards. But the core reason to be here instructing computers hasn’t changed.",commentary,AI-prelabelled; reviewed by student
+I think they must be using the Fable or maybe more capable model for internal use purposes.,commentary,AI-prelabelled; reviewed by student
+"I think fits in a RAM is the first step, a real practical question is if in the mean time you can still use the machine for basic tasks like use browser watch YouTube/VS Code etc.",request,AI-prelabelled; reviewed by student
+"I've been very excited with the most recent speed improvements for GLM5.3-Flash on DGX Spark clusters. It really feels close to what Opus ~4.5 was like to talk to. It's not quite there yet on consistency, but it's a really nice experience. Less guardrails and high quality abliterated versions further enhance its usefulness.
+
+Though, Qwen3.8-Flash-Next is very close to that level while requiring fewer resources to run, so I'm really looking forward to Qwen4.",commentary,AI-prelabelled; reviewed by student
+Another slop project on front page.,commentary,AI-prelabelled; reviewed by student
+Is this cheaper or better then just using openrouter and every other harness / tui out there?,request,AI-prelabelled; reviewed by student
+"> log-in with X
+
+No thanks? Also why do you even need a login?",request,AI-prelabelled; reviewed by student
+More LLM-authored items about LLM slop.,commentary,AI-prelabelled; reviewed by student
+"I had been using Gemini to build OpenScad models.  The other day Gemini mentioned CadQuery as an option.  It's essentially OpenScad for Python.  The big plus is b-rep modeler.
+
+https://github.com/cadquery/cadquery",commentary,AI-prelabelled; reviewed by student
+"My problem with plugins is that I don't want to install stuff from third parties. It might be malware, become unsupported, or generally have a lower quality. I rather have a curated and polished feature set out of the box.
+
+It's nice for having your AI create your own plugins. But I haven't really found the need yet.",commentary,AI-prelabelled; reviewed by student
+"Token spend is noticeably less than Opus 5, I can't really tell if it's better though.",analysis,AI-prelabelled; reviewed by student
+"Nice job. I actually read a paper on Arxiv last year about this exact thing - using LLMs to drive model building through LDraw that might be worth reading [1].
+
+They had some interesting experiments like giving the LLM a fixed set of parts as a constraint and asked it to ""build"" tools out of those available lego.
+
+I think they were using Opus 4.5 so I'm sure with even more powerful models it'll be even better.
+
+[1] - https://arxiv.org/pdf/2512.15743",analysis,AI-prelabelled; reviewed by student
+"Was this post generated with LLM, did he properly mention anywhere why exactly did it fail with example or i have trouble reading.",request,AI-prelabelled; reviewed by student
+"> App unavailable in your region
+
+I'll ask DeepSeek instead... * shrugs *",commentary,AI-prelabelled; reviewed by student
+"This constant change of behavior, the dumming down of models over time as they do different levels of quantization to save processing cycle etc. To be honest I long for being able to get locked in versions of models with known parameters so I'm looking forward to getting more and more open source models and long term being able to afford running our own so we have a known stable llm model checkpoint and not what feels like random.",analysis,AI-prelabelled; reviewed by student

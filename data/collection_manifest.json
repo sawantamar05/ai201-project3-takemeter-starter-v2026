@@ -28,7 +28,7 @@
       50122878,
       50127979
     ],
-    "selection": "Manually reviewed AI-related story titles across four weekly windows; model news, technical explanations, Show HN tools and Ask HN discussions; weeks interleaved; no comment content or labels used for selection."
+    "selection": "Title-based selection of AI-related stories across four weekly windows; model news, technical explanations, Show HN tools and Ask HN discussions; weeks interleaved; no comment content or labels used for selection."
   },
   "selected_stories": [
     {

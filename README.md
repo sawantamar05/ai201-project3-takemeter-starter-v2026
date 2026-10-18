@@ -42,13 +42,13 @@
 <!-- Your community, and what your classifier sorts posts into. Three or four
      sentences. -->
 
-TakeMeter will classify complete public Hacker News comments from discussions
-about AI model releases, AI explanations, and local-model tools. Its proposed
+TakeMeter classifies complete public Hacker News comments from discussions
+about AI model releases, AI explanations, and local-model tools. Its adopted
 labels distinguish supported claims (`analysis`), requests for answers or
 actions (`request`), and remaining opinions, reactions, or resource shares
 (`commentary`). Each comment receives one label using the decision rules below.
 The [Milestone 1 reading notes](milestone1_reading_notes.md) contain 36 linked
-examples and three candidate distinctions from the community review.
+examples and three distinctions I adopted after reviewing the reading notes.
 
 
 ---
@@ -170,7 +170,7 @@ combines a feeling of exclusion with a quoted passage of mathematical notation
 and an unsuccessful attempt to fix the apparent rendering problem. It could
 look like `commentary` because of the emotional response, or `analysis` because
 of the specific example and reported troubleshooting. Under the written rule,
-the proposed choice is **`analysis`**: those details support the accessibility
+my adopted choice is **`analysis`**: those details support the accessibility
 complaint. The emotional tone does not remove that support.
 
 **Other difficult boundary:** A question with detailed background remains
@@ -179,7 +179,7 @@ complaint. The emotional tone does not remove that support.
 In [tom_alexander's memory-fit report](https://news.ycombinator.com/item?id=50130918),
 the comment demonstrates a specific contradiction and offers its own explanation
 about CPU/GPU offloading; its concluding question highlights that contradiction,
-so the proposed choice is `analysis`.
+so my adopted choice is `analysis`.
 
 ---
 
@@ -206,14 +206,11 @@ excluded from this dataset.
 **How I labelled them:** <!-- Cold first? Pre-labelled with AI and corrected?
 Say so plainly — the disclosure is required, not penalised. -->
 
-All 240 records were pre-labelled with AI and then reviewed by me in three
-batches, using [the first worksheet](cold20_worksheet.md),
+I reviewed all 240 AI-prelabelled records against my adopted taxonomy in
+batches of 20, 20, and 200, using [the first worksheet](cold20_worksheet.md),
 [the second worksheet](unaided20_worksheet.md), and
-[the bulk worksheet](remaining200_worksheet.md). Their reviewed labels are
-now in `labels.csv`, with `AI-prelabelled; reviewed by student` in every note.
-There are no blank labels or duplicate comments. The required unaided
-annotations remain unmet. The three hard-case explanations below have been
-reviewed. Training has not started.
+[the bulk worksheet](remaining200_worksheet.md). I accepted the final labels
+saved in `labels.csv`, with `AI-prelabelled; reviewed by student` in every note.
 
 The [draft snapshot](data/remaining_draft_labels.json) retains the initial
 proposals for records 41–240, brief reasons, source IDs, and text hashes,
@@ -285,26 +282,30 @@ and acceptance criterion 5's stricter 60% cap.
 
 <!-- Your starting model, your settings, and anything you changed and why. -->
 
-**Status:** Configuration prepared; the training run has not started.
+**Status:** Notebook sections 1–5 completed on October 18, 2026 (PDT).
+The executed notebook, `results.json`, and `test_split.csv` record the run.
 
 **Base model:** `distilbert-base-uncased`.
 
 **Settings:** 3 epochs, learning rate `2e-5`, batch size 16, maximum input
-length 256 tokens, and seed 42. The actual device will be recorded by the
-notebook and in `results.json` when training runs.
+length 256 tokens, and seed 42. The run used `mps` (Apple Silicon GPU), with
+PyTorch 2.14.1, as recorded in the notebook and `results.json`.
 
-**Anything I changed from the defaults, and why:** I increased `MAX_LENGTH`
-from 128 to 256 before training. Of the 240 comments, 26 exceed 128 whitespace
+**Anything I changed from the defaults, and why:** I adopted the AI-assisted
+recommendation to increase `MAX_LENGTH` from 128 to 256 before training.
+Of the 240 comments, 26 exceed 128 whitespace
 words, including 22 labelled `analysis`. Keeping more input should help retain
 the observations and reasoning that distinguish analysis from commentary.
-Word counts are a proxy; actual tokenizer-length coverage has not been measured
-yet. The complete comments remain in `labels.csv`.
+Word counts were a proxy used before training. A subsequent check with the
+cached tokenizer found 42 comments longer than 128 tokens and 12 longer than
+256 tokens (10 `analysis`, 2 `request`, including special tokens). Those 12
+inputs are truncated at 256 tokens; the complete comments remain in `labels.csv`.
 
 The dataset check now rejects missing or blank labels, unknown label names,
 surrounding spaces, missing required columns, and empty datasets. It raises
 an error on invalid input. All 240 project records pass without warnings.
 
-**Split sizes:** The seed-42 preflight gives the following stratified 70/15/15
+**Split sizes:** The seed-42 run used the following stratified 70/15/15
 split. No held-out label has fewer than eight examples.
 
 | Label | Train | Validation | Test |
@@ -313,6 +314,22 @@ split. No held-out label has fewer than eight examples.
 | `request` | 40 | 9 | 9 |
 | `commentary` | 67 | 14 | 14 |
 | **Total** | **168** | **36** | **36** |
+
+**Held-out results:** Accuracy was 0.5278 (19 of 36 correct), and macro F1
+was 0.3996.
+
+| Label | F1 | Test examples |
+|---|---:|---:|
+| `analysis` | 0.6471 | 13 |
+| `request` | 0.0000 | 9 |
+| `commentary` | 0.5517 | 14 |
+
+The model made no `request` predictions: four of the nine requests were
+predicted as `analysis` and five as `commentary`. This first run misses the
+accuracy and request-F1 targets. The analysis and commentary F1 targets are
+met for seed 42, and the dataset balance target is met. The targets are
+unchanged; sections 6–7 and the required three-seed evaluation remain for
+unit 6.
 
 ---
 
@@ -329,60 +346,47 @@ split. No held-out label has fewer than eight examples.
 
 - *What I asked for:* Help completing the project step by step, starting with setup.
 - *What came back:* A working fork and local checkout, installed project dependencies and notebook kernel, and environment-check results.
-- *What I changed:* The repository now has a local virtual environment and setup notes; the environment check confirmed Apple Silicon GPU (`mps`) access.
+- *What I changed:* I used the project virtual environment and manually committed the setup checkpoints. The environment check confirmed Apple Silicon GPU (`mps`) access.
 
 **Moment 2**
 
 - *What I asked for:* An AI-news community recommendation, followed by reading 12 complete comments from each of three discussions, saving links, and identifying three differences in how opinions are expressed.
 - *What came back:* A set of 36 linked comment summaries and three candidate distinctions for the taxonomy.
-- *What I changed:* The project scope is Hacker News AI-news and tools discussions. The reading observations informed the proposed labels and boundary rules.
+- *What I changed:* I adopted Hacker News AI-news and tools discussions as the project scope. I reviewed the reading notes and adopted the labels and boundary rules they informed.
 
-**Taxonomy assistance:** The label-definition draft, real-example selection,
-borderline-case analysis, and eight synthetic boundary posts were prepared with
-AI assistance. The synthetic examples are used only to stress-test the rules.
+**Taxonomy assistance:** I reviewed and adopted the AI-assisted label
+definitions, real examples, boundary rules, and eight synthetic boundary
+exercises. I kept the synthetic examples out of the real dataset.
 
-**Hard-case assistance:** AI helped select three boundary examples from the
-reviewed dataset and draft explanations using their saved labels. I reviewed
-all three explanations.
+**Hard-case assistance:** I reviewed and adopted all three hard-case
+explanations drafted with AI assistance, using the saved labels and taxonomy.
 
-**Training preparation assistance:** AI helped prepare the notebook by fixing
-dataset validation and choosing the 256-token input limit from pre-training
-comment-length checks.
+**Training assistance:** I used AI assistance to prepare the notebook's
+dataset validation and 256-token input limit. I manually committed the
+configuration before the AI-assisted execution of sections 1–5 and verification
+of the generated results and held-out split.
 
 **Criteria assistance:** I used AI to propose initial numeric targets and draft
 explanations before saving them in `criteria.md`. I reviewed the five targets
 and explanations before manually committing the file as `7aa786e`.
 
-**Collection assistance:** AI helped select AI-related discussion titles and
-write and run `collect_comments.py`. The script collected complete comments,
-recorded sources, and checked for duplicates. At collection time, it left every
-label and note blank and generated no classification suggestions.
+**Collection assistance:** I used AI assistance to select AI-related discussion
+titles and create and run `collect_comments.py`. The script collected complete
+comments, recorded sources, and checked for duplicates. At collection time,
+it left every label and note blank and generated no classification suggestions.
 
 **Pre-labelling disclosure:**
 
-At my request, AI proposed labels for the first 20 collected comments before
-the required unaided batch was completed. I reviewed all 20 proposals, and
-the saved labels were transferred into `labels.csv` with AI-prelabelling and
-review notes. These records are not marked `cold`. This differs from the
-assignment's required cold-first sequence, and Milestone 4 remains incomplete.
-Any later unaided annotations must use fresh examples that have not received
-AI classification help.
+I requested AI draft labels and reviewed all three batches: records 1–20,
+21–40, and 41–240. I accepted the final labels saved in `labels.csv` and
+manually committed the reviewed annotation checkpoints. Every record retains
+its AI-prelabelling and student-review note. I did not complete the required
+20 unaided annotations before AI prelabelling, and none of these 240 records
+is marked `cold` or qualifies as unaided.
 
-At my request, AI also proposed labels for records 21–40 in a second review
-worksheet. I reviewed all 20, and their saved labels were imported into
-`labels.csv` with the same AI-prelabelling and review notes. They do not
-qualify as unaided annotations.
-
-I then chose AI drafts for all remaining 200 comments, understanding that
-the required 20 unaided annotations would remain unmet. I reviewed all 200
-in `remaining200_worksheet.md`, and their saved labels were imported into
-`labels.csv` with AI-prelabelling and student-review notes. All 240 collected
-comments received AI classification help; none qualifies as an unaided
-annotation. All 240 reviewed labels are now in `labels.csv`.
-
-Milestone 1 reading notes and the Milestone 2 taxonomy examples and boundary
-decisions were also prepared with AI assistance. Synthetic stress-test posts
-are excluded from the real dataset.
+I also reviewed the AI-assisted Milestone 1 reading notes and adopted the
+Milestone 2 taxonomy examples and boundary decisions. The synthetic stress-test
+posts remain separate from the real dataset.
 
 <!-- ═══════════════════════ UNIT 6 — THE TEST ═══════════════════════
 
