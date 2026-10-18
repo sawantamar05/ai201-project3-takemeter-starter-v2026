@@ -36,22 +36,23 @@ Open `takemeter.ipynb` in VS Code, select this repository's
 Do not use Run All: the later sections require the finished dataset and
 criteria, and sections 6–7 belong to the next unit.
 
-## Next checkpoint: read the community
+## Community reading progress
 
-Recommended community: **Hacker News**, treating each complete public comment
-as one post. Read 30–40 comments across several discussions before deciding
-on labels. Start at https://news.ycombinator.com/newcomments.
+Selected scope: **Hacker News commenters discussing AI news and tools**,
+treating each complete public comment as one post. At the student's request,
+Codex retrieved and reviewed 12 complete comments from each of three threads.
+The 36 source links, paraphrased reading notes, and three candidate distinctions
+are in [milestone1_reading_notes.md](milestone1_reading_notes.md).
 
 Collection can later use the official public API:
 https://github.com/HackerNews/API. Keep full comment text and source links;
 prefer comments that can be understood on their own.
 
-The student has not yet completed the community reading, chosen the
-taxonomy, written acceptance criteria, or labeled the dataset. No training
-has been run.
+Student review of the AI-assisted reading notes and sources is pending.
+The taxonomy, acceptance criteria, and labeled dataset have not been completed.
+No training has been run.
 
-After reading, record three candidate distinctions observed in the actual
-comments. Then proceed in order:
+Next, review the observations against the linked comments, then proceed in order:
 
 1. Design 2–4 labels, with two real examples each and a boundary rule.
 2. Write and commit five personal acceptance criteria with numeric targets
@@ -66,5 +67,6 @@ comments. Then proceed in order:
    push, and submit the fork URL in the Course Portal.
 
 AI helped with repository setup, dependency installation, environment
-verification, and the community recommendation. Update the final README's
-AI disclosure with the specific interactions actually used during the work.
+verification, the community recommendation, and the 36-comment source review.
+Continue updating the final README's AI disclosure with the specific
+interactions actually used during the work.

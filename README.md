@@ -42,6 +42,12 @@
 <!-- Your community, and what your classifier sorts posts into. Three or four
      sentences. -->
 
+TakeMeter will classify complete public Hacker News comments from discussions
+about AI model releases, AI explanations, and local-model tools. An AI-assisted
+review of 36 comments across three discussions identified candidate distinctions
+in support, personal experience, and reasoning; the source links and observations
+are in [Milestone 1 reading notes](milestone1_reading_notes.md). The final labels
+will be defined in Milestone 2. Dataset labeling and training have not started.
 
 
 ---
@@ -162,17 +168,21 @@ of next unit's variance. -->
 
 **Moment 1**
 
-- *What I asked for:*
-- *What came back:*
-- *What I changed:*
+- *What I asked for:* Help completing the project step by step, starting with setup.
+- *What came back:* Codex created my fork and local checkout, installed the project dependencies and notebook kernel, and verified the environment with the course's check script.
+- *What I changed:* The repository now has a local virtual environment and setup notes; the environment check confirmed Apple Silicon GPU (`mps`) access.
 
 **Moment 2**
 
-- *What I asked for:*
-- *What came back:*
-- *What I changed:*
+- *What I asked for:* An AI-news community recommendation, followed by reading 12 complete comments from each of three discussions, saving links, and identifying three differences in how opinions are expressed.
+- *What came back:* Codex reviewed 36 complete Hacker News comments and drafted linked, paraphrased notes and three candidate distinctions in `milestone1_reading_notes.md`.
+- *What I changed:* The project scope is Hacker News AI-news and tools discussions. Student review of the AI-assisted reading is pending, and the observations have not yet been turned into final labels.
 
 **Pre-labelling disclosure:**
+
+No training examples have been labeled yet. Milestone 1 reading notes were
+prepared with AI assistance. The later first 20 cold annotations remain to be
+completed by the student without AI labeling help.
 
 <!-- ═══════════════════════ UNIT 6 — THE TEST ═══════════════════════
 
