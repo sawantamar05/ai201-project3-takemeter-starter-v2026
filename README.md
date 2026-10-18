@@ -188,19 +188,38 @@ so the proposed choice is `analysis`.
 <!-- Where you collected from, how you labelled, your counts, and three hard
      cases. -->
 
-**Where the posts came from:**
+**Where the posts came from:** 240 complete public top-level comments from
+20 Hacker News AI discussions, collected on October 17, 2026 (PDT) using the
+[official Hacker News API](https://github.com/HackerNews/API). Story discovery
+used AI-related title searches across four weekly windows in the preceding
+28 days. The collector shuffled comment IDs with seed `20261017` and took
+12 eligible comments per thread, without filtering by likely label or opinion.
+Deleted, dead, empty, duplicate, and previously reviewed comments were excluded.
+The final shuffle sets annotation order only; `labels.csv` remains unsplit.
+
+[Source records](data/comment_sources.jsonl) retain each comment's permalink,
+thread, author, timestamps, original HTML, and text hash. The
+[collection manifest](data/collection_manifest.json) records sampling settings
+and exclusions. The 36 Milestone 1 examples and synthetic boundary posts are
+excluded from this dataset.
 
 **How I labelled them:** <!-- Cold first? Pre-labelled with AI and corrected?
 Say so plainly — the disclosure is required, not penalised. -->
+
+At this collection checkpoint, all 240 labels and notes are blank. The first
+20 data records are reserved for unaided annotation; they will be marked
+`cold` only after I label them. Annotation and the three hard-case writeups
+are the next part of Milestone 4. Training waits until every row has a valid
+label.
 
 **Counts per label:**
 
 | Label | Count | Share |
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-| **Total** |  | 100% |
+| `analysis` | Pending annotation | Pending |
+| `request` | Pending annotation | Pending |
+| `commentary` | Pending annotation | Pending |
+| **Collected total** | **240** | 100% |
 
 **Three hard cases**
 
@@ -276,6 +295,11 @@ AI assistance. The synthetic examples are used only to stress-test the rules.
 **Criteria assistance:** I used AI to propose initial numeric targets and draft
 explanations before saving them in `criteria.md`. I reviewed the five targets
 and explanations before manually committing the file as `7aa786e`.
+
+**Collection assistance:** AI helped select AI-related discussion titles and
+write and run `collect_comments.py`. The script collected complete comments,
+recorded sources, and checked for duplicates. It left every label and note
+blank and generated no classification suggestions for the first 20 records.
 
 **Pre-labelling disclosure:**
 

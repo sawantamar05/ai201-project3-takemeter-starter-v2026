@@ -56,19 +56,34 @@ training. This records review and adoption of the AI-assisted draft.
 
 The README's **How I Used AI** section records the assistance used.
 
+## Milestone 4: collection checkpoint
+
+Collected 240 complete public Hacker News comments on October 17, 2026 (PDT):
+12 comments from each of 20 AI-related discussions across four weekly windows.
+All labels and notes are blank. The dataset is unsplit, with no duplicate
+comment IDs or normalized texts and no overlap with the 36 reading examples.
+
+- `collect_comments.py`: collection script with overwrite protection.
+- `data/collection_stories.json`: title-based source selection and discovery details.
+- `data/comment_sources.jsonl`: source metadata and original HTML aligned to CSV records.
+- `data/collection_manifest.json`: collection settings, exclusions, and first-20 reservation.
+- `labels.csv`: 240 records with exactly `text,label,note` columns.
+
+The first 20 **data records**, excluding the CSV header, are reserved for
+unaided annotation. Comments can contain line breaks, so CSV data records
+are not the same as physical file lines. No records are marked `cold` yet.
+The collection files need a manual Git checkpoint before annotation begins.
+
 ## Remaining build milestones
 
-1. Collect at least 200 complete real comments into one unsplit `labels.csv`,
-   retaining source links. Collection can use the
-   [official public API](https://github.com/HackerNews/API).
-2. Label the first 20 unaided and mark them `cold`; use fresh examples that
+1. Label the first 20 unaided and mark them `cold`; use fresh examples that
    have not received AI classification help.
-3. Label the remaining examples, personally reviewing every AI pre-label.
+2. Label the remaining examples, personally reviewing every AI pre-label.
    Record three hard cases. Check the assignment's 70% maximum class share
    and the chosen acceptance criterion's stricter 60% maximum.
-4. Commit the dataset manually, run notebook sections 1–5, and manually commit
+3. Commit the completed annotations manually, run notebook sections 1–5, and manually commit
    the resulting `results.json` and `test_split.csv`.
-5. Complete the five unit 5 README sections, verify at least four new commits,
+4. Complete the five unit 5 README sections, verify at least four new commits,
    push manually, and submit the fork URL in the Course Portal.
 
 ## Git checkpoint before every new step

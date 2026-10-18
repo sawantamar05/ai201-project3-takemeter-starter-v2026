@@ -130,6 +130,20 @@ you can run the whole notebook before you have data of your own.
 **One file, unsplit.** Don't split it yourself — the notebook does the 70/15/15
 split, and splitting twice is how examples leak between training and test.
 
+### This project's collection
+
+`collect_comments.py --stories data/collection_stories.json` collects real
+Hacker News comments using the public API. Run it with the project's Python
+environment. It refuses to overwrite existing output files. The saved
+`data/comment_sources.jsonl` and `data/collection_manifest.json` record
+provenance and collection settings.
+
+The current `labels.csv` contains 240 comments with blank labels and notes.
+Label the first 20 data records unaided before using AI pre-labels on any
+remaining records, and add `cold` to their notes once completed. A multiline
+comment is one CSV record. Finish and validate all annotations before running
+notebook sections 2–5; the collected file is not ready for training yet.
+
 ### The check before training
 
 Section 2's last cell looks for the things that break a run or quietly ruin it:

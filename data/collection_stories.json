@@ -1,0 +1,313 @@
+{
+  "discovery": {
+    "retrieved_at_utc": "2026-10-18T02:10:57.109945+00:00",
+    "endpoint": "https://hn.algolia.com/api/v1/search_by_date",
+    "queries": [
+      "AI",
+      "LLM",
+      "OpenAI",
+      "Claude",
+      "DeepSeek",
+      "transformer"
+    ],
+    "window_days": 28,
+    "minimum_thread_comments": 20,
+    "requests": 24,
+    "source_story_exclusions": [
+      50129045,
+      50122878,
+      50127979
+    ],
+    "selection": "Manually reviewed AI-related story titles across four weekly windows; model news, technical explanations, Show HN tools and Ask HN discussions; weeks interleaved; no comment content or labels used for selection."
+  },
+  "stories": [
+    {
+      "id": 50122951,
+      "title": "How the Claude Code team does code review",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "created_at": "2026-10-16T19:04:47Z",
+      "created_at_i": 1792177487,
+      "num_comments": 451,
+      "week_bucket": 0
+    },
+    {
+      "id": 49996437,
+      "title": "Claude Haiku 5.5",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "created_at": "2026-10-07T18:01:32Z",
+      "created_at_i": 1791396092,
+      "num_comments": 489,
+      "week_bucket": 1
+    },
+    {
+      "id": 49929489,
+      "title": "DeepSeek Harness Desktop for macOS and Windows",
+      "url": "https://www.deepseek.com/en/harness/",
+      "created_at": "2026-10-02T03:11:20Z",
+      "created_at_i": 1790910680,
+      "num_comments": 228,
+      "week_bucket": 2
+    },
+    {
+      "id": 49803892,
+      "title": "Claude Opus 5.5",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "created_at": "2026-09-22T16:29:05Z",
+      "created_at_i": 1790094545,
+      "num_comments": 1134,
+      "week_bucket": 3
+    },
+    {
+      "id": 50121179,
+      "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+      "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+      "created_at": "2026-10-16T17:08:38Z",
+      "created_at_i": 1792170518,
+      "num_comments": 542,
+      "week_bucket": 0
+    },
+    {
+      "id": 50000488,
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
+      "created_at": "2026-10-08T00:14:48Z",
+      "created_at_i": 1791418488,
+      "num_comments": 989,
+      "week_bucket": 1
+    },
+    {
+      "id": 49874728,
+      "title": "Prompting Claude Opus 5.5",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5",
+      "created_at": "2026-09-28T07:33:29Z",
+      "created_at_i": 1790580809,
+      "num_comments": 227,
+      "week_bucket": 2
+    },
+    {
+      "id": 49854875,
+      "title": "How to keep enjoying programming in a world of LLMs",
+      "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
+      "created_at": "2026-09-26T09:41:58Z",
+      "created_at_i": 1790415718,
+      "num_comments": 350,
+      "week_bucket": 3
+    },
+    {
+      "id": 50063717,
+      "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
+      "url": "https://github.com/prabanta-dev/janas",
+      "created_at": "2026-10-12T22:05:43Z",
+      "created_at_i": 1791842743,
+      "num_comments": 94,
+      "week_bucket": 0
+    },
+    {
+      "id": 50018817,
+      "title": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
+      "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+      "created_at": "2026-10-09T11:03:48Z",
+      "created_at_i": 1791543828,
+      "num_comments": 195,
+      "week_bucket": 1
+    },
+    {
+      "id": 49934620,
+      "title": "One month coding with GLM 5.3 Flash",
+      "url": "https://wagtail.org/blog/one-month-on-glm-53-flash/",
+      "created_at": "2026-10-02T15:29:15Z",
+      "created_at_i": 1790954955,
+      "num_comments": 180,
+      "week_bucket": 2
+    },
+    {
+      "id": 49857528,
+      "title": "Show HN: A Claude Code skill to analyze your chess games",
+      "url": "https://github.com/brumar/chess-postmortem-skills",
+      "created_at": "2026-09-26T15:34:53Z",
+      "created_at_i": 1790436893,
+      "num_comments": 57,
+      "week_bucket": 3
+    },
+    {
+      "id": 50067325,
+      "title": "Ask HN: CAD for wood working with LLM support?",
+      "url": null,
+      "created_at": "2026-10-13T05:54:01Z",
+      "created_at_i": 1791870841,
+      "num_comments": 127,
+      "week_bucket": 0
+    },
+    {
+      "id": 50012199,
+      "title": "Show HN: Free open source Adobe Lightroom alternative, completely local with AI",
+      "url": "https://github.com/thesnarkitecht/rembrandt",
+      "created_at": "2026-10-08T21:00:55Z",
+      "created_at_i": 1791493255,
+      "num_comments": 64,
+      "week_bucket": 1
+    },
+    {
+      "id": 49882781,
+      "title": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
+      "url": "https://stateofutopia.com/experiments/microllmlab/",
+      "created_at": "2026-09-28T18:58:53Z",
+      "created_at_i": 1790621933,
+      "num_comments": 113,
+      "week_bucket": 2
+    },
+    {
+      "id": 49846953,
+      "title": "Show HN: Doom or Bloom, map your AI worldview",
+      "url": "https://www.doom-or-bloom.com",
+      "created_at": "2026-09-25T16:51:28Z",
+      "created_at_i": 1790355088,
+      "num_comments": 48,
+      "week_bucket": 3
+    },
+    {
+      "id": 50069337,
+      "title": "Show HN: Use your OpenAI subscription to create audiobooks",
+      "url": "https://pdftomp3.com/connect-ai/",
+      "created_at": "2026-10-13T10:08:34Z",
+      "created_at_i": 1791886114,
+      "num_comments": 90,
+      "week_bucket": 0
+    },
+    {
+      "id": 50027257,
+      "title": "Recent AI models struggled to match a human algorithmic innovation",
+      "url": "https://epoch.ai/publications/innovationeval",
+      "created_at": "2026-10-09T22:14:40Z",
+      "created_at_i": 1791584080,
+      "num_comments": 97,
+      "week_bucket": 1
+    },
+    {
+      "id": 49937916,
+      "title": "Show HN: Made an open-source Lego AI generator",
+      "url": "https://github.com/anteloc/ldraw-nova",
+      "created_at": "2026-10-02T20:00:15Z",
+      "created_at_i": 1790971215,
+      "num_comments": 52,
+      "week_bucket": 2
+    },
+    {
+      "id": 49826029,
+      "title": "Ask HN: I just talked to an AI-obsessed client, and I need a shower afterwards",
+      "url": null,
+      "created_at": "2026-09-24T03:48:41Z",
+      "created_at_i": 1790221721,
+      "num_comments": 51,
+      "week_bucket": 3
+    },
+    {
+      "id": 50081151,
+      "title": "Show HN: I built a tool to track what AI leaders say and how their views change",
+      "url": "https://blumify.io/people",
+      "created_at": "2026-10-14T01:09:13Z",
+      "created_at_i": 1791940153,
+      "num_comments": 76,
+      "week_bucket": 0
+    },
+    {
+      "id": 50020096,
+      "title": "Ask HN: What if no AIpocalypse, no AI bubble, what if it just keeps advancing?",
+      "url": null,
+      "created_at": "2026-10-09T13:18:05Z",
+      "created_at_i": 1791551885,
+      "num_comments": 33,
+      "week_bucket": 1
+    },
+    {
+      "id": 49906174,
+      "title": "Ask HN: How will the AI endgame play out?",
+      "url": null,
+      "created_at": "2026-09-30T08:53:19Z",
+      "created_at_i": 1790758399,
+      "num_comments": 28,
+      "week_bucket": 2
+    },
+    {
+      "id": 49821196,
+      "title": "Once Claude can measure something, it can make it faster",
+      "url": "https://claude.dev/blog/how-we-made-claude-ai-faster/",
+      "created_at": "2026-09-23T19:23:40Z",
+      "created_at_i": 1790191420,
+      "num_comments": 154,
+      "week_bucket": 3
+    },
+    {
+      "id": 50104299,
+      "title": "Using AI to reverse engineer hardware",
+      "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
+      "created_at": "2026-10-15T14:35:15Z",
+      "created_at_i": 1792074915,
+      "num_comments": 248,
+      "week_bucket": 0
+    },
+    {
+      "id": 50031614,
+      "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+      "url": "https://github.com/rociiu/talorys",
+      "created_at": "2026-10-10T10:52:09Z",
+      "created_at_i": 1791629529,
+      "num_comments": 155,
+      "week_bucket": 1
+    },
+    {
+      "id": 49933459,
+      "title": "Don't be fooled–LLMs don't reason",
+      "url": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
+      "created_at": "2026-10-02T13:45:42Z",
+      "created_at_i": 1790948742,
+      "num_comments": 161,
+      "week_bucket": 2
+    },
+    {
+      "id": 49775104,
+      "title": "The LLMentalist Effect (2023)",
+      "url": "https://softwarecrisis.dev/letters/llmentalist/",
+      "created_at": "2026-09-20T12:20:13Z",
+      "created_at_i": 1789906813,
+      "num_comments": 309,
+      "week_bucket": 3
+    },
+    {
+      "id": 50047422,
+      "title": "The gap in shared understanding of LLM capability is widening",
+      "url": "https://twitter.com/karpathy/status/2109361546505966046",
+      "created_at": "2026-10-11T20:20:52Z",
+      "created_at_i": 1791750052,
+      "num_comments": 1072,
+      "week_bucket": 0
+    },
+    {
+      "id": 49981905,
+      "title": "Claude Code’s suggested message feature: I think the real customer is the model",
+      "url": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
+      "created_at": "2026-10-06T18:00:34Z",
+      "created_at_i": 1791309634,
+      "num_comments": 153,
+      "week_bucket": 1
+    },
+    {
+      "id": 49936575,
+      "title": "From the creator of Redis; run LLM locally with ds4",
+      "url": "https://dwarfstar.sh/",
+      "created_at": "2026-10-02T18:01:16Z",
+      "created_at_i": 1790964076,
+      "num_comments": 107,
+      "week_bucket": 2
+    },
+    {
+      "id": 49814947,
+      "title": "Claude Code reads AGENTS.md only when telemetry is on [fixed]",
+      "url": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/",
+      "created_at": "2026-09-23T12:15:33Z",
+      "created_at_i": 1790165733,
+      "num_comments": 284,
+      "week_bucket": 3
+    }
+  ]
+}
