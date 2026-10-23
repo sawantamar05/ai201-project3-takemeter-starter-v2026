@@ -400,16 +400,25 @@ posts remain separate from the real dataset.
 <!-- Both models on the same posts. `python baseline.py --trained results.json`
      prints this table for you. -->
 
+The baseline is `facebook/bart-large-mnli`, using the unchanged definitions
+in `label_definitions.txt`. It will classify all 36 comments in the committed
+`test_split.csv`, matching the Part 1 trained model's held-out test set.
+The trained scores below are the existing Part 1 results; baseline scores
+will be filled in after the prediction is recorded and the baseline runs.
+
 | Measure | Baseline | Trained | Difference |
 |---|---|---|---|
-| Overall accuracy |  |  |  |
-| Macro F1 |  |  |  |
-| F1 — `label_one` |  |  |  |
-| F1 — `label_two` |  |  |  |
+| Overall accuracy |  | 0.528 |  |
+| Macro F1 |  | 0.400 |  |
+| F1 — `analysis` |  | 0.647 |  |
+| F1 — `request` |  | 0.000 |  |
+| F1 — `commentary` |  | 0.552 |  |
 
 **What I predicted before I looked:**
-<!-- Milestone 1 asks you to write this BEFORE seeing the trained numbers. A
-     prediction made afterwards isn't one. -->
+<!-- Record the prediction BEFORE running or seeing the baseline results.
+     The Part 1 trained-model results are already known. -->
+
+I predict that my trained model will score higher overall than the baseline.
 
 **What the gap actually means:**
 <!-- If the baseline matched your trained model, your fine-tuning added
