@@ -377,6 +377,8 @@ verify the saved metrics, and prepare the run log and typed confusion matrix.
 AI also checked the saved split counts and training logs and drafted the
 criterion verdicts and diagnoses below, distinguishing observed failures
 from possible causes.
+For Milestone 5, AI helped implement and execute the declared six-epoch
+experiment, verify the three after results, and prepare the comparison.
 
 **Staff annotation assistance:** At my request, AI drafted labels and short
 rule-based reasons for all 30 staff posts before the staff answer key was
@@ -535,6 +537,9 @@ report with its limits made explicit.
 
 ## Verdicts and Diagnoses
 
+These verdicts and diagnoses refer to the **before** trials. The after
+verdicts and measured changes appear under **The Improvement** below.
+
 <!-- MET or MISSED against LAST UNIT's target. The target has to hold across
      all three seeds, not turn up sometimes. -->
 
@@ -618,8 +623,9 @@ request failure by itself. The saved trained-model results contain aggregate
 confusion counts, not individual predictions, so I cannot name particular
 analysis/commentary errors from them. The request errors above are known
 because the model predicted zero requests. The next single improvement
-should prioritize that persistent failure and test a stated hypothesis;
-no data, labels, taxonomy, criteria, or model settings have changed yet.
+should prioritize that persistent failure and test a stated hypothesis.
+At this diagnostic checkpoint, no data, labels, taxonomy, criteria, or model
+settings had been changed. The one selected improvement is documented below.
 
 
 
@@ -708,22 +714,93 @@ predicts `request`. Those causes still need separate evidence.
 
 **What I changed:**
 
+Declared before the after runs: increase `EPOCHS` from 3 to 6. Six epochs
+double the training passes and updates, from 33 to 66 per run, to test whether
+the original budget stopped learning too early. Each seed starts a fresh
+DistilBERT model. The dataset, labels, taxonomy, criteria, seeds 42/7/2024,
+initial learning rate `2e-5`, batch size 16, and maximum length of 256 tokens
+stay the same. The existing learning-rate decay schedule now spans the
+longer run. `RUN_LABEL = "after"` only directs the new results to
+`results_three_seeds_after.json`, preserving the before artifact.
+
 **Which diagnosis pointed at it:**
+
+The request label was never predicted, and the final validation loss was
+still decreasing on all three before trials. That makes incomplete learning
+a plausible contributor. Doubling the epoch count is one bounded test of
+that hypothesis; it might improve request recognition, leave it unchanged,
+or overfit. Six epochs were selected before seeing any after results, and
+there will be no further tuning in this improvement experiment.
+
+**Execution status:** All three six-epoch runs completed on October 22, 2026,
+using `mps` (Apple Silicon GPU), PyTorch 2.14.1, and the same seed-matched
+168/36/36 train/validation/test splits. Results are saved in
+[results_three_seeds_after.json](results_three_seeds_after.json), and the
+notebook contains the actual after outputs. Training took about 57 seconds
+per seed; the complete execution took 181.4 seconds. The original
+three-epoch results, before artifact, baseline, and test split are preserved.
 
 ### Run Log — After
 
 | Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
 |---|---|---|---|---|---|
-| 1.  |  |  |  |  |  |
-| 2.  |  |  |  |  |  |
-| 3.  |  |  |  |  |  |
-| 4.  |  |  |  |  |  |
-| 5.  |  |  |  |  |  |
+| 1. Overall accuracy | ≥ 0.65 | 0.556 | 0.583 | 0.750 | MISSED |
+| 2. `analysis` F1 | ≥ 0.60 | 0.667 | 0.667 | 0.929 | MET |
+| 3. `request` F1 | ≥ 0.60 | 0.200 | 0.000 | 0.000 | MISSED |
+| 4. `commentary` F1 | ≥ 0.55 | 0.552 | 0.667 | 0.800 | MET |
+| 5. Largest unsplit class share | ≤ 60% | 39.58% | 39.58% | 39.58% | MET |
+
+Verdicts use unrounded scores and require every seed to pass. The balance
+row repeats the unchanged 95/240 dataset measurement, not three independent
+measurements. Macro F1 was 0.473, 0.444, and 0.576, respectively.
+
+**Matched before and after results** (before → after):
+
+| Measure | Seed 42 | Seed 7 | Seed 2024 |
+|---|---|---|---|
+| Accuracy | 0.528 → 0.556 | 0.500 → 0.583 | 0.750 → 0.750 |
+| `analysis` F1 | 0.647 → 0.667 | 0.585 → 0.667 | 0.867 → 0.929 |
+| `request` F1 | 0.000 → 0.200 | 0.000 → 0.000 | 0.000 → 0.000 |
+| `commentary` F1 | 0.552 → 0.552 | 0.545 → 0.667 | 0.848 → 0.800 |
+
+**After, seed 42 — 36 held-out comments:**
+
+| true \ predicted | analysis | request | commentary |
+|---|---|---|---|
+| **analysis** | 11 | 0 | 2 |
+| **request** | 3 | 1 | 5 |
+| **commentary** | 6 | 0 | 8 |
+
+The largest off-diagonal count is still six commentary comments predicted
+as analysis, versus two analysis comments predicted as commentary. This
+boundary's seed-42 counts did not improve. One request is now correct;
+eight of nine are still missed.
 
 **Did it help, and how do I know:**
 
 <!-- If it didn't, say so. Relabelling that didn't help is a genuinely
      interesting result and earns full credit. -->
+
+The improvement helped partially. Three criteria now pass, compared with
+one before: analysis F1 and commentary F1 newly pass on every seed, while
+balance remains met. Accuracy improved by one correct comment on seed 42
+(+2.8 percentage points) and three on seed 7 (+8.3 points), and stayed
+unchanged on seed 2024. Its spread narrowed from 25.0 to 19.4 percentage
+points, which still exceeds the assignment's ten-point concern threshold.
+
+The intended request fix is mostly unsuccessful: seed 42 predicts one
+request and gets it right, giving recall 1/9 and F1 0.20; the other seeds
+still predict zero requests. Longer training therefore did not resolve
+the main intent boundary. There is also a regression: seed 2024's commentary
+F1 fell from 0.8485 to 0.8000 because seven requests were called commentary,
+up from five before. Its overall accuracy stayed at 27/36; the errors
+shifted between the other labels.
+
+These matched trials support a limited benefit from the declared change,
+with the remaining accuracy and request criteria still missed. They do
+not establish incomplete training as the sole cause, or show that more
+epochs would keep helping. The experiment stops at the predeclared six
+epochs; no second improvement or further tuning was performed.
 
 
 

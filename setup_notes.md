@@ -288,14 +288,57 @@ the calculations, saved-log review, and diagnostic drafting. No training
 was run and no model, dataset, label, taxonomy, criterion, or result artifact
 was modified during this step.
 
+The Milestone 4 diagnosis checkpoint was manually committed and pushed as
+`adb5e10`.
+
+### Milestone 5: one declared improvement executed and measured
+
+The selected change is `EPOCHS = 3` to `EPOCHS = 6`. Six epochs double the
+training passes and updates (33 to 66 per seed) while retaining the same
+data, labels, taxonomy, criteria, split function, seeds, model, learning rate,
+batch size, and 256-token input limit. The hypothesis is incomplete learning:
+requests were never predicted, and validation loss still declined at the end
+of each original run. This is a bounded test rather than a guarantee of
+improvement. No further tuning is planned for this experiment.
+
+The README records this choice before execution. Notebook cell 6 changes the
+epoch count; cell 19 sets `RUN_LABEL = "after"` to route the output to a new
+artifact. A markdown note distinguishes the retained original Unit 5 outputs
+from the after experiment. The existing learning-rate decay schedule spans
+the longer training duration, with the configured initial rate unchanged.
+
+All three six-epoch runs completed on October 22, 2026, using MPS and
+PyTorch 2.14.1. The actual notebook cells ran in a fresh project kernel;
+only imports and function definitions from the Unit 5 training/evaluation
+cells were reused, preserving their historical outputs and original artifact
+writes. Training took 56.86, 56.50, and 57.08 seconds for seeds 42, 7, and
+2024, respectively; total execution was 181.44 seconds. The notebook and
+`results_three_seeds_after.json` contain the actual after results.
+
+After accuracy is 0.5556, 0.5833, and 0.7500; analysis F1 is 0.6667, 0.6667,
+and 0.9286; request F1 is 0.2000, 0.0000, and 0.0000; commentary F1 is
+0.5517, 0.6667, and 0.8000. Original targets and the all-seeds rule give
+MISSED, MET, MISSED, MET, MET for criteria 1–5. Balance is still the same
+95/240 unsplit measurement. The README includes the five-row after log,
+matched comparison, and typed seed-42 after confusion matrix.
+
+This is a partial improvement: two additional criteria pass, but only one
+request is recognized on seed 42 and none on the other seeds. Accuracy
+improves by one and three correct comments on seeds 42 and 7, respectively,
+and is unchanged on seed 2024. Accuracy spread is still 19.44 percentage
+points, down from 25.00. Seed 2024 commentary F1 regresses because more
+requests are classified as commentary. No second improvement was attempted.
+
+Independent arithmetic and split checks passed. Dataset, taxonomy, criteria,
+before results, original results/test split, baseline, agreement artifacts,
+and the existing uncommitted taxonomy-note edit were preserved. AI helped
+execute the experiment, verify the outputs, and draft the measured comparison.
+
 ### Remaining testing milestones
 
-1. Review and manually commit the Milestone 4 verdicts and diagnoses in
-   `README.md`, `RUNNING.md`, and `setup_notes.md`.
-2. Choose and document one diagnosed improvement, then rerun the same three seeds,
-   preserving
-   `results_three_seeds_after.json`, then compare the before and after logs.
-3. Finish the write-up, verify at least four new Part 2 commits, push manually,
+1. Review and manually commit the six-epoch notebook, after results, and
+   updated README, running instructions, and setup notes.
+2. Finish the write-up, verify at least four new Part 2 commits, push manually,
    and submit the same repository URL through the Course Portal.
 
 ## Git checkpoint before every new step

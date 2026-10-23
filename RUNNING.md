@@ -165,8 +165,15 @@ as `91691d1` before opening the supplied answer key. The agreement check matched
 The annotations were AI-assisted, as disclosed there. The README now records
 all five criterion verdicts and diagnoses: four performance criteria missed,
 and the dataset-balance criterion passed. Observed errors and possible causes
-are distinguished. One improvement and its three-seed after trials are next;
-no improvement has been applied.
+are distinguished. The single Milestone 5 improvement has been declared:
+increase epochs from 3 to 6, leaving the other model settings and data fixed.
+The notebook uses `RUN_LABEL = "after"` to preserve the before results.
+All three after trials completed on `mps` with PyTorch 2.14.1 and the same
+splits. Accuracy was 0.5556, 0.5833, and 0.7500 for seeds 42, 7, and 2024.
+The actual notebook outputs and `results_three_seeds_after.json` record the
+runs. Analysis F1, commentary F1, and dataset balance now meet their targets;
+accuracy and request F1 still miss. The README includes the matched comparison
+and seed-42 after matrix. The final "What's Still Broken" write-up is next.
 
 ### The check before training
 
