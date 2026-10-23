@@ -334,12 +334,39 @@ before results, original results/test split, baseline, agreement artifacts,
 and the existing uncommitted taxonomy-note edit were preserved. AI helped
 execute the experiment, verify the outputs, and draft the measured comparison.
 
-### Remaining testing milestones
+The six-epoch improvement checkpoint was manually committed and pushed as
+`f799212`.
 
-1. Review and manually commit the six-epoch notebook, after results, and
-   updated README, running instructions, and setup notes.
-2. Finish the write-up, verify at least four new Part 2 commits, push manually,
-   and submit the same repository URL through the Course Portal.
+### Milestone 6: final limitations and reflection written
+
+The README now explains both remaining misses. Accuracy remains below 0.65
+on seeds 42 and 7, with a 19.44-percentage-point spread after the change.
+One future experiment would audit the analysis/commentary training boundary
+and evaluate any correction on a larger fresh set from more Hacker News
+threads. Request F1 remains 0.20/0.00/0.00; a separate future experiment would add
+30 carefully reviewed training requests and check rule application with
+another annotator. Neither future activity was performed in this submission.
+The stated stopping reason is completion of the one predeclared improvement,
+not an invented time limit or a lowered target.
+
+The required two-sentence reflection uses the actual seed-42 after matrix:
+eight of nine requests are still missed, and six commentary comments become
+analysis. The AI-use section records assistance with the final writing.
+The same submission repository URL is linked in the README. Before the
+final documentation commit, there are seven new Part 2 commits since the
+Part 1 checkpoint `2a9b37d`, exceeding the four-commit requirement.
+
+Required input and result files are committed. No further training, data
+collection, annotation changes, criteria changes, or model changes were
+made in this final writing step. The pre-existing local change to
+`milestone2_taxonomy_check.md` remains separate from the final checkpoint.
+
+### Final submission steps
+
+1. Review and manually commit `README.md`, `RUNNING.md`, and `setup_notes.md`,
+   then push the final documentation checkpoint.
+2. Submit the same GitHub repository URL through the Course Portal. Portal
+   submission requires separate confirmation; a Git push does not submit it.
 
 ## Git checkpoint before every new step
 

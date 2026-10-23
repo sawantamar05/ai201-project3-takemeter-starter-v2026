@@ -379,6 +379,8 @@ criterion verdicts and diagnoses below, distinguishing observed failures
 from possible causes.
 For Milestone 5, AI helped implement and execute the declared six-epoch
 experiment, verify the three after results, and prepare the comparison.
+AI also helped draft the final limitations and two-sentence explanation
+of the gap between the intended labels and the observed model behavior.
 
 **Staff annotation assistance:** At my request, AI drafted labels and short
 rule-based reasons for all 30 staff posts before the staff answer key was
@@ -810,12 +812,46 @@ epochs; no second improvement or further tuning was performed.
 
 <!-- For each criterion still missed: what you'd do, and why you stopped. -->
 
+**Criterion 1 — overall accuracy ≥ 0.65: still missed.**
+After the change, accuracy is 0.5556, 0.5833, and 0.7500. The first two
+seeds remain below the target, and the 19.4-percentage-point spread shows
+that the result is still sensitive to the split and training randomness.
+In a future experiment, I would audit the analysis/commentary training
+examples against the written rules with a second reviewer. Any boundary
+correction would then be tested on a larger, newly labeled set from additional
+Hacker News threads, so its benefit is measured beyond the small 36-comment
+test sets. I stopped this experiment after its one declared change; a
+boundary correction and fresh evaluation require a separate experiment.
+
+**Criterion 3 — request F1 ≥ 0.60: still missed.**
+After F1 is 0.2000, 0.0000, and 0.0000. Seed 42 recognizes one of nine
+requests, while the other seeds recognize none. A separate future experiment
+would add 30 new, carefully reviewed request examples to the training
+data, including questions with technical background, resource lists, and
+requests for action. I would keep the definitions fixed and have another
+annotator check the labels to investigate inconsistent rule application.
+That would test whether more varied examples help the model learn intent.
+I stopped after the predeclared six-epoch comparison because another data
+change would require its own recorded experiment and evaluation; these
+additional examples were not collected or used in the reported runs.
+
+The analysis F1, commentary F1, and balance criteria are met, but the model
+is not yet reliable at distinguishing genuine requests. The original targets
+remain in place, and no second improvement was performed.
 
 
 **The gap between what I meant my labels to capture and what the model
 learned:**
 <!-- Two sentences. Your confusion matrix is the evidence. -->
 
+I intended the labels to capture whether a comment offers supported analysis,
+genuinely asks for an answer or action, or gives commentary. In the after run
+for seed 42, the model still misclassified eight of nine requests and called
+six commentary comments analysis, showing that it learned those distinctions
+incompletely.
+
+**Submission repository:**
+[sawantamar05/ai201-project3-takemeter-starter-v2026](https://github.com/sawantamar05/ai201-project3-takemeter-starter-v2026)
 
 
 <!-- ═════════════════════════════════════════════════════════════════════

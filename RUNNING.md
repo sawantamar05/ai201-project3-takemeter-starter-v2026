@@ -172,8 +172,11 @@ All three after trials completed on `mps` with PyTorch 2.14.1 and the same
 splits. Accuracy was 0.5556, 0.5833, and 0.7500 for seeds 42, 7, and 2024.
 The actual notebook outputs and `results_three_seeds_after.json` record the
 runs. Analysis F1, commentary F1, and dataset balance now meet their targets;
-accuracy and request F1 still miss. The README includes the matched comparison
-and seed-42 after matrix. The final "What's Still Broken" write-up is next.
+accuracy and request F1 still miss. The README includes the matched comparison,
+seed-42 after matrix, final "What's Still Broken" discussion, and two sentences
+comparing the intended labels with the learned behavior. Future data collection
+is described as a separate experiment. Submit the same repository URL through
+the Course Portal after manually committing and pushing the final write-up.
 
 ### The check before training
 
