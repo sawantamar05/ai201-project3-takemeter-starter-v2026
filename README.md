@@ -379,9 +379,12 @@ verify the saved metrics, and prepare the run log and typed confusion matrix.
 rule-based reasons for all 30 staff posts before the staff answer key was
 available. I reviewed all 30 labels and reasons on October 22, 2026, and
 retained them without changes in `staff_labeling_worksheet.md` and
-`my_staff_labels.csv`. This departs from the
-instruction to label these posts independently, so a later comparison will
-measure AI-assisted annotation agreement rather than my unaided rule application.
+`my_staff_labels.csv`. This departs from the instruction to label these posts
+independently, so the comparison measures AI-assisted annotation agreement
+rather than my unaided rule application. After committing these labels as
+`91691d1`, I supplied the staff key. AI helped run and verify the comparison
+and lay out both interpretations of the one disagreement. I chose to accept
+staff's `hot_take` label and classify the disagreement as pile (a).
 
 **Collection assistance:** I used AI assistance to select AI-related discussion
 titles and create and run `collect_comments.py`. The script collected complete
@@ -554,17 +557,19 @@ observed error patterns; causal diagnoses will use the later agreement report.
 
 ## Agreement Report
 
-**Status:** I reviewed all 30 staff labels and reasons on October 22, 2026,
-and retained them without changes. The [labeling worksheet](staff_labeling_worksheet.md)
-matches `my_staff_labels.csv`. Reviewed counts are 11 `analysis`,
-9 `hot_take`, and 10 `reaction`. Post 14 is explicitly flagged as borderline
-between `analysis` and `hot_take`. The staff key has not been opened, and no
-agreement rate or adjudications have been calculated.
+**Status:** Comparison and adjudication complete. I reviewed all 30 staff
+labels and reasons on October 22, 2026, retained them without changes, and
+committed them as `91691d1` before supplying or opening the staff key. The
+[labeling worksheet](staff_labeling_worksheet.md) still matches
+`my_staff_labels.csv`: 11 `analysis`, 9 `hot_take`, and 10 `reaction`.
+The staff key contains 10 of each label. All 30 posts matched, with no missing,
+extra, or duplicate entries. There is one disagreement, adjudicated below.
 
 This exercise uses the [staff taxonomy](data/staff_taxonomy.md) for a
 fictional running forum: `analysis`, `hot_take`, and `reaction`. The Hacker
-News training taxonomy remains unchanged. The reviewed annotations are ready
-for a manual commit before obtaining or opening the staff key. The AI-assisted drafting
+News training taxonomy remains unchanged. The supplied key is saved unchanged
+as `data/staff_labels.csv`; `python agreement.py` produced
+[agreement_results.json](agreement_results.json). The AI-assisted annotation
 workflow is disclosed in **How I Used AI** above.
 
 <!-- Your rate against the staff set, and every disagreement adjudicated.
@@ -573,7 +578,8 @@ workflow is disclosed in **How I Used AI** above.
      data/staff_taxonomy.md, not your own — so every argument below is made
      from those definitions and those decision rules. -->
 
-**Agreement rate:** ___ / 30 = ___%
+**Agreement rate:** 29 / 30 = 96.7%. The script displays 97% after rounding.
+This measures agreement with staff under the staff rules, not classifier accuracy.
 
 <!-- Nobody grades this number. A 60% who argues every disagreement from the
      stated rules beats a 95% who wrote "staff was right" nine times. Several
@@ -595,26 +601,35 @@ workflow is disclosed in **How I Used AI** above.
      written rule two different ways on 30 posts, that is direct evidence about
      what you did across your own 200. -->
 
-**1.**
-> *The post:*
+**1. Post 14 (`sp_014`): evidence versus a decorative statistic**
+> *The post:* Times are down about 3% since the shoe rules changed, so obviously the shoes are the whole story and the sport has a problem.
 >
-> *Staff said / I said:*
+> *Staff said / I said:* `hot_take` / `analysis`.
 >
-> *My call, and why:*
+> *My call, and why:* I accept `hot_take`. I originally read the statistic and
+> "so" as a premise supporting a conclusion, which resembles the analysis
+> example in rule 1. After considering both readings, I read "obviously,"
+> "the whole story," and "the sport has a problem" as the central unsupported
+> judgment. The 3% change does not establish that shoes explain everything;
+> here it decorates that sweeping judgment. Rule 1 already distinguishes a
+> fact that carries an argument from a statistic used as a flourish. I applied
+> that distinction too loosely.
 >
-> *Which pile:*
+> *Which pile:* (a) The written rule covered the boundary, but I applied it loosely.
 
-**2.**
-> *The post:*
->
-> *Staff said / I said:*
->
-> *My call, and why:*
->
-> *Which pile:*
+Pile counts: (a) 1, (b) 0, (c) 0. I preserved the original `analysis` label
+in `my_staff_labels.csv` and the worksheet so the comparison continues to
+measure the annotations saved before seeing the key.
 
 **What the pattern in my disagreements tells me:**
 
+My one disagreement concerns whether a statistic actually supports a claim.
+That suggests checking the supported-analysis versus unsupported-commentary
+boundary in my Hacker News data, where the seed-42 model called six commentary
+posts analysis. The staff taxonomy and topic differ from that dataset, however,
+and these annotations were AI-assisted. One disagreement does not prove that
+my Hacker News labels are inconsistent or explain why the trained model never
+predicts `request`. Those causes still need separate evidence.
 
 
 ---

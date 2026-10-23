@@ -205,45 +205,62 @@ criterion 5 is MET; the largest class remains 95/240 = 39.58% of the unsplit
 dataset. The README records the five-row log and typed seed-42 confusion
 matrix. The largest seed-42 error is six commentary comments called analysis,
 versus two in the reverse direction. These observations do not establish
-the cause; agreement evidence and diagnoses are still pending.
+the cause; agreement evidence is recorded below and criterion diagnoses are
+still pending.
 
 The before results, executed notebook, and write-up were manually committed
 and pushed as `639f0b8`.
 
-### Milestone 3: reviewed staff annotations; comparison pending
+### Milestone 3: staff comparison and adjudication recorded
 
 At the user's request, AI drafted labels and short rule-based reasons for
 all 30 staff posts. `staff_labeling_worksheet.md` preserves the original
 posts and includes every draft and reason. The labels were mechanically
 copied into `my_staff_labels.csv`, with exactly `text,label` columns and
 unchanged text and order. Reviewed counts are 11 analysis, 9 hot_take, and
-10 reaction. Post 14 is flagged as analysis versus hot_take: its statistic
-explicitly supports the conclusion, while its sweeping wording permits a
-competing hot_take reading.
+10 reaction. Before the key was opened, the worksheet flagged Post 14 as
+borderline: one reading takes its statistic as a premise, while another
+reads it as decoration for the sweeping judgment. The student's final
+adjudication after comparison is recorded below.
 
 The student confirmed review of all 30 labels and reasons on October 22,
 2026, retaining every draft label and reason without changes. The worksheet
 and CSV match. The README discloses the assistance
-and departure from the independent-labeling instruction. A later agreement
-rate will describe these assisted annotations; it cannot independently
+and departure from the independent-labeling instruction. The agreement
+rate describes these assisted annotations; it cannot independently
 measure the student's unaided application of the staff rules.
 
-The staff answer key remains absent and no agreement comparison has run.
-Manually commit the reviewed annotations before obtaining or opening
-`data/staff_labels.csv` from the TF. The project training data and taxonomy
-remain unchanged.
+The reviewed annotation checkpoint was manually committed and pushed as
+`91691d1` before the supplied answer key was opened. The supplied
+`(SEND AFTER THEY ARE DONE) data_staff_labels.csv` was validated and copied
+unchanged to `data/staff_labels.csv`. The key has exactly the 30 expected IDs,
+valid labels, and 10 posts per label. The original annotations and texts remain
+unchanged; all 30 posts matched with no missing, extra, or duplicate entries.
+
+Running `.venv/bin/python agreement.py` saved `agreement_results.json`:
+29 agreed, one disagreed, agreement 0.9666666666666667 (96.7%; the console
+rounds to 97%). The only disagreement is `sp_014`: the saved annotation is
+analysis, staff chose hot_take. After considering the strongest rule-based
+case for each label, the student chose to accept hot_take and pile (a): the
+statistic decorates a sweeping judgment, and rule 1 was applied too loosely.
+The README records this call and reason. The original analysis annotation
+is preserved to keep the comparison tied to the checkpoint saved before
+seeing the key.
+
+This is annotation agreement, not model accuracy. The different topic,
+different taxonomy, assisted workflow, and single disagreement limit what
+it can establish about the Hacker News training labels. The project training
+data, taxonomy, criteria, and saved model results remain unchanged.
 
 ### Remaining testing milestones
 
-1. Manually commit the reviewed annotation checkpoint: `my_staff_labels.csv`,
-   `staff_labeling_worksheet.md`, `README.md`, and `setup_notes.md`.
-2. Then obtain the TF's answer key, run the agreement check, and adjudicate
-   every disagreement.
-3. Complete the criterion verdict explanations and diagnose each miss using
+1. Manually commit the staff key, agreement results, and updated README,
+   running instructions, and setup notes.
+2. Complete the criterion verdict explanations and diagnose each miss using
    the model results and agreement evidence.
-4. Make one diagnosed improvement and rerun the same three seeds, preserving
+3. Make one diagnosed improvement and rerun the same three seeds, preserving
    `results_three_seeds_after.json`, then compare the before and after logs.
-5. Finish the write-up, verify at least four new Part 2 commits, push manually,
+4. Finish the write-up, verify at least four new Part 2 commits, push manually,
    and submit the same repository URL through the Course Portal.
 
 ## Git checkpoint before every new step

@@ -159,8 +159,11 @@ The unchanged three-seed before trials are saved in
 `results_three_seeds_before.json`, with seed-42, seed-7, and seed-2024
 accuracy of 0.5278, 0.5000, and 0.7500. The run used `mps`, PyTorch 2.14.1,
 and the same Part 1 settings. The README contains the five-criterion run log
-and seed-42 confusion matrix. The next milestone is independent staff-set
-labeling, followed by agreement and diagnosis; no improvement has been applied.
+and seed-42 confusion matrix. The staff annotations were reviewed and committed
+as `91691d1` before opening the supplied answer key. The agreement check matched
+29 of 30 posts (96.7%), and the one disagreement is adjudicated in the README.
+The annotations were AI-assisted, as disclosed there. Criterion diagnoses are
+next; no improvement has been applied.
 
 ### The check before training
 
