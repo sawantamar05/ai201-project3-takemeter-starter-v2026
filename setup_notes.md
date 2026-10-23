@@ -138,7 +138,7 @@ Notebook sections 1–5 completed on October 18, 2026 (PDT), using `mps`
 (Apple Silicon GPU), PyTorch 2.14.1, and the committed settings above. The run
 downloaded the public DistilBERT files and generated `results.json` and
 `test_split.csv`; the notebook contains all eight executed Unit 5 code cells.
-Sections 6–7 remain unexecuted for unit 6.
+Sections 6–7 were subsequently executed for the Part 2 before trials below.
 
 Artifact verification passed: the held-out CSV exactly matches the
 deterministic seed-42 test split; the confusion counts, accuracy, per-label
@@ -149,7 +149,8 @@ Held-out accuracy is 0.5278 (19/36), and macro F1 is 0.3996. Per-label F1:
 analysis 0.6471, request 0.0000, commentary 0.5517. The model made no request
 predictions. The accuracy and request-F1 targets are missed on this run;
 analysis F1, commentary F1, and dataset balance meet their targets for this
-checkpoint. Criteria remain unchanged. The three-seed test belongs to unit 6.
+checkpoint. Criteria remain unchanged. The Part 2 three-seed results are
+recorded below.
 
 ## Part 1 repository checkpoint
 
@@ -168,7 +169,8 @@ The baseline ran with `python baseline.py --trained results.json`, using
 `facebook/bart-large-mnli`, the unchanged definitions, and all 36 original
 held-out comments. It used `mps:0` (Apple Silicon GPU) and took 49.87 seconds
 including model loading and the first download. It generated
-`baseline_results.json`; the README contains the comparison table.
+`baseline_results.json`; the README contains the comparison table. The
+baseline results and write-up were manually committed and pushed as `73ffdd3`.
 
 Baseline accuracy is 17/36 (0.4722), compared with 19/36 (0.5278) for the
 trained model. Macro F1 is 0.3580 versus 0.3996. Neither model predicted
@@ -177,18 +179,46 @@ comments. Saved predictions exactly match the held-out row order, and
 independently calculated metrics match the saved scores. Part 1 data,
 criteria, definitions, model configuration, and outputs remain unchanged.
 
+### Milestone 2: three before trials
+
+Notebook sections 6–7 completed on October 22, 2026 (PDT), using seeds
+42, 7, and 2024 with the unchanged Part 1 data and training configuration.
+The actual device was `mps` (Apple Silicon GPU), with PyTorch 2.14.1. The
+three-seed cell took 90.06 seconds; the complete fresh-kernel run took
+95.00 seconds. `results_three_seeds_before.json` preserves all three results,
+and the notebook contains the actual executed outputs.
+
+Fresh-session setup reran section 1 and dataset preparation, then loaded
+only the existing imports and function definitions from the Part 1 training
+and evaluation cells. It did not rerun their top-level training/evaluation
+calls. The original `results.json`, `test_split.csv`, baseline results,
+notebook sources, and Part 1 training/evaluation cell outputs are preserved.
+
+Artifact verification passed for all three splits and all saved metrics:
+each split is 168/36/36 with disjoint texts; confusion counts reproduce the
+accuracy, per-label scores, and macro F1; recorded device and token limit
+match the configuration. No after artifact exists yet.
+
+Accuracy is 0.5278, 0.5000, and 0.7500, a 25-percentage-point spread. All
+three runs make zero request predictions. Criteria 1–4 are MISSED and
+criterion 5 is MET; the largest class remains 95/240 = 39.58% of the unsplit
+dataset. The README records the five-row log and typed seed-42 confusion
+matrix. The largest seed-42 error is six commentary comments called analysis,
+versus two in the reverse direction. These observations do not establish
+the cause; agreement evidence and diagnoses are still pending.
+
 ### Remaining testing milestones
 
-1. Review and manually commit and push the baseline results and write-up.
-2. Run the unchanged model across seeds 42, 7, and 2024, preserving
-   `results_three_seeds_before.json`, and record the typed confusion matrix.
-3. Independently label all 30 staff posts under `data/staff_taxonomy.md` and
+1. Review and manually commit and push the before results, executed notebook,
+   and updated write-up.
+2. Independently label all 30 staff posts under `data/staff_taxonomy.md` and
    save `my_staff_labels.csv` before obtaining or opening the TF's answer key.
    Then run the agreement check and adjudicate every disagreement.
-4. Judge all five original criteria and diagnose each miss using evidence.
-5. Make one diagnosed improvement and rerun the same three seeds, preserving
+3. Complete the criterion verdict explanations and diagnose each miss using
+   the model results and agreement evidence.
+4. Make one diagnosed improvement and rerun the same three seeds, preserving
    `results_three_seeds_after.json`, then compare the before and after logs.
-6. Finish the write-up, verify at least four new Part 2 commits, push manually,
+5. Finish the write-up, verify at least four new Part 2 commits, push manually,
    and submit the same repository URL through the Course Portal.
 
 ## Git checkpoint before every new step

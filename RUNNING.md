@@ -147,12 +147,20 @@ completed using a 256-token input limit and `mps` (Apple Silicon GPU). The
 executed notebook, `results.json`, and `test_split.csv` were committed in
 Part 1 as `2a9b37d`. Accuracy was 0.5278 and macro F1 was 0.3996; the model
 made no `request` predictions. The original
-acceptance targets remain unchanged. Sections 6–7 remain for unit 6.
+acceptance targets remain unchanged. Sections 6–7 have now been executed for
+the Part 2 before trials.
 
 The Part 2 baseline uses the same 36 held-out comments and unchanged label
 definitions. Its accuracy is 0.4722 and macro F1 is 0.3580, saved in
 `baseline_results.json`. The README records the prediction, comparison, and
-actual device (`mps:0`). The three-seed runs are the next testing milestone.
+actual device (`mps:0`).
+
+The unchanged three-seed before trials are saved in
+`results_three_seeds_before.json`, with seed-42, seed-7, and seed-2024
+accuracy of 0.5278, 0.5000, and 0.7500. The run used `mps`, PyTorch 2.14.1,
+and the same Part 1 settings. The README contains the five-criterion run log
+and seed-42 confusion matrix. The next milestone is independent staff-set
+labeling, followed by agreement and diagnosis; no improvement has been applied.
 
 ### The check before training
 

@@ -328,8 +328,7 @@ The model made no `request` predictions: four of the nine requests were
 predicted as `analysis` and five as `commentary`. This first run misses the
 accuracy and request-F1 targets. The analysis and commentary F1 targets are
 met for seed 42, and the dataset balance target is met. The targets are
-unchanged; sections 6–7 and the required three-seed evaluation remain for
-unit 6.
+unchanged. The Part 2 sections below record the three-seed evaluation.
 
 ---
 
@@ -373,6 +372,8 @@ and explanations before manually committing the file as `7aa786e`.
 **Part 2 testing assistance:** I supplied my prediction and manually committed
 it before the baseline run. I used AI assistance to execute the baseline,
 verify its saved predictions and scores, and prepare the comparison below.
+I also used AI assistance to execute the three unchanged before trials,
+verify the saved metrics, and prepare the run log and typed confusion matrix.
 
 **Collection assistance:** I used AI assistance to select AI-related discussion
 titles and create and run `collect_comments.py`. The script collected complete
@@ -437,8 +438,9 @@ baseline: an advantage of two comments, or 5.6 percentage points. This
 supports my prediction on this test set. The trained model had higher
 `analysis` F1, slightly lower `commentary` F1, and the same zero `request`
 F1. Neither model predicted any comments as `request`. This comparison applies
-to the original test set. The three-seed runs will next measure how much the
-trained model's scores vary across different splits.
+to the original test set. The three-seed run below measures the trained
+model's scores across different splits; the baseline has only been scored
+on the original test set.
 
 
 
@@ -449,29 +451,66 @@ trained model's scores vary across different splits.
 <!-- Five criteria across three seeds. The notebook's section 6 prints the
      spread table; the Target and Verdict columns are yours. -->
 
+These are the **before** trials, with no improvement applied. Each trial
+uses the unchanged 240-row dataset, taxonomy, criteria, and Part 1 settings:
+`distilbert-base-uncased`, 3 epochs, learning rate `2e-5`, batch size 16, and
+256 tokens. The device was `mps` (Apple Silicon GPU), with PyTorch 2.14.1.
+Every split has 168 training, 36 validation, and 36 test comments. The seed
+changes both the split and training randomness.
+
 | Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
 |---|---|---|---|---|---|
-| 1.  |  |  |  |  |  |
-| 2.  |  |  |  |  |  |
-| 3.  |  |  |  |  |  |
-| 4.  |  |  |  |  |  |
-| 5.  |  |  |  |  |  |
+| 1. Overall accuracy | ≥ 0.65 | 0.528 | 0.500 | 0.750 | MISSED |
+| 2. `analysis` F1 | ≥ 0.60 | 0.647 | 0.585 | 0.867 | MISSED |
+| 3. `request` F1 | ≥ 0.60 | 0.000 | 0.000 | 0.000 | MISSED |
+| 4. `commentary` F1 | ≥ 0.55 | 0.552 | 0.545 | 0.848 | MISSED |
+| 5. Largest unsplit class share | ≤ 60% | 39.58% | 39.58% | 39.58% | MET |
+
+Criteria 1–4 must pass on every seed, using unrounded scores. The 75% result
+on seed 2024 does not offset the lower accuracy on seeds 42 and 7. Analysis
+and commentary F1 miss their targets on seed 7. Criterion 5 is a property of
+the same unsplit dataset in every trial: 95/240 = 39.5833%; the repeated value
+is not three independent measurements.
+
+Macro F1, an additional measure rather than an adopted criterion, was 0.400,
+0.377, and 0.572 for seeds 42, 7, and 2024, respectively.
+
+**Stability:** Accuracy ranges from 50.0% to 75.0%, a spread of **25 percentage
+points**, exceeding the assignment's ten-point concern threshold. These
+results are sensitive to the seed. Each test split contains only 36 comments,
+so one changed answer moves accuracy by about 2.8 percentage points. The
+spread alone does not identify whether label application, sample size, or
+training randomness is responsible; the staff agreement check is still pending.
+
+All three runs made zero `request` predictions and missed all nine requests
+in their test splits. Seed 2024 correctly classified every non-request
+comment, so its higher accuracy still hides the complete failure on requests.
 
 ### Confusion matrix
 
 <!-- ⚠️ TYPED AS A MARKDOWN TABLE. The notebook prints one ready to paste.
      An image of a matrix earns nothing. -->
 
-| true \ predicted |  |  |  |
+**Before, seed 42 — 36 held-out comments.** This is one trial's matrix,
+not an aggregate across all three seeds. Rows are true labels; columns are
+predictions.
+
+| true \ predicted | analysis | request | commentary |
 |---|---|---|---|
-| **** |  |  |  |
-| **** |  |  |  |
-| **** |  |  |  |
+| **analysis** | 11 | 0 | 2 |
+| **request** | 4 | 0 | 5 |
+| **commentary** | 6 | 0 | 8 |
 
 **My biggest off-diagonal number, and what it means:**
 <!-- Not "the model made mistakes" — WHICH boundary it didn't learn, and which
      direction. "7 real analysis posts were called hot_take and only 3 went the
      other way" is a direction, not just an error rate. -->
+
+Six true `commentary` comments were predicted as `analysis`, compared with
+two true `analysis` comments predicted as `commentary`. This run leans toward
+`analysis` on that pair. The matrix also shows all nine requests going to
+the other labels: four to `analysis` and five to `commentary`. These are
+observed error patterns; causal diagnoses will use the later agreement report.
 
 
 
