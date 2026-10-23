@@ -370,6 +370,10 @@ of the generated results and held-out split.
 explanations before saving them in `criteria.md`. I reviewed the five targets
 and explanations before manually committing the file as `7aa786e`.
 
+**Part 2 testing assistance:** I supplied my prediction and manually committed
+it before the baseline run. I used AI assistance to execute the baseline,
+verify its saved predictions and scores, and prepare the comparison below.
+
 **Collection assistance:** I used AI assistance to select AI-related discussion
 titles and create and run `collect_comments.py`. The script collected complete
 comments, recorded sources, and checked for duplicates. At collection time,
@@ -401,18 +405,22 @@ posts remain separate from the real dataset.
      prints this table for you. -->
 
 The baseline is `facebook/bart-large-mnli`, using the unchanged definitions
-in `label_definitions.txt`. It will classify all 36 comments in the committed
+in `label_definitions.txt`. It classified all 36 comments in the committed
 `test_split.csv`, matching the Part 1 trained model's held-out test set.
-The trained scores below are the existing Part 1 results; baseline scores
-will be filled in after the prediction is recorded and the baseline runs.
+The trained scores below are the existing Part 1 results. The baseline ran
+with `python baseline.py --trained results.json` on `mps:0` (Apple Silicon
+GPU); total wall time was 49.87 seconds, including model loading and the
+first download. This is not an inference-only timing measurement.
 
 | Measure | Baseline | Trained | Difference |
 |---|---|---|---|
-| Overall accuracy |  | 0.528 |  |
-| Macro F1 |  | 0.400 |  |
-| F1 — `analysis` |  | 0.647 |  |
-| F1 — `request` |  | 0.000 |  |
-| F1 — `commentary` |  | 0.552 |  |
+| Overall accuracy | 0.472 | 0.528 | +0.056 |
+| Macro F1 | 0.358 | 0.400 | +0.042 |
+| F1 — `analysis` | 0.519 | 0.647 | +0.129 |
+| F1 — `request` | 0.000 | 0.000 | +0.000 |
+| F1 — `commentary` | 0.556 | 0.552 | -0.004 |
+
+Difference means trained minus baseline, calculated before rounding.
 
 **What I predicted before I looked:**
 <!-- Record the prediction BEFORE running or seeing the baseline results.
@@ -423,6 +431,14 @@ I predict that my trained model will score higher overall than the baseline.
 **What the gap actually means:**
 <!-- If the baseline matched your trained model, your fine-tuning added
      nothing — and that is a real finding, not a failure. Say it plainly. -->
+
+The trained model got 19 of 36 comments right, compared with 17 for the
+baseline: an advantage of two comments, or 5.6 percentage points. This
+supports my prediction on this test set. The trained model had higher
+`analysis` F1, slightly lower `commentary` F1, and the same zero `request`
+F1. Neither model predicted any comments as `request`. This comparison applies
+to the original test set. The three-seed runs will next measure how much the
+trained model's scores vary across different splits.
 
 
 

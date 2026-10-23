@@ -9,7 +9,8 @@ Setup completed October 17, 2026.
 - `python test.py`: **9 passed, 0 failed, 1 warning**.
 - PyTorch: 2.14.1; detected device: **mps (Apple Silicon GPU)**.
 - RAM: 16 GB; free disk after package installation: 23.7 GB.
-- Expected warning: the unit 6 baseline model has not been downloaded yet.
+- Initial setup warning: the baseline model had not been downloaded. The
+  download and first baseline run were completed in Part 2.
 
 The sandbox initially reported CPU; the same check outside the sandbox
 confirmed MPS availability. The actual seed-42 training run used `mps`
@@ -150,14 +151,45 @@ predictions. The accuracy and request-F1 targets are missed on this run;
 analysis F1, commentary F1, and dataset balance meet their targets for this
 checkpoint. Criteria remain unchanged. The three-seed test belongs to unit 6.
 
-## Remaining build milestones
+## Part 1 repository checkpoint
 
-1. Review the training results and manually commit and push the executed
-   notebook, generated artifacts, and updated documentation.
-2. Check the five unit 5 README sections and submission files, including
-   the annotation method and AI-use disclosure. At least four new commits
-   are already present.
-3. Submit the fork URL in the Course Portal.
+The executed notebook, training results, held-out split, and reviewed
+documentation were manually committed and pushed as `2a9b37d`. The required
+files and five README sections are present. Course Portal submission has
+not been confirmed in this conversation.
+
+## Part 2: testing progress
+
+I predicted that my trained model would score higher overall than the
+baseline and manually committed and pushed that prediction as `9c5f3a9`
+before baseline execution.
+
+The baseline ran with `python baseline.py --trained results.json`, using
+`facebook/bart-large-mnli`, the unchanged definitions, and all 36 original
+held-out comments. It used `mps:0` (Apple Silicon GPU) and took 49.87 seconds
+including model loading and the first download. It generated
+`baseline_results.json`; the README contains the comparison table.
+
+Baseline accuracy is 17/36 (0.4722), compared with 19/36 (0.5278) for the
+trained model. Macro F1 is 0.3580 versus 0.3996. Neither model predicted
+`request`. The prediction is supported on this split, with a margin of two
+comments. Saved predictions exactly match the held-out row order, and
+independently calculated metrics match the saved scores. Part 1 data,
+criteria, definitions, model configuration, and outputs remain unchanged.
+
+### Remaining testing milestones
+
+1. Review and manually commit and push the baseline results and write-up.
+2. Run the unchanged model across seeds 42, 7, and 2024, preserving
+   `results_three_seeds_before.json`, and record the typed confusion matrix.
+3. Independently label all 30 staff posts under `data/staff_taxonomy.md` and
+   save `my_staff_labels.csv` before obtaining or opening the TF's answer key.
+   Then run the agreement check and adjudicate every disagreement.
+4. Judge all five original criteria and diagnose each miss using evidence.
+5. Make one diagnosed improvement and rerun the same three seeds, preserving
+   `results_three_seeds_after.json`, then compare the before and after logs.
+6. Finish the write-up, verify at least four new Part 2 commits, push manually,
+   and submit the same repository URL through the Course Portal.
 
 ## Git checkpoint before every new step
 

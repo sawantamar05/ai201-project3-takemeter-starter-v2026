@@ -142,12 +142,17 @@ The dataset contains 240 comments with reviewed labels. The README's
 **The Dataset** and **How I Used AI** sections describe the annotation method
 and completed review. A multiline comment is one CSV record. Annotation
 validation passed, including the 60% balance target. The three README
-hard-case explanations have been
-reviewed and committed. The seed-42 run completed using a 256-token input
-limit and `mps` (Apple Silicon GPU). The executed notebook, `results.json`,
-and `test_split.csv` are ready for manual commit. Accuracy was 0.5278 and
-macro F1 was 0.3996; the model made no `request` predictions. The original
+hard-case explanations have been reviewed and committed. The seed-42 run
+completed using a 256-token input limit and `mps` (Apple Silicon GPU). The
+executed notebook, `results.json`, and `test_split.csv` were committed in
+Part 1 as `2a9b37d`. Accuracy was 0.5278 and macro F1 was 0.3996; the model
+made no `request` predictions. The original
 acceptance targets remain unchanged. Sections 6–7 remain for unit 6.
+
+The Part 2 baseline uses the same 36 held-out comments and unchanged label
+definitions. Its accuracy is 0.4722 and macro F1 is 0.3580, saved in
+`baseline_results.json`. The README records the prediction, comparison, and
+actual device (`mps:0`). The three-seed runs are the next testing milestone.
 
 ### The check before training
 
