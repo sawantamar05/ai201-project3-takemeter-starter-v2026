@@ -207,13 +207,38 @@ matrix. The largest seed-42 error is six commentary comments called analysis,
 versus two in the reverse direction. These observations do not establish
 the cause; agreement evidence and diagnoses are still pending.
 
+The before results, executed notebook, and write-up were manually committed
+and pushed as `639f0b8`.
+
+### Milestone 3: reviewed staff annotations; comparison pending
+
+At the user's request, AI drafted labels and short rule-based reasons for
+all 30 staff posts. `staff_labeling_worksheet.md` preserves the original
+posts and includes every draft and reason. The labels were mechanically
+copied into `my_staff_labels.csv`, with exactly `text,label` columns and
+unchanged text and order. Reviewed counts are 11 analysis, 9 hot_take, and
+10 reaction. Post 14 is flagged as analysis versus hot_take: its statistic
+explicitly supports the conclusion, while its sweeping wording permits a
+competing hot_take reading.
+
+The student confirmed review of all 30 labels and reasons on October 22,
+2026, retaining every draft label and reason without changes. The worksheet
+and CSV match. The README discloses the assistance
+and departure from the independent-labeling instruction. A later agreement
+rate will describe these assisted annotations; it cannot independently
+measure the student's unaided application of the staff rules.
+
+The staff answer key remains absent and no agreement comparison has run.
+Manually commit the reviewed annotations before obtaining or opening
+`data/staff_labels.csv` from the TF. The project training data and taxonomy
+remain unchanged.
+
 ### Remaining testing milestones
 
-1. Review and manually commit and push the before results, executed notebook,
-   and updated write-up.
-2. Independently label all 30 staff posts under `data/staff_taxonomy.md` and
-   save `my_staff_labels.csv` before obtaining or opening the TF's answer key.
-   Then run the agreement check and adjudicate every disagreement.
+1. Manually commit the reviewed annotation checkpoint: `my_staff_labels.csv`,
+   `staff_labeling_worksheet.md`, `README.md`, and `setup_notes.md`.
+2. Then obtain the TF's answer key, run the agreement check, and adjudicate
+   every disagreement.
 3. Complete the criterion verdict explanations and diagnose each miss using
    the model results and agreement evidence.
 4. Make one diagnosed improvement and rerun the same three seeds, preserving

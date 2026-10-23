@@ -375,6 +375,14 @@ verify its saved predictions and scores, and prepare the comparison below.
 I also used AI assistance to execute the three unchanged before trials,
 verify the saved metrics, and prepare the run log and typed confusion matrix.
 
+**Staff annotation assistance:** At my request, AI drafted labels and short
+rule-based reasons for all 30 staff posts before the staff answer key was
+available. I reviewed all 30 labels and reasons on October 22, 2026, and
+retained them without changes in `staff_labeling_worksheet.md` and
+`my_staff_labels.csv`. This departs from the
+instruction to label these posts independently, so a later comparison will
+measure AI-assisted annotation agreement rather than my unaided rule application.
+
 **Collection assistance:** I used AI assistance to select AI-related discussion
 titles and create and run `collect_comments.py`. The script collected complete
 comments, recorded sources, and checked for duplicates. At collection time,
@@ -545,6 +553,19 @@ observed error patterns; causal diagnoses will use the later agreement report.
 ---
 
 ## Agreement Report
+
+**Status:** I reviewed all 30 staff labels and reasons on October 22, 2026,
+and retained them without changes. The [labeling worksheet](staff_labeling_worksheet.md)
+matches `my_staff_labels.csv`. Reviewed counts are 11 `analysis`,
+9 `hot_take`, and 10 `reaction`. Post 14 is explicitly flagged as borderline
+between `analysis` and `hot_take`. The staff key has not been opened, and no
+agreement rate or adjudications have been calculated.
+
+This exercise uses the [staff taxonomy](data/staff_taxonomy.md) for a
+fictional running forum: `analysis`, `hot_take`, and `reaction`. The Hacker
+News training taxonomy remains unchanged. The reviewed annotations are ready
+for a manual commit before obtaining or opening the staff key. The AI-assisted drafting
+workflow is disclosed in **How I Used AI** above.
 
 <!-- Your rate against the staff set, and every disagreement adjudicated.
 
