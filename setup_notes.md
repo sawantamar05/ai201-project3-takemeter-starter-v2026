@@ -205,8 +205,8 @@ criterion 5 is MET; the largest class remains 95/240 = 39.58% of the unsplit
 dataset. The README records the five-row log and typed seed-42 confusion
 matrix. The largest seed-42 error is six commentary comments called analysis,
 versus two in the reverse direction. These observations do not establish
-the cause; agreement evidence is recorded below and criterion diagnoses are
-still pending.
+the cause; the completed agreement check and working criterion diagnoses
+are recorded below.
 
 The before results, executed notebook, and write-up were manually committed
 and pushed as `639f0b8`.
@@ -252,15 +252,50 @@ different taxonomy, assisted workflow, and single disagreement limit what
 it can establish about the Hacker News training labels. The project training
 data, taxonomy, criteria, and saved model results remain unchanged.
 
+The staff comparison and adjudication checkpoint was manually committed
+and pushed as `ebce48e`.
+
+### Milestone 4: criterion verdicts and working diagnoses
+
+The README now records all five verdicts using the original targets and
+unrounded before results. Criteria 1–4 are MISSED; criterion 5 is MET.
+Seed 7 fails analysis F1 at 0.5854 and commentary F1 at 0.54545. Accuracy
+fails on seeds 42 and 7, while request F1 is zero on every seed. The largest
+unsplit class remains commentary at 95/240 = 39.58%. No criterion was revised.
+
+The diagnoses distinguish observed error mechanisms from possible causes:
+all nine test requests are missed per trial; seed 7 overpredicts analysis
+with 16 false positives, including eight commentary comments; the accuracy
+spread is 25 percentage points. Exact notebook splits contain 61 analysis,
+40 request, and 67 commentary training examples on each seed. Each run has
+33 training updates over three epochs, and saved validation loss continues
+falling through the final epoch. Limited examples and incomplete learning
+are plausible contributors, not established causes or guarantees that more
+training will work.
+
+Two original test requests illustrate the persistent failure: test record 2
+asks about reapplying after cybersecurity-program acceptance, and record 21
+asks for more benchmark projects after listing resources. Results store
+aggregate confusion counts rather than individual trained predictions;
+these requests are known errors because there were no request predictions.
+Specific analysis/commentary error identities are not available.
+
+The one staff pile-(a) disagreement motivates scrutiny of evidence-rule
+application, but the assisted workflow, different definitions and topic,
+and lack of a staff request label prevent a direct conclusion about Hacker
+News labeling consistency or the cause of request failure. AI assisted with
+the calculations, saved-log review, and diagnostic drafting. No training
+was run and no model, dataset, label, taxonomy, criterion, or result artifact
+was modified during this step.
+
 ### Remaining testing milestones
 
-1. Manually commit the staff key, agreement results, and updated README,
-   running instructions, and setup notes.
-2. Complete the criterion verdict explanations and diagnose each miss using
-   the model results and agreement evidence.
-3. Make one diagnosed improvement and rerun the same three seeds, preserving
+1. Review and manually commit the Milestone 4 verdicts and diagnoses in
+   `README.md`, `RUNNING.md`, and `setup_notes.md`.
+2. Choose and document one diagnosed improvement, then rerun the same three seeds,
+   preserving
    `results_three_seeds_after.json`, then compare the before and after logs.
-4. Finish the write-up, verify at least four new Part 2 commits, push manually,
+3. Finish the write-up, verify at least four new Part 2 commits, push manually,
    and submit the same repository URL through the Course Portal.
 
 ## Git checkpoint before every new step

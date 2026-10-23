@@ -162,8 +162,11 @@ and the same Part 1 settings. The README contains the five-criterion run log
 and seed-42 confusion matrix. The staff annotations were reviewed and committed
 as `91691d1` before opening the supplied answer key. The agreement check matched
 29 of 30 posts (96.7%), and the one disagreement is adjudicated in the README.
-The annotations were AI-assisted, as disclosed there. Criterion diagnoses are
-next; no improvement has been applied.
+The annotations were AI-assisted, as disclosed there. The README now records
+all five criterion verdicts and diagnoses: four performance criteria missed,
+and the dataset-balance criterion passed. Observed errors and possible causes
+are distinguished. One improvement and its three-seed after trials are next;
+no improvement has been applied.
 
 ### The check before training
 

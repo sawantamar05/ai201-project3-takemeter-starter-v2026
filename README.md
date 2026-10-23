@@ -374,6 +374,9 @@ it before the baseline run. I used AI assistance to execute the baseline,
 verify its saved predictions and scores, and prepare the comparison below.
 I also used AI assistance to execute the three unchanged before trials,
 verify the saved metrics, and prepare the run log and typed confusion matrix.
+AI also checked the saved split counts and training logs and drafted the
+criterion verdicts and diagnoses below, distinguishing observed failures
+from possible causes.
 
 **Staff annotation assistance:** At my request, AI drafted labels and short
 rule-based reasons for all 30 staff posts before the staff answer key was
@@ -491,7 +494,9 @@ points**, exceeding the assignment's ten-point concern threshold. These
 results are sensitive to the seed. Each test split contains only 36 comments,
 so one changed answer moves accuracy by about 2.8 percentage points. The
 spread alone does not identify whether label application, sample size, or
-training randomness is responsible; the staff agreement check is still pending.
+training randomness is responsible. The completed staff comparison below
+provides a limited check on applying an evidence rule, rather than isolating
+the cause of this spread.
 
 All three runs made zero `request` predictions and missed all nine requests
 in their test splits. Seed 2024 correctly classified every non-request
@@ -521,7 +526,8 @@ Six true `commentary` comments were predicted as `analysis`, compared with
 two true `analysis` comments predicted as `commentary`. This run leans toward
 `analysis` on that pair. The matrix also shows all nine requests going to
 the other labels: four to `analysis` and five to `commentary`. These are
-observed error patterns; causal diagnoses will use the later agreement report.
+observed error patterns; the diagnoses below use the completed agreement
+report with its limits made explicit.
 
 
 
@@ -534,11 +540,14 @@ observed error patterns; causal diagnoses will use the later agreement report.
 
 | # | Criterion | Target | Verdict | How I decided |
 |---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
-| 4 |  |  |  |  |
-| 5 |  |  |  |  |
+| 1 | Overall accuracy | ≥ 0.65 on every seed | MISSED | Seeds 42 and 7 scored 0.5278 and 0.5000; seed 2024's 0.7500 does not cancel either miss. |
+| 2 | `analysis` F1 | ≥ 0.60 on every seed | MISSED | Seed 7 scored 0.5854; seeds 42 and 2024 passed at 0.6471 and 0.8667. |
+| 3 | `request` F1 | ≥ 0.60 on every seed | MISSED | All three scores were 0.0000; no run predicted this label. |
+| 4 | `commentary` F1 | ≥ 0.55 on every seed | MISSED | Seed 7 scored 0.54545, below 0.55; seeds 42 and 2024 passed at 0.5517 and 0.8485. |
+| 5 | Largest unsplit class share | ≤ 60% | MET | `commentary` is the largest class: 95 of 240 comments, or 39.58%. This is one measurement of the fixed dataset. |
+
+The verdicts use unrounded scores. All five criteria are measurable; none
+has been revised or lowered.
 
 **Diagnoses**
 
@@ -550,6 +559,67 @@ observed error patterns; causal diagnoses will use the later agreement report.
      ⚠️ Use your agreement report as evidence. It is the only instrument you
      have that can tell a LABELLING problem from a MODEL problem, and this
      section is graded on whether you used it that way. -->
+
+**1. Overall accuracy: missed requests plus unstable analysis/commentary separation.**
+Every trial missed all nine test requests. That alone limits accuracy to
+27/36 = 75%, which seed 2024 reached by getting every non-request right.
+Seeds 42 and 7 also misclassified eight and nine non-requests, respectively,
+leaving accuracy at 19/36 and 18/36. The persistent request failure and the
+varying analysis/commentary errors explain the accuracy misses. The
+25-percentage-point spread shows sensitivity to the seed; the seed changes
+both the split and training randomness, so it does not isolate either cause.
+
+**2. Analysis F1: too many other comments are called analysis.**
+On seed 7, the model predicted `analysis` for 28 of 36 comments, but only
+12 were correct. Eight requests and eight commentary comments became false
+analysis predictions. Recall was high at 12/13 = 0.9231, while precision
+was only 12/28 = 0.4286, producing F1 of 0.5854. The miss comes from
+overpredicting analysis, rather than failing to find most actual analysis.
+The working diagnosis is weak separation of technical subject matter from
+the comment's purpose and supporting evidence. The staff disagreement below
+makes loose evidence-rule application a plausible labeling risk, but does
+not establish that my Hacker News annotations caused these errors.
+
+**3. Request F1: the smaller intent class has not been learned under this setup.**
+Requests are present in every training split: 40 examples, compared with
+61 analysis and 67 commentary examples. All nine test requests were missed
+in each run. These include seed-42 test record 2, which asks whether an
+accepted cybersecurity practitioner must apply again, and record 21, which
+shares benchmark links and then asks for more projects. Their main purpose
+is seeking an answer, even though they contain background or resources.
+The failure therefore extends beyond difficult analysis/commentary cases.
+Limited examples and training are plausible contributors: the model received
+only 33 updates over three epochs, and validation loss was still falling
+at the final epoch on every seed. For example, seed 7's validation loss fell
+from 1.0696 to 1.0437 to 1.0338. This supports incomplete learning as a
+working hypothesis; it does not prove that more training will fix requests.
+The staff taxonomy has no request label, so its agreement score cannot
+validate this boundary or rule out annotation problems here.
+
+**4. Commentary F1: low recall on seed 7 exposes the analysis boundary.**
+Seed 7 correctly recognized only six of fourteen commentary comments;
+the other eight went to analysis. Precision was 6/8 = 0.7500, but recall
+was 6/14 = 0.4286, giving F1 of 0.54545 and missing 0.55. Commentary is
+the largest class, so being the smallest label is not an explanation for
+this miss. The working diagnosis is a difficult, unstable boundary between
+supported claims and varied unsupported opinions or reactions. Seed 42
+also sent six commentary comments to analysis, while seed 2024 sent none.
+The staff evidence-rule disagreement is relevant to this distinction,
+but does not identify which Hacker News comments, if any, were mislabeled.
+
+**What the agreement report adds, and what remains uncertain.**
+The 29/30 agreement includes one pile-(a) disagreement: I accepted that I
+treated a decorative statistic as sufficient support. That gives a specific
+rule-application risk to investigate, rather than permission to assume every
+technical comment is analysis. However, these were AI-assisted annotations
+on another topic under different definitions. The high rate neither proves
+nor rules out inconsistent Hacker News labeling, and cannot explain the
+request failure by itself. The saved trained-model results contain aggregate
+confusion counts, not individual predictions, so I cannot name particular
+analysis/commentary errors from them. The request errors above are known
+because the model predicted zero requests. The next single improvement
+should prioritize that persistent failure and test a stated hypothesis;
+no data, labels, taxonomy, criteria, or model settings have changed yet.
 
 
 
